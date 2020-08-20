@@ -4876,5 +4876,125 @@
       <GRID_Y>0</GRID_Y>
       <HELP>NYI</HELP>
     </TECH>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>100%; 100%; 100%; 100%; 100%; 100%; 10%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>200%; 200%; 200%; 200%; 200%; 200%; 20%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>300%; 300%; 300%; 300%; 300%; 300%; 30%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>400%; 400%; 400%; 400%; 400%; 400%; 40%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>500%; 500%; 500%; 500%; 500%; 500%; 50%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>30%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>40%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>50%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
   </TYPES>
 </ROOT>

@@ -6735,5 +6735,185 @@
     <CRAFT class="craft" reference_name="Doomcannon 2" reference_style="replace">
       <DAMAGE>400yzgn3v3,16,100,90,5</DAMAGE>
     </CRAFT>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>5%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>15%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>25%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>5%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Venza, Lieutenant of Miana; Giacomo, Inventor of Miana; Lenora, Pirata Princess;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Venza, Lieutenant of Miana; Giacomo, Inventor of Miana; Lenora, Pirata Princess;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>15%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Venza, Lieutenant of Miana; Giacomo, Inventor of Miana; Lenora, Pirata Princess;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Venza, Lieutenant of Miana; Giacomo, Inventor of Miana; Lenora, Pirata Princess;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>25%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Venza, Lieutenant of Miana; Giacomo, Inventor of Miana; Lenora, Pirata Princess;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>3%;3%;3%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>6%;6%;6%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>9%;9%;9%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>12%;12%;12%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>15%;15%;15%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
   </TYPES>
 </ROOT>
