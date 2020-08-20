@@ -6727,50 +6727,6 @@
       <GRID_Y>0</GRID_Y>
       <HELP>NYI</HELP>
     </TECH>
-    <BONUS class="other" reference_style="new">
-      <TYPENAME>Vinci QB Bonus</TYPENAME>
-      <FLAGS>b</FLAGS>
-      <PREQ0>Vinci QB Leader Upgrade</PREQ0>
-      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
-      <DATA1>10%;5%;5%;5%;5%;5%;5%</DATA1>
-      <DATA2>0</DATA2>
-      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
-      <TRIBE_MASK>1000</TRIBE_MASK>
-      <HELP>NYI</HELP>
-    </BONUS>
-    <BONUS class="other" reference_style="new">
-      <TYPENAME>Vinci QB Bonus 2</TYPENAME>
-      <FLAGS>b</FLAGS>
-      <PREQ0>Vinci QB Leader Upgrade 2</PREQ0>
-      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
-      <DATA1>20%;10%;10%;10%;10%;10%;10%</DATA1>
-      <DATA2>0</DATA2>
-      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
-      <TRIBE_MASK>1000</TRIBE_MASK>
-      <HELP>NYI</HELP>
-    </BONUS>
-    <BONUS class="other" reference_style="new">
-      <TYPENAME>Vinci QB Bonus 3</TYPENAME>
-      <FLAGS>b</FLAGS>
-      <PREQ0>Vinci QB Leader Upgrade 3</PREQ0>
-      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
-      <DATA1>30%;20%;20%;20%;20%;20%;20%</DATA1>
-      <DATA2>0</DATA2>
-      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
-      <TRIBE_MASK>1000</TRIBE_MASK>
-      <HELP>NYI</HELP>
-    </BONUS>
-    <BONUS class="other" reference_style="new">
-      <TYPENAME>Vinci QB Bonus 4</TYPENAME>
-      <FLAGS>b</FLAGS>
-      <PREQ0>Vinci QB Leader Upgrade 4</PREQ0>
-      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
-      <DATA1>40%;30%;30%;30%;30%;30%;30%</DATA1>
-      <DATA2>0</DATA2>
-      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
-      <TRIBE_MASK>1000</TRIBE_MASK>
-      <HELP>NYI</HELP>
-    </BONUS>
     <!--Doge Minion Upgrade Techs and Bonuses-->
     <TECH class="other" reference_style="new">
       <NAME>Minion Upgrade</NAME>
