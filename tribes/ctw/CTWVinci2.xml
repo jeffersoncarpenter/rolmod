@@ -6189,14 +6189,6 @@
     </CRAFT>
     <!--Vinci Custom Units-->
     <!--Upgrades-->
-    <UNIT class="units" reference_name="Clockwork Miner" reference_style="copy">
-      <NAME>Clockwork Miner</NAME>
-      <TYPENAME>Clockwork Miner 2</TYPENAME>
-      <SPELL_GRAFT>Clockwork Miner</SPELL_GRAFT>
-      <FROM>Clockwork Miner</FROM>
-      <GRAFT>None</GRAFT>
-      <PREQ0>none</PREQ0>
-    </UNIT>
     <!--prison stuff-->
     <BUILDING class="builds" reference_name="Defense Tower" reference_style="copy">
       <NAME>Crane</NAME>
