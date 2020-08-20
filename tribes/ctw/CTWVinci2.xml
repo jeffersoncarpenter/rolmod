@@ -1664,11 +1664,6 @@
       <UBER_SIZE>1</UBER_SIZE>
     </UNIT>
     <!--various Barons-->
-    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="replace"><WHERE>none</WHERE></UNIT>
-    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="replace"><WHERE>none</WHERE></UNIT>
-    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="replace"><WHERE>none</WHERE></UNIT>
-    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="replace"><WHERE>none</WHERE></UNIT>
-    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="replace"><WHERE>none</WHERE></UNIT>
     <UNIT class="units" reference_style="new">
       <SHORT>Carlini</SHORT>
       <NAME>Carlini, General of Miana</NAME>
