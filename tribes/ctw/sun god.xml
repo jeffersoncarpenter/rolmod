@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<ROOT name="Sun God" loc_name="Sun God" diplo_icon_string="Xil, The Sun God">
+  <TRIBES base_tribe="Cuotl">
+    <NEEDS_TRIBE>CTWCuotl</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Xil</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>x</CITY>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="large city">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="defender">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="2" type="sun jaguar"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="deathmatch">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="10000" type="timonium"/>
+      <RESOURCE num="5000" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="guild district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="military district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="merchant district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="1" type="Sun Jaguar"/>
+      <UNIT num="1" type="Death Snake"/>
+      <UNIT num="5" type="Citizen"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="rax start">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="fane"/>
+    </START>
+    <START name="tower start">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="obelisk"/>
+    </START>
+    <START name="x2 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="3" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x3 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="3" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x5 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="low_strength_easy">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="2" type="fane"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="medium_strength_easy">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="2" type="temple"/>
+      <BUILDING num="3" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="high_strength_easy">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="3" type="fane"/>
+      <BUILDING num="2" type="temple"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="low_strength_moderate">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="fane"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="medium_strength_moderate">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="high_strength_moderate">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="obelisk"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="low_strength_tough">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="fane"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="medium_strength_tough">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="obelisk"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="high_strength_tough">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="sanctuary district"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="sanctuary"/>
+      <BUILDING num="1" type="obelisk"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="4" type="research points"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <!--Standard ProdAI Armies-->
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>sun cannon</WANT>
+      <WANT>Greater Idol</WANT>
+      <WANT>cuotl master unit</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Nomad Army">
+      <NEED>Hero</NEED>
+      <NEED>Scout Eye</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>sun cannon</WANT>
+      <WANT>sun cannon</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Air Army">
+      <NEED percent="95">quetzal</NEED>
+      <NEED>quetzal</NEED>
+      <NEED>quetzal</NEED>
+      <NEED percent="5">Scout Eye</NEED>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Sun Jaguar</NEED>
+      <NEED percent="20">Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED percent="20">Sun Jaguar</NEED>
+      <NEED percent="20">Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Greater Idol</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore" retreat_health="-1" retreat_units="-1">
+      <WANT>Scout Eye</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0">
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1">
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Energy Only Army">
+      <NEED>Scout Eye</NEED>
+      <NEED>Quetzal</NEED>
+      <NEED>Quetzal</NEED>
+      <NEED>Quetzal</NEED>
+      <WANT>Quetzal</WANT>
+      <WANT>Quetzal</WANT>
+      <WANT>Quetzal</WANT>
+    </ARMY>
+    <ARMY name="Energy Gathering Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack">
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Cannon</WANT>
+      <WANT>Greater Idol</WANT>
+      <WANT>Holy Ark</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Greater Idol</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Cannon</WANT>
+      <WANT>Holy Ark</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Cannon</NEED>
+      <NEED>Sun Cannon</NEED>
+      <WANT>Greater Idol</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Cannon</NEED>
+      <WANT>Greater Idol</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <!--Scenario Specific Armies-->
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <PRODAI_SCRIPT>Cuotl.bhs</PRODAI_SCRIPT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Base Xil" reference_style="own"/>
+    <UNIT class="units" reference_name="Xil, the Sun God" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil" reference_style="own"/>
+    <UNIT class="units" reference_name="Mirror Xil 2" reference_style="own"/>
+    <UNIT class="units" reference_name="Mirror Xil 3" reference_style="own"/>
+    <UNIT class="units" reference_name="Mirror Xil 4" reference_style="own"/>
+    <UNIT class="units" reference_name="Mirror Xil 5" reference_style="own"/>
+    <UNIT class="units" reference_name="Czin, God of Death" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sentinel" reference_style="remove"/>
+    <UNIT class="units" reference_name="Guardian" reference_style="remove"/>
+    <UNIT class="units" reference_name="Defender" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Veteran Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sun Cannon" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Sun Cannon" reference_style="remove"/>
+    <UNIT class="units" reference_name="Holy Ark" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Scout Eye" reference_style="remove"/>
+    <UNIT class="units" reference_name="Blazing Scout Eye" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Eagle" reference_style="remove"/>
+    <UNIT class="units" reference_name="Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Veteran Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Greater Idol" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Greater Idol" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Sphere" reference_style="remove"/>
+    <UNIT class="units" reference_name="BaseShieldUnit" reference_style="own"/>
+    <UNIT class="units" reference_name="BaseCloakUnit" reference_style="own"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <UNIT class="units" reference_name="Cuotl Master Unit" reference_style="remove"/>
+    <UNIT class="units" reference_name="Cuotl Master Unit 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Eagle" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Sphere" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Fane" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Temple" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Sanctuary" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Obelisk" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Great Temple" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Lesser Idol Build" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Idol Build" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Greater Idol Build" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Farsight CTW" reference_style="remove"/>
+    <!--Removing Spells to replace with research friendly versions-->
+  </TYPES>
+</ROOT>

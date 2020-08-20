@@ -1,0 +1,14 @@
+
+labels {
+  SPELL_CANT_CAST = 0,
+  SPELL_CAN_CAST = 1,
+}
+
+labels {
+  SPELL_RUNNING = 0,
+  SPELL_ENDED   = 1,
+}
+
+labels {
+  NEUTRAL = "9",
+}

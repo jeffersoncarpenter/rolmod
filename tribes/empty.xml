@@ -1,0 +1,263 @@
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Empty Nation Slot" loc_name="Empty Nation Slot" playable="0" icon="72" diplo_icon_string="Sawu, the Dark Alim">
+	<LEADERS>
+		<LEADER>Andromolek</LEADER>
+		<LEADER>Belisari</LEADER>
+		<LEADER>Arri</LEADER>
+		<LEADER>Thuran</LEADER>
+		<LEADER>The King</LEADER>
+		<LEADER>Theben</LEADER>
+		<LEADER>Silena</LEADER>
+		<LEADER>Mezekette</LEADER>
+	</LEADERS>
+	<CITIES>
+		<CITY></CITY>
+	</CITIES>
+	<STARTS>
+		<START name="default">
+			<BUILDING num="1" type="city"/>
+			<BUILDING num="1" type="alim mine"/>
+			<UNIT num="1" type="Fire Scout"/>
+			<UNIT num="2" type="Desert Walker"/>
+			<UNIT num="3" type="Citizen"/>
+			<UNIT num="1" type="Caravan"/>
+		</START>
+		<START name="defender">
+			<BUILDING num="1" type="city"/>
+			<BUILDING num="1" type="alim military district"/>
+			<BUILDING num="1" type="alim merchant district"/>
+			<BUILDING num="1" type="magus district"/>
+			<BUILDING num="1" type="alim palace district"/>
+			<BUILDING num="1" type="alim mine"/>
+			<UNIT num="2" type="Fire Scout"/>
+			<UNIT num="4" type="Desert Walker"/>
+			<UNIT num="6" type="Citizen"/>
+			<UNIT num="2" type="Caravan"/>
+		</START>
+		<START name="nomad">
+			<UNIT num="1" type="Fire Scout"/>
+			<UNIT num="2" type="Desert Walker"/>
+			<UNIT num="5" type="Citizen"/>
+			<UNIT num="1" type="Caravan"/>
+			<UNIT num="1" type="Heartseeker"/>
+			<UNIT num="1" type="Scorpion Rider"/>
+		</START>
+	</STARTS>
+	<ARMIES>
+		<ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+			<WANT>Sentinel</WANT>
+			<WANT>Sun Jaguar</WANT>
+			<WANT>Berserker</WANT>
+			<WANT>Condottieri Dragoon</WANT>
+			<WANT>Imperial Musketeer</WANT>
+			<WANT>Berserker</WANT>
+			<WANT>Condottieri Knight</WANT>
+			<WANT>Condottieri Soldier</WANT>
+			<WANT>Barbarian</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Glass Spider</WANT>
+			<WANT>Dark Walker</WANT>
+		</ARMY>
+		<ARMY name="Scout Explore">
+			<NEED>Fire Scout</NEED>
+		</ARMY>
+		<ARMY name="Grunt Explore0" retreat_health="50">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+		</ARMY>
+		<ARMY name="Grunt Explore1" retreat_health="50">
+			<NEED>Desert Walker</NEED>
+		</ARMY>
+		<ARMY name="Easy Small City Attack" retreat_health="20">
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Desert Walker</WANT>
+		</ARMY>
+		<ARMY name="Medium Small City Attack" retreat_health="20">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Heartseeker</WANT>
+		</ARMY>
+		<ARMY name="Hard Small City Attack" retreat_health="0">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Hero</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Heartseeker</WANT>
+			<WANT>Heartseeker</WANT>
+			<WANT>Afreet</WANT>
+		</ARMY>
+		<ARMY name="Raiding Party" retreat_health="10">
+			<NEED>Afreet</NEED>
+			<NEED>Afreet</NEED>
+			<NEED>Afreet</NEED>
+			<WANT>Afreet</WANT>
+		</ARMY>
+		<ARMY name="Gold Only Army" retreat_health="10">
+			<NEED>Afreet</NEED>
+			<NEED>Afreet</NEED>
+			<NEED>Afreet</NEED>
+			<NEED>Afreet</NEED>
+			<WANT>Fire Scout</WANT>
+			<WANT>Afreet</WANT>
+			<WANT>Afreet</WANT>
+		</ARMY>
+		<ARMY name="Easy City Attack" retreat_health="25">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Scorpion Rider</WANT>
+		</ARMY>
+		<ARMY name="Medium City Attack" retreat_health="25">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Scorpion Rider</WANT>
+			<WANT>Magic Bottle</WANT>
+		</ARMY>
+		<ARMY name="Hard City Attack" retreat_health="0">
+			<NEED>Hero</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Scorpion Rider</WANT>
+			<WANT>Magic Bottle</WANT>
+			<WANT>Hero</WANT>
+		</ARMY>
+		<ARMY name="Siege Attack" retreat_health="10">
+			<NEED>Heartseeker</NEED>
+			<NEED>Scorpion Rider</NEED>
+			<NEED>Glass Cannon</NEED>
+			<NEED>Magic Bottle</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Scorpion Rider</WANT>
+			<WANT>Magic Bottle</WANT>
+			<WANT>Glass Golem Start</WANT>
+			<WANT>Glass Golem Start</WANT>
+		</ARMY>
+		<ARMY name="Ultimate Army" retreat_health="10">
+			<NEED>Heartseeker</NEED>
+			<NEED>Glass Golem Start</NEED>
+			<NEED>Glass Golem Start</NEED>
+			<NEED>Glass Dragon Start</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Scorpion Rider</WANT>
+			<WANT>Glass Golem Start</WANT>
+			<WANT>Glass Golem Start</WANT>
+			<WANT>Glass Dragon Start</WANT>
+		</ARMY>
+		<ARMY name="Grunt Army" retreat_health="10">
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Desert Walker</WANT>
+			<WANT>Magic Bottle</WANT>
+		</ARMY>
+		<ARMY name="Raid Defense Small" retreat_health="5">
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Afreet</WANT>
+		</ARMY>
+		<ARMY name="Raid Defense Large" retreat_health="5">
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<NEED>Desert Walker</NEED>
+			<WANT>Afreet</WANT>
+		</ARMY>
+	</ARMIES>
+	<!-- TYPE_MAPS are valid for anything that is type unit, build, spell, good, object, or tech-->
+	<!-- to use simply create a TYPE_MAP with the name you want to reference the type by and the typename it belongs too, along with the type of type you are making the map for-->
+	<TYPE_MAPS>
+		<TYPE_MAP name="Supply" typename="Alim Caravan" type="unit"/>
+		<TYPE_MAP name="Grunt" typename="Desert Walker" type="unit"/>
+	</TYPE_MAPS>
+	<UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+	<BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+	<BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+	<BASE_AGE_NAME>Lore Tower</BASE_AGE_NAME>
+	<TIPS>tips_alim.xml</TIPS>
+	<PRODAI_SCRIPT>Alim.bhs</PRODAI_SCRIPT>
+	<LAUNCHWIN_DESC>
+		<POWER>The Alin have the power of *Summoning*</POWER>
+		<NATIONAL_SPELL icon="Summon Army">National Spell: "Summon Army" temporarily brings forth a large army of footsoldiers and support units.</NATIONAL_SPELL>
+		<UNIQUE_TECH icon="Evocation 1">Unique technology: "Evocation" summons free units with every Summoning Circle.</UNIQUE_TECH>
+		<START>Start: with one extra caravan.</START>
+		<SPECIAL_ABILITIES>
+			<BULLET/>
+			<TEXT>Summoning Circles can be built in neutral or enemy territory.</TEXT>
+			<BULLET/>
+			<TEXT>All buildings have some combat value and can shoot at enemy raiders.</TEXT>
+			<BULLET/>
+			<TEXT>Flying units are cheaper and faster to build.</TEXT>
+		</SPECIAL_ABILITIES>
+		<HEROES>
+			<HERO0 icon="Sawu, the Dark Alim">Sawu, the Dark Alim</HERO0>
+			<HERO1 icon="Dakhla, the Sand Warden">Dakhla the Genie</HERO1>
+			<HERO2 icon="Damanhur, the Desert Flame">Damanhur the Afreet</HERO2>
+		</HEROES>
+		<NOTABLE_UNITS>
+			<SUPPLY icon="Magic Bottle">Supply: Puzzle Box (created at the Circle of Sand)</SUPPLY>
+			<SIEGE icon="Glass Cannon">Siege: Glass Cannon (created at the Circle of Glass)</SIEGE>
+			<MASTER icon="Glass Dragon">Master Unit: Glass Dragon (created at the Circle of Glass)</MASTER>
+		</NOTABLE_UNITS>
+	</LAUNCHWIN_DESC>
+	<AI_DATA>
+		<STRING id="mine_type">
+			<VAL>Alim Mine</VAL>
+		</STRING>
+		<STRING id="barracks_type">
+			<VAL>Sand Spire</VAL>
+		</STRING>
+		<STRING id="airport_type">
+			<VAL>Eternal Flame</VAL>
+		</STRING>
+		<STRING id="siege_workshop_type">
+			<VAL>Glass Citadel</VAL>
+		</STRING>
+		<STRING id="gatherer_type">
+			<VAL>spirit</VAL>
+		</STRING>
+		<STRING id="caravan">
+			<VAL>Alim Caravan</VAL>
+		</STRING>
+		<STRING id="sand_circle_type">
+			<VAL>Sand Circle</VAL>
+		</STRING>
+		<STRING id="fire_circle_type">
+			<VAL>Fire Circle</VAL>
+		</STRING>
+		<STRING id="glass_circle_type">
+			<VAL>Glass Circle</VAL>
+		</STRING>
+		<STRING id="nation_specific_district">
+			<VAL>Magus District</VAL>
+		</STRING>
+		<STRING id="alim_military_district">
+			<VAL>Alim Military District</VAL>
+		</STRING>
+		<STRING id="alim_merchant_district">
+			<VAL>Alim Merchant District</VAL>
+		</STRING>
+		<STRING id="alim_palace_district">
+			<VAL>Alim Palace District</VAL>
+		</STRING>
+	</AI_DATA>
+</TRIBE>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <TIPS num="63">
+    <ENTRY name="T0">
+      <STRING>
+        <TEXTURE texture="Repair" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Repairing Buildings and Cities}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{How to Repair}: When one of your buildings or Cities has sustained damage you can repair it by clicking the Repair button (the [green wrench icon]) in the options grid.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T1">
+      <STRING>
+        <TEXTURE texture="Repair" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Repairing Buildings and Cities}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Important to Repair Cities}: Damaged Cities do not provide their full benefits. (For example, if your City has sustained 50% damage, its Military Districts will provide only half the normal Population Cap increase; therefore, it is particularly important to repair Cities that you have captured or successfully defended.)</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T2">
+      <STRING>
+        <TEXTURE texture="Repair" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Repairing Buildings and Cities}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Repair Costs}: Repair costs for buildings and Cities vary with the value of the building or City in question. If you do not currently have the full repair cost, you can still click the Repair Button to effect a partial repair.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T3">
+      <STRING>
+        <TEXTURE texture="Repair" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Repairing Buildings and Cities}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Repair in Combat}: You cannot repair buildings or cities while they are under attack, or if they have been under attack in the last few seconds. Ongoing repairs are cancelled (at no further cost to the owner) if a building or city comes under attack.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T4">
+      <STRING>
+        <TEXTURE texture="Treachery" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Allies" category="SPELLS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="InstaHeal" category="SPELLS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Cease Fire" category="SPELLS" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>The four buttons adjacent to the National Power button in the upper right represent the four {Dominances}. Dominances represent special powers available only to the player currently "dominant" in each of four areas: [Army], [Craft], [Resource], and [Tactical].</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T5">
+      <STRING>
+        <TEXTURE texture="Treachery" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Army Dominance}: The player who has created the most units (as opposed to getting them for free or by purchasing a site) can gain Army Dominance. Activating the Army Dominance power allows you to seize control of one or more enemy soldier units through treachery.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T6">
+      <STRING>
+        <TEXTURE texture="Allies" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Craft Dominance}: The player who has researched the most advances can gain Craft Dominance. Activating this power allows you to summon allies - you gain control of several temporary units appropriate to the current map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T7">
+      <STRING>
+        <TEXTURE texture="InstaHeal" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Resource Dominance}: The player who saves up the most resources can gain Resource Dominance. Activating this power lets you heal your troops by sending them emergency supplies.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T8">
+      <STRING>
+        <TEXTURE texture="Cease Fire" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Tactical Dominance}: The player who destroys the most enemy Mines, Caravans, and Miners can gain Tactical Dominance. Activating this power lets you call a temporary [Cease Fire] during which no one can attack.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T9">
+      <STRING>
+        <TEXTURE texture="OPTION_ATTACK_TO" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Attack Moves}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Attack Move}: You can order units to make an attack move by selecting them and clicking the Attack button (or pressing the A key) and clicking a map location. Your units will move towards the map location attacking anything they see.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T10">
+      <STRING>
+        <TEXTURE texture="OPTION_ATTACK_TO" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Guarding Units and Buildings}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Guarding}: You have units guard other units (or a building) by selecting them and clicking the Attack button (or pressing the A key) and clicking the target. Your units will stay near the target to protect it.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T11">
+      <STRING>
+        <TEXTURE texture="OPTION_MOVE_TO" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Following Units}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Following}:To have a unit follow another unit, select it and click the Move button (or press the M key) and then click the target. Your unit will follow the target, but will not attack.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T12">
+      <STRING>
+        <TEXTURE texture="OPTION_MOVE_TO" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Establishing Patrols}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Patrolling}:You can give a patrol order by selecting a unit and giving it a series of waypoints with SHIFT + right-click. As the final waypoint, SHIFT + right-click the flag that appears over the unit; your unit will patrol repeatedly along the route you have outlined, attacking any enemies it finds along the way if it can.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T13">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Standard Hotkeys}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{"QWERTY" system for hotkeys}: Whenever you have a unit, building, or other object selected and there are options displayed in the grid, it is simple to remember the option hotkeys: the Q key always activates the upper left option, the W key activates the second option on the top row, the E key the third, and the R key the fourth (rightmost) button on the top row. The second row options can be activated with SHIFT plus Q,W,E, and R respectively, and the bottom row can be activated with CTRL plus Q,W,E, and R respectively.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T14">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Waypoints for Movement}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Using Waypoints}: You can SHIFT + right-click with a unit selected to give a unit a series of [waypoints]. The unit will move to each of the waypoints before proceeding to its final destination. Issuing waypoints by SHIFT + right-clicking the Mini Map is an efficient way to send your Scout to explore the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T15">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Locating or Cycling Through Buildings}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Finding Buildings}: You can cycle through your main military buildings (Barracks, Circles of Sand, Fanes) with the G key. The H key will find your Aerodromes, Circles of Fire, or Temples; and the J key will find your Steam Fortress, Circle of Glass, or Sanctuary. The N key will find Mines, the I key will find Cities, and the O key will find your smallest City.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T16">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Locating or Cycling Through Units}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Finding Units}: You can find military units with the COMMA key, or select all of your military units in the game with SHIFT + COMMA. The APOSTROPHE key will cycle through your scout units, the SEMICOLON key will find your supply units, and the LEFT BRACE key will cycle through your heroes.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T17">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4The Game Menu}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Menu and Options}: You can reach the game menu during play by pressing ESC (or F10), and you can go directly to options by pressing F11.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T18">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Forming Control Groups}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Control Groups}: With units or buildings selected, press CTRL plus a number key (e.g., CTRL + 1, CTRL + 2, CTRL + 3, etc.) to form a Control Group. In the future you will be able to reselect these units quickly by pressing the number key (e.g., 1, 2, 3, etc.). You can also remember a camera position instead of a control group by pressing CTRL + 1 (etc.) with no units or buildings selected.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T19">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Control Group Display}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Control Group Display}: You can toggle open the Control Group display by pressing Alt + G. This will display an icon for each control group you have active (plus an additional icon for creating a new group). You can activate any of your control groups by left-clicking the appropriate icon. Also, you can add units to control groups by selecting them and right + clicking a control group, and you can set building rally points on control groups as well by this method.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T20">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Hotkeys for Heroes and Dominances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Activating Heroes and Dominances}: You can select one of your heroes by pressing the F1-F4 key which corresponds to that hero. Likewise you can activate a Dominance power by pressing the corresponding F5-F9 key.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T21">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Setting Game Speed}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Game Speed}: Adjust the game speed by pressing the {+} and {-} keys. The speed cannot be adjusted during a multiplayer game.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T22">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Pausing the Game}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Pausing}: You can pause the game with the PAUSE or P keys. To unpause, press the same key again. During a solo game you can give orders to units and buildings while the game is paused.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T23">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Drag Select Filters}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Drag Selecting}: Press SHIFT while dragging a box around units to add them to your current selection. Hold CTRL down (with or without SHIFT) to include civilian as well as military units in the selection. You can also hold down ALT to select only air units or ALT + CTRL to select only ground units.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T24">
+      <STRING>
+        <TEXTURE texture="OPTION_RALLY" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Rally Points}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Buildings which produce units (such as a Barracks, a Circle of Sand, or a Fane) can be told to send these units to a Rally Point. New units will be created with pre-existing orders to move to that location (or even join a particular unit, Hero, or control group).</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T25">
+      <STRING>
+        <TEXTURE texture="OPTION_RALLY" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Setting Rally Points}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Setting a Rally Point}: To set a rally point, select the building and then right-click the map or Mini Map where you'd like units created there to be sent. Military units will be sent there using an Attack Move.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T26">
+      <STRING>
+        <TEXTURE texture="OPTION_RALLY" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Rally Points to Heroes and Units}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Rally to Hero or Unit}: You can also select the building and right-click a Hero (or one of the Hero icons in the upper left) to have your units rally to one of your Heroes, or you can right-click a normal unit to rally to that. In either case new units will attempt to join that Hero or unit at its current location on the map. Also, they will automatically join the unit or Hero's [control group] if it is a member of one.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T27">
+      <STRING>
+        <TEXTURE texture="OPTION_RALLY" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Rally Points to Control Groups}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Rally to Control Group}: If you have turned on the Control Group display (by pressing ALT + G or enabling it on the User Options screen), you can also rally units directly to a control group by selecting a building and right-clicking the icon for the control group. New units will automatically be added to the control group and will attempt to join other units from that control group on the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T28">
+      <STRING>
+        <TEXTURE texture="OPTION_RALLY" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Rally Waypoints}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Rally Waypoints}: If you would like your new units to follow a particular path to a final rally point, you can hold down SHIFT while right-clicking to set a series of rally waypoints. Units will receive normal move orders to each of these waypoints, except to the final rally point they will receive an Attack Move order.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T29">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Unit and Combat Details: Forests}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Forests}: Units positioned in forests suffer less damage when attacked by ranged units. They also cannot be stunned by being trampled, and cause more damage to units that attempt do trample them.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T30">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Unit and Combat Details: Range}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Combat Range}: To see the combat range of unit or building, select it and then click the Stats (magnifying glass) button, or press the Y key. Then, place your mouse pointer over the Range icon. The combat range of the unit or building will be drawn on the Main Map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T31">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Unit and Combat Details}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Building and Repair Under Fire}: If buildings are attacked while still under construction, they take double damage and lose building progress. If buildings are attacked while being repaired, repair progress ceases (and no further resources are charged to the repairer). </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T32">
+      <STRING>
+        <TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="40" y="26"/>
+        <TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="30" y="24"/>
+        <TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="20" y="22"/>
+        <TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Unit and Combat Details: Logistics}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Logistics}: The more units or buildings you build of the same type (e.g., Imperial Musketeers), the more the next unit of the same type will cost and the longer it will take to create. If some of your units are eliminated, the price and creation time will decrease again.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T33">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Camera Controls: Zoom}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Zoom}: You can zoom in and out by rolling the mouse wheel. Note that you can zoom out farther in {Extended Camera} view: to switch back and forth between Standard and Extended camera, press the C key (or click the Camera icon near the Mini Map). The camera can also be zoomed with the PAGE UP and PAGE DOWN keys.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T34">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Camera Controls: Tilt/Spin}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Tilt/Spin}: To tilt or spin the camera, hold down the middle mouse button and move the mouse. You can also spin the camera with the INS and DEL keys, and you can tilt it with the HOME and END keys.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T35">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Camera Controls: Follow}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Camera Follow}: To have the Camera follow a unit, select the unit and double-click the unit's portrait (or press ALT + C). The camera will stop following the unit when you select something else.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T36">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Camera Controls: Automatic Spin}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Automatic Camera Spin}: To have the camera spin slowly for dramatic effect, press ALT + X. You can spin it in reverse with ALT + SHIFT + X. The camera will stop spinning the next time you select a unit or building.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T37">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Camera Controls: Reset}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Camera Reset}: Pressing the C key (or clicking the Camera icon near the Mini Map) will reset the camera to the default view. Pressing it several times in a row will switch between Standard and Extended views.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T38">
+      <STRING>
+        <TEXTURE texture="diplomacy" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Diplomacy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>To use diplomatic and trade options, click the Diplomacy button or press the U key. If you are in a team game, you can give resources, units, and sites/Cities to your allies. If you are in a Diplomacy game, you can make Peace treaties, Timed Peace arrangements, and alliances.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T39">
+      <STRING>
+        <TEXTURE texture="diplomacy" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_OFFER_PEACE" category="OPTIONS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_OFFER_TIMED_PEACE" category="OPTIONS" tex_type="BUTTON" x="124" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Diplomacy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Peace and Timed Peace}: During any form of peace, units that violate National Borders receive severe attrition damage. A normal [Peace] treaty can be broken at any time by a declaration of war by either side. A [Timed Peace] treaty [cannot] be broken - it lasts until it expires!</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T40">
+      <STRING>
+        <TEXTURE texture="diplomacy" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_OFFER_ALLIANCE" category="OPTIONS" tex_type="BUTTON" x="72" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Diplomacy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Alliances}: Alliances allow you to share line of sight with a player, cross freely in and out of one another's borders, and generally cooperate closely. In a team game, you are always allied with all of your teammates. Allies win or lose the game together, never separately.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T41">
+      <STRING>
+        <TEXTURE texture="diplomacy" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_GIVE_TIMONIUM" category="OPTIONS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_GIVE_WEALTH" category="OPTIONS" tex_type="BUTTON" x="124" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Diplomacy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Giving Resources}: You can give #ICON1 Timonium, #ICON2 Wealth, or #ICON4 Energy to other players. Trading with other nations automatically converts between Wealth and Energy when Cuotl players trade with non-Cuotl players. Early in the game there is a substantial trading fee to give resources, which is extracted from the resources you trade before being delivered to the other player. This fee drops for every District you add.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T42">
+      <STRING>
+        <TEXTURE texture="diplomacy" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_GIVE_UNIT" category="OPTIONS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="OPTION_DIPLO_GIVE_LOCATION" category="OPTIONS" tex_type="BUTTON" x="124" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Diplomacy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Giving Units, Sites, and Cities}: You can also give units, sites, and Cities to your ally. Click the appropriate Give button and then click the unit, site, or City you want to transfer.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T43">
+      <STRING>
+        <TEXTURE texture="STANCE_AGGRESSIVE" category="CUSTOM" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="STANCE_DEFENSIVE" category="CUSTOM" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="STANCE_SENTRY" category="CUSTOM" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="STANCE_PASSIVE" category="CUSTOM" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Stances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Stances control how an [idle] unit will respond to enemies it sights. Note that stances do [not] affect units when the units already have orders (if they are attacking, moving, patrolling, gathering, etc).</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T44">
+      <STRING>
+        <TEXTURE texture="STANCE_AGGRESSIVE" category="CUSTOM" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Stances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Aggressive Stance}: Units attack enemies they see, and chase them as far as possible - even all the way across the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T45">
+      <STRING>
+        <TEXTURE texture="STANCE_DEFENSIVE" category="CUSTOM" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Stances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Defensive Stance}: Units attack enemies they see within a moderate distance around the spot where you left them. If the enemies break contact, defensive units will return to their original postings.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T46">
+      <STRING>
+        <TEXTURE texture="STANCE_SENTRY" category="CUSTOM" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Stances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Sentry Stance}: Units will attack enemies only within a very narrow radius before returning to the spot where you left them. This stance allows you to keep units mostly where they are while allowing melee units some leeway to move to weapons range.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T47">
+      <STRING>
+        <TEXTURE texture="STANCE_PASSIVE" category="CUSTOM" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Stances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Passive Stance}: Units will not attack unless explicitly ordered to. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T48">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Finding Location of Events}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Zoom to Last Event}: When a message tells you that you're under attack (or some other important piece of information), you can press the SPACE BAR to jump to the location of the last important event. Press SPACE BAR again to go to the event before that, and so forth.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T49">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Using Powers with Large Groups}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Using Powers with Large Groups}: When you have a large group selected, you can press the TAB key show the powers of different types of units one by one. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T50">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Finding Research/Upgrade Buildings}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Finding Buildings with Upgrades Available}: Pressing CTRL+X or CTRL+L will take you to the next building in your nation where an upgrade is available for purchase. You can quickly cycle through buildings with potential upgrades this way.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T51">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Selection Extensions and Filters}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Extending and Filtering Selections}: Pressing the T key will select every object in the game of the same type(s) you already have selected, so you can select every one of your Sentinels by clicking a single sentinel and pressing the T key. You can filter your selection for damaged units, removing the undamaged units, by pressing the D key (repeated presses will further filter toward the most damaged units). You can filter your selection to remove everything not currently on the screen by pressing the F key.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T52">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4ALT key reveals healthbar and stats}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{ALT key reveals health bar and stats}: Holding down the ALT key will reveal the health bars for every unit on the screen. Holding down the ALT key while rolling over the portrait of a unit (or the icon to create or research a unit at a building) will reveal the maximum stats details in the unit's help text.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T53">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Game Scoreboard}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Scoreboard}: You can reveal the scoreboard during the game by pressing Alt + U. Full scoring details are not available during games with Tournament Rules in effect.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T54">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Resource Rate Details}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Resource Rates}: You can toggle open the resource rate details by pressing Alt + R; this shows you the rate-per-minute at which you are collecting each resource.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T55">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Reviewing Old Messages and Chat}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Reviewing Messages}: You can review messages which have previously appeared on the screen (both warning messages and chat messages) by pressing CTRL + PAGE UP. You can then scroll up and down among the messages by pressing CTRL + PAGE UP and CTRL + PAGE DOWN.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T56">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Chatting}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Chatting}: You can chat with other players by pressing the ENTER key and typing a message (then press ENTER again to send the message). Use the combo box to determine which player(s) will receive the message, or start with SHIFT + ENTER to chat to all players, CTRL + ENTER to chat to allies, or ALT + ENTER to chat to enemies.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T57">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Audio Taunts}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Taunts}: To send a pre-recorded voiceover, or taunt, hit ENTER to open the chat box and type a number from 1-100 into the box. If you have computer-controlled allies, they will try to follow any instructions you issue this way.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T58">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Sending Signals/Flares/Pings}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Sending Signals}: Click the Send Signal button near the Mini Map (or press the V key) if you want to send a signal to your allies (or to everyone in a game where you have no allies). You can then click the map or Mini Map where you want to send the signal, and the players receiving the signal will see it appear on their Mini Maps (and hear a sound). You can also drag while placing the signal (on the Main Map) to draw an arrow. If you are allied with a Computer player, it will attempt to send help (in the form of an army) to the location at which you signal.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T59">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Muting a Player}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Muting a Player}: If you wish to mute an annoying player (who is chatting and taunting too much or sending too many signals), go to Diplomacy by clicking the Diplomacy icon (or pressing the U key) and then click the Mute Player button.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T60">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Trample Move}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Trample Move}: If you hold down CTRL when right-clicking to issue an order, you require a map location to be recognized rather than a target. This is useful when attempting to trample small units: by CTRL + right-clicking among them you force your unit to move to that location rather than stopping at range to shoot at them. Perhaps equally useful is holding CTRL + SHIFT while right-clicking to issue your unit a series of trample waypoints.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T61">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Siege Attack}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Siege Attack}: If you have a group of units selected that includes some siege units and some non-siege units, you can issue a siege attack by holding down CTRL + ALT while right-clicking a target. Your siege units will move into range and attack the target, while your non-siege units will receive a guard order to protect your siege units. This helps keep your siege units from being left behind unprotected.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T62">
+      <STRING>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Formation Move vs. Mob Move}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Formation Move vs. Mob Move}: Normally when you move a group of units the game checks your Keep Groups Together option to determine whether the units try to stay together while moving (and therefore move at the speed of the slowest unit) or if each unit individually tries to get to the destination as fast as possible. But if you hold down the ALT key while right-clicking to issue an order, the units will use the inverse of your normal preference. So if you normally have Keep Groups Together set, you can issue a one-time Mob Move order by ALT + right-clicking, causing your units to rush as fast as possible to a location.</TEXT>
+      </STRING>
+    </ENTRY>
+  </TIPS>
+</ROOT>

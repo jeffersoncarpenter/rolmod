@@ -1,0 +1,7 @@
+void solo_callback on_solo_game_frame () {
+    
+  run_once {
+    building_takeoff("floaty");
+  }
+  
+}

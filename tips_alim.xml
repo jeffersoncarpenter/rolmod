@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+	<TIPS num="38">
+		<ENTRY name="T0">
+			<STRING>
+				<TEXTURE texture="Magus District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Points}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The Alin gain #ICON3 Research Points by adding [Magus Districts] to their Cities.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Remember that to add a Magus District, you need merely select one of your Cities and click the Magus District button.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T1">
+			<STRING>
+				<TEXTURE texture="Magus District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Alim City" category="BUILDINGS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Alim Large City" category="BUILDINGS" tex_type="BUTTON" x="124" y="20"/>
+				<TEXTURE texture="Alim Great City" category="BUILDINGS" tex_type="BUTTON" x="176" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Points}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Magus Districts generate more #ICON3 Research Points when placed in Large Cities and Great Cities. If you place a Magus District in a City and then later upgrade that City in size, you will receive additional #ICON3 Research Points.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T2">
+			<STRING>
+				<TEXTURE texture="Sand Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Fire Circle" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Glass Circle" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Circles}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Units Come From Circles}: Alin units are created at {Circles}, such as the Circle of Sand, the Circle of Flame, and the Circle of Glass. You can build a Circle just like you would construct any normal building: click the [Build] button and then pick the Circle you want from the options grid.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T3">
+			<STRING>
+				<TEXTURE texture="Sand Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Fire Circle" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Glass Circle" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Circles}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Circles In Enemy Territory}: Unlike most buildings, Circles can be built in neutral or even enemy controlled territory! This is a powerful advantage, but be aware that Circles are [more expensive] when placed in neutral territory and very expensive when placed in enemy territory.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T4">
+			<STRING>
+				<TEXTURE texture="Sand Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Evocation 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Circles}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Free Units Through Evocation}: If you have researched [Evocation] advances, you may receive free units when you build a new Circle. Note that if have built one or more Circles and then razed them (or lost them in combat), you will not receive free units for any replacement Circles you build until you exceed your highest previous number of Circles of that type.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T5">
+			<STRING>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="10" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="45" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="80" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="115" y="30"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT> When your troops move into enemy territory, they automatically take [attrition] damage and can die. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T6">
+			<STRING>
+				<TEXTURE texture="Magic Bottle" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Protect your troops by creating a {Puzzle Box} at one of your Cities.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Keep your {Puzzle Box} close to your units as you move through enemy territory. Note that the Puzzle Box can also summon a Magic Wind to help transport the units by air.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T7">
+			<STRING>
+				<TEXTURE texture="Lush Sand Upgrade" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>You can also take the {Lush Circle of Sand} upgrade at a Sand Spire to allow Circles of Sand to supply your troops. Remember, you can build Circles of Sand in enemy territory.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T8">
+			<STRING>
+				<TEXTURE texture="Alim Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Military District}: Increases your Population Cap, increases the City's health, and allows the City to defend itself. Also provides [two] free Desert Walker units, plus another for each Palace District you add there. The Population Cap effect is also increased for each Palace District.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T9">
+			<STRING>
+				<TEXTURE texture="Alim Merchant District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Merchant District}: Increases your Resource Cap, allows you to create an additional Caravan, and increases the value of all trade routes in your nation. The Resource Cap effect is increased for each Palace District.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T10">
+			<STRING>
+				<TEXTURE texture="Magus District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Magus}: Unique to the Alin, each Magus District you add provides you with #ICON3 Research Points. It also increases the mana levels of your Heroes as well as their mana recovery rate, and reduces the cooldown time on their powers. All of these effects are increased when a City is upgraded with one or more Palace Districts. Finally, each Magus District enhances the bonus for discovering Relics.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T11">
+			<STRING>
+				<TEXTURE texture="Alim Palace District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Palace District}: The first Palace District you add converts a City into a Large City; the second makes it a Great City. This makes your City stronger, a more lucrative trade location, and increases the effects of all the City's other districts. The very first Palace District you ever add also makes that City your Capital - and if you lose your Capital you will lose the game.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T12">
+			<STRING>
+				<TEXTURE texture="Territory 1 Alim" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Territory 2 Alim" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Territory 3 Alim" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Territory 4 Alim" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Land Lore}: Increases your National Borders and causes Attrition damage to enemies in your territory. Also reveals increasing information about the map - a master of Land Lore sees and knows all!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T13">
+			<STRING>
+				<TEXTURE texture="Prosperity 1 Alim" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Prosperity 2 Alim" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Prosperity 3 Alim" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Prosperity 4 Alim" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Vigor}: Increases the health of all of your units, and allows your troops to heal themselves while in friendly territory. Also increases the speed at which you can construct new buildings.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T14">
+			<STRING>
+				<TEXTURE texture="Spirit Binding 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Spirit Binding 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Spirit Binding 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Spirit Binding 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Treasure}: Provides a bonus income of both #ICON1 Timonium and #ICON2 Wealth over and above your normal gather rates. Also increases your Caravans' speed and health, which not only makes them harder to kill but speeds up their conversion of neutral sites and cities to allies.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T15">
+			<STRING>
+				<TEXTURE texture="Evocation 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Evocation 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Evocation 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Evocation 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Evocation}: Activates and improves your national power, Summon Army. Also provides you with free units whenever you build a Circle.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T16">
+			<STRING>
+				<TEXTURE texture="Sawu" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Sawu}: The genie of Dark Glass magic brings a vicious Glass Spider with him when he arrives, and summons another to him whenever he levels up. Though corrupted in his study of arcane essences, his mastery of mana extraction is universally acknowledged and he provides an extra #ICON1 Timonium income stream. His powers include Whirling Blades that scythe through enemy troops, and the ability to summon lesser glass genies known as Marids. At higher levels he can imprison enemy troops in near-impenetrable prisons of Dark Glass, and even summon the dread Spider Queen to aid him in battle.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T17">
+			<STRING>
+				<TEXTURE texture="Dakhla" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Dakhla}: The master of wind and sand travels with a deadly Scorpion companion, and summons another to him each time he levels up. Wise rule of his desert wardenate allows him to increase you Resource Cap. His spells include Wind Deflection (speed benefits and protection from ranged attacks), and the dreaded Sandstorm which flings enemies about the battlefield. At higher levels he can summon a horde of ravening Sand Horrors, or even gigantic sentient windstorms which will seek out and destroy all enemies.
+</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T18">
+			<STRING>
+				<TEXTURE texture="Damanhur" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Damanhur}: The fiery Desert Flame costs slightly more to summon as do all flying heroines. She provides a bonus to your #ICON19 Population Cap, and is accompanied by a flaming elemental Afreet (summoning more whenever she levels up). Her command of all things fire includes a Fiery Touch that sets all enemies ablaze and the summoning of ponderous but deadly Fire Salamanders, but when provoked to Wrath she grows to gigantic strength and power. Her ultimate spell, Fire Golem, summons forth a great behemoth of magma and flame which can reduce whole cities to cinders in a matter of minutes.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T19">
+			<STRING>
+				<TEXTURE texture="Sawu" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Dakhla" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Damanhur" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Powers and Levels}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Mana}: Alin Heroes must spend mana to activate their powers. On the one hand, mana is infinitely replenishable; but on the other hand, this takes time. The amount of mana your Hero has available is represented by a blue mana bar below the health bar. Once a Hero has run out of mana, he or she will be unable to activate powers until the Hero has rested to recover at least some mana. You can increase the rate at which your Heroes recover mana, as well as starting them with more in the first place, by adding Magus Districts to your Cities.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T20">
+			<STRING>
+				<TEXTURE texture="Sawu, the Dark Alim" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Sawu, the Dark Alim L2" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Sawu, the Dark Alim L3" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Sawu, the Dark Alim L4" category="UNITS" tex_type="BUTTON" x="166" y="20"/>
+				<TEXTURE texture="Sawu, the Dark Alim L5" category="UNITS" tex_type="BUTTON" x="218" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Powers and Levels}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{How to Level Up}: Alin heroes level up by [researching] upgrades to their powers. Select your hero and purchase one of the upgrades in the second row of the options grid.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Experience}: The higher the level of the power you purchase or upgrade, the more experience your hero will gain toward his or her next level.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T21">
+			<STRING>
+				<TEXTURE texture="Dakhla, the Sand Warden L5" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Powers and Levels}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Benefits of Levels}: Higher level heroes gain more health and combat power. Their characteristic military and economic benefits also increase in power as heroes level up.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T22">
+			<STRING>
+				<TEXTURE texture="Sand Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Alin Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Circle of Sand}: Your first military building will usually be a Circle of Sand. The standard Alin soldier, the Desert Walker, is a melee unit with several useful modes. Heartseekers have a long-ranged attack that is particularly useful against air units, and the Scorpion is a powerful giant insect which can trample and sting your enemies. Finally the Sand Dragon flies and has a ranged attack particularly useful against groups of small foes. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T23">
+			<STRING>
+				<TEXTURE texture="Fire Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Alin Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Circle of Flame}: Powerful fire-using units become available once you build this Circle. The Afreet is a fast, flying raider unit, whereas the fearsome Lava Shrike is useful even against the largest opponents. Salamanders, though slow and land-bound, breathe fire in a blistering cone, and can be upgraded to immense size. Finally the Rukh specializes in vaporizing groups of ground units from the relative safety of the air.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T24">
+			<STRING>
+				<TEXTURE texture="Glass Circle" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Alin Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Circle of Glass}: Some of the most fearsome Alin units are created at this most arcane of Circles. The Glass Cannon is the primary Alin siege unit, and can be used to pound enemy strong points from long range. The Glass Spider supplements its one-on-one melee specialty with a modest trample attack. The Alin Master Unit, the Glass Dragon, is also created at the Circle of Glass. Glass Dragons punish your enemies from on high and then escape quickly by air. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T25">
+			<STRING>
+				<TEXTURE texture="Summon Army" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin National Power}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The icon in the far upper right of the screen is used to activate your National Power, {Summon Army}.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Instant Units}: Summon Army allows you to call forth instantly a temporary army at the location of your choice.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T26">
+			<STRING>
+				<TEXTURE texture="Summon Army" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Evocation 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Alin National Power}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Activation}: In order to gain access to your National Power, you must research at least one {Evocation} advance - that is, from the [bottom] row of advances on your research bar. Researching further Evocation advances on the bottom row will increase the quality and quantity of the troops you receive from Summon Army.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Cooldown Period}: Whenever you activate your national power it must cool down for several minutes before you can make use of it again. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T27">
+			<STRING>
+				<TEXTURE texture="Magic Bottle" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Magic Bottle Transport" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Magic Wind" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Alin Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>To transport Alin units by air, you will need to use a {Puzzle Box} unit to summon a {Magic Wind}. Select a Puzzle Box (after creating one at your City if necessary), and activate the Summon Wind power. Once summoned, Magic Winds only last for a few minutes, so you will need to accomplish your transport quickly (of course, you can load your Puzzle Box onto your Magic Wind so that it will be available to summon onward or return transport).</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T28">
+			<STRING>
+				<TEXTURE texture="Magic Wind" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Magic Whirlwind" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Alin Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Transport Capacity}: Magic Winds cannot carry large siege units until you have a Great City. To upgrade your City in size, add Palace Districts to it.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T29">
+			<STRING>
+				<TEXTURE texture="OPTION_EMBARK" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="OPTION_DISEMBARK" category="OPTIONS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="OPTION_EJECT_ALL" category="OPTIONS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Alin Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{How to Get On}: To load ground units onto a Magic Wind, left-click the ground units to select them and then right-click the Magic Wind (or, select the Magic Wind and right-click a unit you wish to load).</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Where to Get Off}: To disembark units from a Magic Wind, left-click the Magic Wind and use the Disembark or Eject All buttons in the options grid. If a Magic Wind's summon time expires while it is still transporting units, it will attempt to safely disembark the units before vanishing into the ether.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T30">
+			<STRING>
+				<TEXTURE texture="Desert Walker" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Skirmish" category="SPELLS" tex_type="BUTTON" x="76" y="20"/>
+				<TEXTURE texture="Whirling Dervish" category="SPELLS" tex_type="BUTTON" x="124" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Desert Walker Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The most numerous unit in your army will often be your soldiers, Desert Walkers. These soldiers have several {tactics} available, which can be changed by selecting your Desert Walkers and clicking a button from the top row of options. It's important to pick the right tactic for the right situation!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T31">
+			<STRING>
+				<TEXTURE texture="Skirmish" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Desert Walker Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Sword Fighter}: This is the default tactic for your Desert Walkers at the beginning of the game, and provides a melee attack combined with moderate trample resistance.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T32">
+			<STRING>
+				<TEXTURE texture="Whirling Dervish" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Desert Walker Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Whirling Blades}: Using the Whirling Blades tactic your soldiers both deal and receive more damage. They also move faster, so it can be useful for both retreating and pressing an attack.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T33">
+			<STRING>
+				<TEXTURE texture="Flying Blades" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Desert Walker Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Glass Bolts}: Once you research this tactic at your Sand Spire, it replaces the Sword Fighter tactic to give your Desert Walkers a ranged attack, which is particularly useful when defending against air units.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T34">
+			<STRING>
+				<TEXTURE texture="One With Rock" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Desert Walker Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{One with Sand}: Once researched at the Sand Spire this tactic allows your Desert Walkers to hide underground and prepare ambushes for your enemies!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T35">
+			<STRING>
+				<TEXTURE texture="Sand Spire" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Sand Spire}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Ground Defense}: The Sand Spire is the Alin ground defense, and can shoot at enemy ground units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Upgrades}: The Sand Spire also contains many useful Alin upgrades, particularly for Circle of Sand units.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T36">
+			<STRING>
+				<TEXTURE texture="Eternal Flame" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Eternal Flame}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Air Defense}: The Eternal Flame is the Alin air defense, and can shoot at enemy air units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Upgrades}: The Eternal Flame also contains many powerful Alin upgrades, particularly for Circle of Flame units.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T37">
+			<STRING>
+				<TEXTURE texture="Glass Citadel" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Glass Citadel}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Fortress}: The Glass Citadel is the Alin fortress, and can shoot at both ground and air units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Upgrades}: The Glass Citadel also contains many useful Alin upgrades, particularly for Circle of Glass units.</TEXT>
+			</STRING>
+		</ENTRY>
+	</TIPS>
+</ROOT>

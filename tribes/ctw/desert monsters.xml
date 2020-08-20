@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<ROOT name="Desert Monsters" loc_name="Desert Monsters" diplo_icon_string="Juvenile Salamander">
+  <TRIBES base_tribe="Alim">
+    <NEEDS_TRIBE>CTWAlim</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Spirit of the Sand</LEADER>
+    <LEADER>Wind of the Desert</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY/>
+  </CITIES>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Juvenile Salamander</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Nomad Army">
+      <NEED>Fire Scout</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>HeartSeeker</NEED>
+      <NEED>Scorpion Rider</NEED>
+      <NEED>Fire Scout</NEED>
+    </ARMY>
+    <ARMY name="Air Army">
+      <NEED percent="95">Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED percent="5">Fire Scout</NEED>
+      <WANT>Glass Dragon Start</WANT>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Scorpion Rider</NEED>
+      <NEED percent="20">Scorpion Rider</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED percent="20">Heartseeker</NEED>
+      <NEED percent="20">Heartseeker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore">
+      <NEED>Fire Scout</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="50">
+      <NEED>Desert Walker</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="50">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Heartseeker</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Heartseeker</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack" retreat_health="0">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Heartseeker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Heartseeker</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army" retreat_health="10">
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <WANT>Fire Scout</WANT>
+      <WANT>Afreet</WANT>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack">
+      <NEED>Heartseeker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Magic Bottle</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack" retreat_health="0">
+      <NEED>Hero</NEED>
+      <NEED percent="30">Desert Walker</NEED>
+      <NEED percent="40">Heartseeker</NEED>
+      <NEED percent="20">Scorpion Rider</NEED>
+      <NEED>Heartseeker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED percent="10">Magic Bottle</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Magic Bottle</WANT>
+      <WANT>Hero</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED>Desert Walker</NEED>
+      <NEED>Juvenile Salamander</NEED>
+      <NEED percent="20">Juvenile Salamander</NEED>
+      <NEED percent="30">Glass Spider Built</NEED>
+      <NEED percent="5">Desert Walker</NEED>
+      <NEED percent="25">Heartseeker</NEED>
+      <NEED percent="10">Scorpion Rider</NEED>
+      <NEED percent="10">Glass Cannon</NEED>
+      <NEED percent="5">Magic Bottle</NEED>
+      <WANT>Glass Dragon Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Sand Dragon</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Heartseeker</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Dragon Start</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Magic Bottle</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Juvenile Salamander" reference_style="own"/>
+    <UNIT class="units" reference_name="Adult Salamander" reference_style="own"/>
+    <UNIT class="units" reference_name="Elder Salamander" reference_style="own"/>
+    <UNIT class="units" reference_name="Juvenile Sand Horror" reference_style="own"/>
+    <UNIT class="units" reference_name="Adult Sand Horror" reference_style="own"/>
+    <UNIT class="units" reference_name="Elder Sand Horror" reference_style="own"/>
+    <UNIT class="units" reference_name="Sand Dragon" reference_style="own"/>
+    <UNIT class="units" reference_name="Thuran, the Sky Inferno" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Salamander Nest" reference_style="own"/>
+  </TYPES>
+</ROOT>

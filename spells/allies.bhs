@@ -1,0 +1,38 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Allies";  
+}
+
+//==============================================================================
+int safe_callback spell_get_level ()
+{
+  int game_frames = time_sec();
+  int scan = 0;
+  int time_value = 0;
+  int dominance_first_taken_time = get_territory_dominance_taken_time(0);
+  
+  if (dominance_first_taken_time >= 0) {
+    for (scan = 0; true; scan++) {
+      int new_time_value = get_spell_type_data_level_override(spell_type, 2, scan);
+      new_time_value += dominance_first_taken_time;
+      if (new_time_value == time_value) {
+        // no more spell levels, so return the level you're currently on
+        break;
+      }
+      if (game_frames < new_time_value) {
+        // found the proper level based on game time
+        break;
+      }
+      // need to keep looking
+      time_value = new_time_value;
+    }
+  }
+  
+  return scan;
+}
+
+

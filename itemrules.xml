@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--==================================================================-->
+<!---->
+<!--ITEMRULES.XML - Rise of Legends - Copyright (c) 2006 Big Huge Games Inc.-->
+<!---->
+<!--==================================================================-->
+<ROOT>
+  <ITEMS>
+    <Comments>
+      <!---->
+      <!---->
+      <!--RESOURCES-->
+      <!---->
+      <!--BASIC RESOURCES:-->
+      <!--Name, Abbrev, XSize, YSize, Blocking, Prerequisite, Preq2, Obsolete,  UndiscoveredCost,Rate, ObsoleteCost,Rate, UndiscoveredSupport,Rate, ObsoleteSupport,Rate, ObsoleteProduction,Rate, Description-->
+      <!---->
+      <!--SPECIAL RESOURCES:-->
+      <!--Name, Abbrev,  XSize, YSize, Blocking, Prerequisite, Preq2, Obsolete,  Bonus1, Num1, Bonus2, Num2, Description-->
+      <!---->
+    </Comments>
+    <ITEM>
+      <NAME>Relic</NAME>
+      <TYPENAME>Goody Box</TYPENAME>
+      <CODETAG>GOODY</CODETAG>
+      <TEX_ID>TEX_ICONS_PROTO_L4</TEX_ID>
+      <TEX_X>156</TEX_X>
+      <TEX_Y>324</TEX_Y>
+      <TEX_CLIP>0</TEX_CLIP>
+      <RESOURCES>0</RESOURCES>
+    </ITEM>
+    <ITEM>
+      <NAME>Small City Good</NAME>
+      <TYPENAME>Small City Good</TYPENAME>
+      <CODETAG>GOODY_VILLAGE</CODETAG>
+      <TEX_ID>TEX_ICONS_PROTO_L4</TEX_ID>
+      <TEX_X>156</TEX_X>
+      <TEX_Y>324</TEX_Y>
+      <TEX_CLIP>0</TEX_CLIP>
+      <RESOURCES>0</RESOURCES>
+    </ITEM>
+    <ITEM>
+      <NAME>Cuotl Artifact</NAME>
+      <TYPENAME>Cuotl Artifact</TYPENAME>
+      <CODETAG>CUOTL_ARTIFACT</CODETAG>
+      <TEX_ID>TEX_ICONS_PROTO_L4</TEX_ID>
+      <TEX_X>156</TEX_X>
+      <TEX_Y>324</TEX_Y>
+      <TEX_CLIP>0</TEX_CLIP>
+      <RESOURCES>2r</RESOURCES>
+    </ITEM>
+    <ITEM>
+      <NAME>Quest</NAME>
+      <TYPENAME>Quest Goody</TYPENAME>
+      <CODETAG>QUEST_GOODY</CODETAG>
+      <TEX_ID>TEX_ICONS_PROTO_L4</TEX_ID>
+      <TEX_X>156</TEX_X>
+      <TEX_Y>324</TEX_Y>
+      <TEX_CLIP>0</TEX_CLIP>
+      <RESOURCES>0</RESOURCES>
+      <HELP>QUEST_GOODY</HELP>
+    </ITEM>
+  </ITEMS>
+</ROOT>

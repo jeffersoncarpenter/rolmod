@@ -1,0 +1,45 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Trade Neutrals 1";  
+}
+
+//==============================================================================
+Text safe_callback spell_can_leader_cast_now (Leader the_leader)
+{
+  return "";
+}
+
+//==============================================================================
+int game_callback spell_leader_cast_location (Leader the_leader, int x, int y)
+{
+  BuildGroup builds;
+  Location loc;
+  Build cur_build;
+  
+  builds = find_building(NEUTRAL, "");
+  
+  for (int scan = 0; scan < build_group_length(builds); scan++) {
+    cur_build = building_at_index(builds, scan);
+    
+    loc = building_location(cur_build);
+    
+    if (world_get_who(loc) == the_leader) {
+      capture_building(the_leader, "Purchase", cur_build);
+    }
+  }
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_leader_cast_object (Leader the_leader, Object the_target)
+{
+  return spell_leader_cast_location(the_leader, 0, 0);
+}
+
+
+

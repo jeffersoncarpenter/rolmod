@@ -1,0 +1,92 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+Leader the_caster_save;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Dark Terror";  
+}
+
+//==============================================================================
+int game_callback spell_leader_cast_location (Leader the_leader, int x, int y)
+{  
+  SpellType upgraded_type = get_current_spell_type_upgrade(spell_type, the_leader);  
+  int duration = get_spell_type_duration(upgraded_type, the_leader);
+  Leader the_enemy = "";
+  int i = 0;
+  int number_players = num_players();
+  the_caster_save = the_leader;
+  
+  if (game_is_ctw_quick_battle()) {
+    
+    for (i = 0; i < number_players; i++) {
+      Leader possible_enemy = get_leader(i);    
+      if (the_leader != possible_enemy && is_leader_human(possible_enemy) && have_war(the_leader,possible_enemy)) {
+        the_enemy = possible_enemy;
+        break;
+      }
+    }
+    
+    //the enemy might not have a capital currently
+    Build target_building = find_capital(the_enemy);
+    UnitGroup target_unit_group = "";
+    
+    if (target_building == null){    
+      if (num_cities(the_enemy) > 1) {
+        target_building = find_city_with_num (the_enemy, 1);
+      }//end if the enemy has any cities just use that one
+      else {
+        BuildGroup enemy_buildings = find_building (the_enemy, "");      
+        if (build_group_length(enemy_buildings) > 1) {
+          target_building = building_at_index (enemy_buildings, 0);
+        }//end if the enemy has any buildings whatsoever
+        else {
+          target_unit_group = find_unit (the_enemy, "");                
+        }//end else if the enmy does not even have a building      
+      }//end else if the enemy does not even have any cities just find any building    
+    }//end if we could nto find a capital
+    
+    Build ai_city = find_capital(the_leader);
+    if (ai_city == null) {
+      ai_city = find_city_with_num(the_leader, 1);
+    }
+    
+    int player_region = location_get_region(building_location(target_building));
+    int ai_region = location_get_region(building_location(ai_city));
+    
+    if (player_region == ai_region) {
+      //clear any previous orders
+      UnitGroup all_my_mil_units = find_military(the_leader);
+      disable_army_ai(the_leader);  
+      unit_group_clear_orders (all_my_mil_units);
+      
+      Location ping_location = "";
+      if (target_building != null){
+        unit_group_attack_to_building(all_my_mil_units, target_building);    
+        ping_location = building_location(target_building);
+      }else if (target_unit_group != null) {
+        ping_location = unit_group_location(target_unit_group);
+        unit_group_attack_to_group ( all_my_mil_units, target_unit_group);    
+      }//end if we chose what to attack
+      
+      //just for debbug I dont know if this is cool
+      //TODO: Remove later if not needed
+      add_scen_ping (ping_location);    
+    }
+  }
+  // Actually cast the spell
+  give_world_buff(the_leader, upgraded_type, duration);
+  
+  set_timer("dark_terror_duration", duration);  
+  return 1;
+}
+
+//==============================================================================
+void game_callback on_timer_expired (Timer the_timer)
+{
+  if (the_timer == "Dark_Terror") {
+    enable_army_ai(the_caster_save);  
+    unit_group_move_to_building(find_military(the_caster_save), find_capital(the_caster_save));
+  }
+}

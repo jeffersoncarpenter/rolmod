@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<ROOT name="CTWAlimRules" loc_name="CTWAlinRules">
+  <TRIBES base_tribe="none"/>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <UNIT class="units" reference_name="Glass Spider" reference_style="replace">
+      <GRAPH>GLASS_SPIDER</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Scorpion Rider" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Heartseeker" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Sand Dragon" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Magic Bottle" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Fire Scout" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Afreet" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Fireswarm" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Rukh" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Cannon" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Golem Start" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Dragon Start" reference_style="replace">
+      <FROM>None</FROM>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <BUILDING class="builds" reference_name="Glass Citadel" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Eternal Flame" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </BUILDING>
+    <CRAFT class="craft" reference_name="Boost" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast 5" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cluster Bomb 4" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cluster Bomb 5" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="replace">
+      <XP>20</XP>
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 3" reference_style="replace">
+      <XP>40</XP>
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 4" reference_style="replace">
+      <XP>60</XP>
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition 5" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Invincible Armor" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Ultra Super Armor" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="replace">
+      <SPELL_FLAGS>m2gw</SPELL_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 2" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 3" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 4" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison 2" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison 3" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon GSpiders 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon GSpiders 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 2" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm 2" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 5" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Dust Devils 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Dust Devils 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 2" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath 3" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath 4" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burning Cloud" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burning Cloud 2" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Magic Bottle Transport" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Magic Bottle Transport 2" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cease Fire" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaHeal" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaProduction" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Allies" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Treachery" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <TECH class="other" reference_name="Sand Weapon" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Stone Weapon" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Rock Weapon" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Sand Body" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Stone Body" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Rock Body" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Lush Sand Upgrade" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Infantry Upgrade" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Infantry Upgrade 2" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Sandtough" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Stonetough" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Rocktough" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Earthguide" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Earthfinder" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Unerringearth" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Shifting Sand Tech" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Shifting Sand Tech 2" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firehit" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firepunch" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firekick" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firequick" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firefast" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Firespeed" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Scout Upgrade" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Fire Spells" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Salamander Tech" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Elder Tech" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Alin Unit Creation 1" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Alin Unit Creation 2" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Alin Unit Creation 3" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Airbolt" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Airstrike" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Airblast" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glasshit" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glasspunch" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glasskick" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glasshard" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glasstough" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glassarmor" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Poisontech" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Dragon Tech" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glass Building 1" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glass Building 2" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glass Building 3" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <TECH class="other" reference_name="Glass Magic" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </TECH>
+    <!--Abilities with free levels need their ranks adjusted down for correct experience reward (ex: Augmentation's rank values)-->
+  </TYPES>
+</ROOT>

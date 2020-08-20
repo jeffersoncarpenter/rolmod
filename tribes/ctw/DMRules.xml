@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by S Jeff (Big Huge Games) -->
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by BLococo (Big Huge Games) -->
+<ROOT name="DMRules" loc_name="DMRules">
+  <TRIBES base_tribe="none"/>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <BUILDING class="cities" reference_style="replace" reference_name="SmallCity">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Oasis">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Oasis Post">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Trading Post">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Trading Center">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Glass Spire">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Salamander Nest">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Large Salamander Nest">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Big Huge Salamander Nest">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Vault">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Repository">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Treasure Hoard">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Treasure Stash">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Sand Citadel">
+      <OBJ_MASKS>ZXHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Fire Citadel">
+      <OBJ_MASKS>ZXHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Camp">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Stockade">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Shaman Stones">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Cave">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Mining Company">
+      <OBJ_MASKS>XGHLN</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Mining Operation">
+      <OBJ_MASKS>XGHLN</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Condottieri Outpost">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Power Plant">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Inn">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Town Hall">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Alchemy Workshop">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Alchemy Lab">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Engraver">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Mint">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Shrine">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Uber Shrine">
+      <OBJ_MASKS>XHNL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Heretic Hideaway">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Pantheon">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Reliquary">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Mausoleum">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Transmuter">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Great Transmuter">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Sepulcher">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Great Sepulcher">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Crypt of Knowledge">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="replace" reference_name="Moon Temple">
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+    </BUILDING>
+  </TYPES>
+</ROOT>

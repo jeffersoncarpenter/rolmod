@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<ROOT name="Dark Alim" loc_name="Dark Alin" diplo_icon_string="Sawu, The Dark Alim">
+  <TRIBES base_tribe="Alim">
+    <NEEDS_TRIBE>CTWAlim</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Dark Alin</LEADER>
+    <LEADER>Dark Alin</LEADER>
+    <LEADER>Dark Alin</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY/>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+    </START>
+    <START name="large city">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="9" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim military district"/>
+      <BUILDING num="1" type="alim merchant district"/>
+      <BUILDING num="1" type="magus district"/>
+      <BUILDING num="1" type="alim palace district"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="defender">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="1" type="glass spider ctw"/>
+      <UNIT num="1" type="glass heartseeker ctw"/>
+      <UNIT num="9" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim military district"/>
+      <BUILDING num="1" type="alim merchant district"/>
+      <BUILDING num="1" type="magus district"/>
+      <BUILDING num="1" type="alim palace district"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="deathmatch">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="10000" type="timonium"/>
+      <RESOURCE num="5000" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="guild district">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <BUILDING num="1" type="magus district"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="merchant district">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <BUILDING num="1" type="alim merchant district"/>
+    </START>
+    <START name="military district">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="5" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <BUILDING num="1" type="alim military district"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="1" type="Glass Heartseeker CTW"/>
+      <UNIT num="1" type="Glass Scorpion CTW"/>
+      <UNIT num="1" type="Caravan"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="none"/>
+    <START name="master unit">
+      <UNIT num="1" type="Mega Glass Golem"/>
+    </START>
+    <START name="rax start">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="4" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <BUILDING num="1" type="dark spire"/>
+    </START>
+    <START name="tower start">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <BUILDING num="1" type="dark spire"/>
+    </START>
+    <START name="x2 all">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="5" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="wealth"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 all">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="7" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 all">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="11" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 resources">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="wealth"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 resources">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 resources">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="3" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 troops">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="5" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+    </START>
+    <START name="x3 troops">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="7" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+    </START>
+    <START name="x5 troops">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="11" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+    </START>
+    <START name="low_strength_easy">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="3" type="Dark Spire"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="medium_strength_easy">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <BUILDING num="3" type="Dark Spire"/>
+      <BUILDING num="2" type="Glass Circle"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="high_strength_easy">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <BUILDING num="1" type="Alim Merchant District"/>
+      <BUILDING num="3" type="Dark Spire"/>
+      <BUILDING num="3" type="Glass Circle"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="low_strength_moderate">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="medium_strength_moderate">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="high_strength_moderate">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Dark Spire"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <BUILDING num="1" type="Alim Merchant District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="low_strength_tough">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="medium_strength_tough">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Dark Spire"/>
+      <BUILDING num="1" type="Alim Merchant District"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="high_strength_tough">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Dark Walker CTW"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Dark Spire"/>
+      <BUILDING num="1" type="Glass Citadel"/>
+      <BUILDING num="1" type="Alim Mine"/>
+      <BUILDING num="1" type="Magus District"/>
+      <BUILDING num="1" type="Alim Military District"/>
+      <BUILDING num="1" type="Alim Merchant District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Juvenile Salamander</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Glass Scorpion CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Marid CTW</WANT>
+      <WANT>Hero</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Juvenile Salamander</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Nomad Army">
+      <NEED>Hero</NEED>
+      <NEED>Fire Scout</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Marid CTW</WANT>
+      <WANT>Marid CTW</WANT>
+      <WANT>Marid CTW</WANT>
+      <WANT>Glass Scorpion CTW</WANT>
+      <WANT>Glass Scorpion CTW</WANT>
+      <WANT>Glass Scorpion CTW</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Dragon Start</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore">
+      <NEED>Fire Scout</NEED>
+    </ARMY>
+    <ARMY name="Air Army">
+      <NEED percent="95">Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED percent="5">Fire Scout</NEED>
+      <WANT>Glass Dragon Start</WANT>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Glass Spider CTW</NEED>
+      <NEED percent="20">Glass Spider CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED percent="20">Glass Heartseeker CTW</NEED>
+      <NEED percent="20">Glass Heartseeker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="75">
+      <NEED>Hero</NEED>
+      <NEED>Dark Walker CTW</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="75">
+      <NEED>Dark Walker CTW</NEED>
+    </ARMY>
+    <ARMY name="Easy Small City Attack" retreat_health="5">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Hero</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack" retreat_health="5">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Glass Heartseeker CTW</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Dark Walker CTW</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack" retreat_health="5">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Glass Heartseeker CTW</NEED>
+      <NEED>Glass Heartseeker CTW</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <WANT>Glass Spider CTW</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army" retreat_health="1">
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <NEED>Afreet CTW</NEED>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+      <WANT>Glass Heartseeker CTW</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack" retreat_health="15">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack" retreat_health="15">
+      <NEED percent="40">Dark Walker CTW</NEED>
+      <NEED percent="20">Glass Heartseeker CTW</NEED>
+      <NEED>Glass Heartseeker CTW</NEED>
+      <NEED percent="40">Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Marid CTW</WANT>
+      <WANT>Magic Bottle</WANT>
+      <WANT>Glass Cannon</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED percent="20">Marid CTW</NEED>
+      <NEED percent="20">Glass Heartseeker CTW</NEED>
+      <NEED percent="40">Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Magic Bottle</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack" retreat_health="5">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Glass Cannon</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Magic Bottle</WANT>
+      <WANT>Glass Cannon</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army" retreat_health="5">
+      <NEED>Glass Heartseeker CTW</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Dragon Start</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Dragon Start</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army" retreat_health="5">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Dark Walker CTW</WANT>
+      <WANT>Dark Walker CTW</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small" retreat_health="1">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Afreet CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large" retreat_health="1">
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <NEED>Dark Walker CTW</NEED>
+      <WANT>Afreet CTW</WANT>
+      <WANT>Glass Spider CTW</WANT>
+    </ARMY>
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <PRODAI_SCRIPT>Alim.bhs</PRODAI_SCRIPT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Dark Walker" reference_style="copy">
+      <SPELL_GRAFT>Dark Walker</SPELL_GRAFT>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <TYPENAME>Dark Walker CTW</TYPENAME>
+      <WHERE>Dark Spire</WHERE>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Heartseeker" reference_style="copy">
+      <SPELL_GRAFT>Glass Heartseeker</SPELL_GRAFT>
+      <ICONGRAFT>Glass Heartseeker</ICONGRAFT>
+      <TYPENAME>Glass Heartseeker CTW</TYPENAME>
+      <WHERE>Dark Spire</WHERE>
+      <GRID_X>3</GRID_X>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Scorpion" reference_style="copy">
+      <SPELL_GRAFT>Glass Scorpion</SPELL_GRAFT>
+      <ICONGRAFT>Glass Scorpion</ICONGRAFT>
+      <TYPENAME>Glass Scorpion CTW</TYPENAME>
+      <WHERE>Dark Spire</WHERE>
+      <GRID_X>0</GRID_X>
+      <SPAWN>0</SPAWN>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Marid" reference_style="copy">
+      <SPELL_GRAFT>Marid</SPELL_GRAFT>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <TYPENAME>Marid CTW</TYPENAME>
+      <WHERE>Dark Spire</WHERE>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Spider" reference_style="copy">
+      <SPELL_GRAFT>Glass Spider</SPELL_GRAFT>
+      <ICONGRAFT>Glass Spider</ICONGRAFT>
+      <TYPENAME>Glass Spider CTW</TYPENAME>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Afreet" reference_style="copy">
+      <SPELL_GRAFT>Afreet</SPELL_GRAFT>
+      <ICONGRAFT>Afreet</ICONGRAFT>
+      <TYPENAME>Afreet CTW</TYPENAME>
+      <WHERE>Dark Spire</WHERE>
+      <GRID_X>1</GRID_X>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Giant Glass Spider" reference_style="own"/>
+    <UNIT class="units" reference_name="Giant Glass Golem" reference_style="own"/>
+    <UNIT class="units" reference_name="Memphis, the Dark Alim" reference_style="own"/>
+    <UNIT class="units" reference_name="Kharga, the Dark Alim" reference_style="own"/>
+    <UNIT class="units" reference_name="Theben, the Dark Alim" reference_style="own"/>
+    <UNIT class="units" reference_name="Marwan, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Desert Walker" reference_style="remove"/>
+    <UNIT class="units" reference_name="Whirling Walker" reference_style="remove"/>
+    <UNIT class="units" reference_name="Walker Upgrade" reference_style="remove"/>
+    <UNIT class="units" reference_name="Whirling Walker Upgrade" reference_style="remove"/>
+    <UNIT class="units" reference_name="Walker Upgrade 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Whirling Walker Upgrade 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Hiding Walker" reference_style="remove"/>
+    <UNIT class="units" reference_name="Condottieri Soldier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Grunt" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Burn" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Stun" reference_style="remove"/>
+    <UNIT class="units" reference_name="Buto, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mendes, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Baharya, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Dark Spire" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Sand Spire" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Eternal Flame" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Sand Circle" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Fire Circle" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Global Glass Prison" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Web Shot" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Deadly Corruption" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Burrow" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Rupture" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Shatter" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Tear Wounds" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Golems" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Temp Golem" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon One Walker" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 1" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Dark Walker" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Heartseeker" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Marid CTW" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Spider" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Golem" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Magus Summon" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Magus Summon 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Marwan" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 1" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 3a" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Army Part 4a" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Dark Terror" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Marwan Summon Small Army" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Marwan Summon Small Army 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Marwan Summon Medium Army" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Marwan Summon Medium Army 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Marwan Summon Medium Army 3" reference_style="own"/>
+  </TYPES>
+  <AI_DATA>
+    <STRING id="mine_type">
+      <VAL>Alim Mine</VAL>
+    </STRING>
+    <STRING id="barracks_type">
+      <VAL>Dark Spire</VAL>
+    </STRING>
+    <STRING id="airport_type">
+      <VAL>Dark Spire</VAL>
+    </STRING>
+    <STRING id="siege_workshop_type">
+      <VAL>Glass Citadel</VAL>
+    </STRING>
+    <STRING id="gatherer_type">
+      <VAL>spirit</VAL>
+    </STRING>
+    <STRING id="caravan">
+      <VAL>Alim Caravan</VAL>
+    </STRING>
+    <STRING id="glass_circle_type">
+      <VAL>Glass Circle</VAL>
+    </STRING>
+    <STRING id="nation_specific_district">
+      <VAL>Magus District</VAL>
+    </STRING>
+    <STRING id="alim_military_district">
+      <VAL>Alim Military District</VAL>
+    </STRING>
+    <STRING id="alim_merchant_district">
+      <VAL>Alim Merchant District</VAL>
+    </STRING>
+    <STRING id="alim_palace_district">
+      <VAL>Alim Palace District</VAL>
+    </STRING>
+  </AI_DATA>
+</ROOT>

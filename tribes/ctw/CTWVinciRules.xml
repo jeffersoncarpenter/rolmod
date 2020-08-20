@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<ROOT name="CTWVinciRules" loc_name="CTWVinciRules">
+  <TRIBES base_tribe="none"/>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <UNIT class="units" reference_name="Doge Walker MP" reference_style="replace">
+      <HITS>400</HITS>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="replace">
+      <FLAGS>kg3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Grenadier" reference_style="replace">
+      <FLAGS>kg3</FLAGS>
+      <FROM>Imperial Musketeer</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Fusilier" reference_style="replace">
+      <FLAGS>kg3</FLAGS>
+      <FROM>Imperial Grenadier</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Grenadier Plugged" reference_style="replace">
+      <FLAGS>kg3</FLAGS>
+      <FROM>Imperial Grenadier</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Man" reference_style="replace">
+      <FLAGS>xy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Clockwork Man" reference_style="replace">
+      <FLAGS>xy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Heavy Clockwork Man" reference_style="replace">
+      <FLAGS>xy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Supply Truck" reference_style="replace">
+      <FLAGS>ky3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Heavy Supply Truck" reference_style="replace">
+      <FLAGS>y3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Spider" reference_style="replace">
+      <FLAGS>wxy3tuk</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="HClockwork Spider" reference_style="replace">
+      <FLAGS>xy3tuk</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Scout Flyer" reference_style="replace">
+      <FLAGS>fkwy3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Improved Scout Flyer" reference_style="replace">
+      <FLAGS>fwy3k</FLAGS>
+      <FROM>Scout Flyer</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Scout Flyer" reference_style="replace">
+      <FLAGS>fwy3k</FLAGS>
+      <FROM>Improved Scout Flyer</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Ultra Scout Flyer" reference_style="replace">
+      <FLAGS>fwy3k</FLAGS>
+      <FROM>Super Scout Flyer</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Pirata Flyer" reference_style="replace">
+      <FLAGS>fwty3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Improved Pirata Flyer" reference_style="replace">
+      <FLAGS>fwty3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Dirigible" reference_style="replace">
+      <FLAGS>fkwy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Medium Cargo Dirigible" reference_style="replace">
+      <FLAGS>fy3k</FLAGS>
+      <FROM>Dirigible</FROM>
+    </UNIT>
+    <UNIT class="units" reference_name="Improved Dirigible" reference_style="replace">
+      <FLAGS>fy3k</FLAGS>
+      <FROM>Medium Cargo Dirigible</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Air Destroyer" reference_style="replace">
+      <FLAGS>y3wk</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Air Cruiser" reference_style="replace">
+      <FLAGS>y3wk</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Air Cruiser Barrage" reference_style="replace">
+      <FLAGS>y3wk</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Rocket Launcher" reference_style="replace">
+      <FLAGS>ky3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Steam Cannon" reference_style="replace">
+      <FLAGS>y3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Juggernaut" reference_style="replace">
+      <FLAGS>tuy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Ultra Juggernaut" reference_style="replace">
+      <FLAGS>tuy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Land Leviathan" reference_style="replace">
+      <FLAGS>tuy3k</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_DOGEVEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_DOGEVEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_DOGEVEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_DOGEVEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_DOGEVEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_GIACOMO_VEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_GIACOMO_VEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_GIACOMO_VEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_GIACOMO_VEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+      <GRAPH>CTW_GIACOMO_VEHICLE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 3" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 4" reference_style="replace">
+      <COST>100w/100m</COST>
+      <RAMP_COST>150w/150m, 0w/0m</RAMP_COST>
+    </UNIT>
+    <BUILDING class="builds" reference_name="Steam Fortress" reference_style="replace">
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Aerodrome" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </BUILDING>
+    <!--Abilities with free levels need their ranks adjusted down for correct experience reward (ex: Augmentation's rank values)-->
+    <TECH class="other" reference_name="Recruit Zeke" reference_style="replace">
+      <NAME>1 Doge Walker</NAME>
+      <ICONGRAFT>Doge Walker MP</ICONGRAFT>
+      <FLAGS>i</FLAGS>
+    </TECH>
+    <BONUS class="other" reference_name="Bonus Zeke" reference_style="replace">
+      <DESC>Create 1 Juggernaut</DESC>
+      <HELP>BONUSCTWDOGEWALKER</HELP>
+    </BONUS>
+    <CRAFT class="craft" reference_name="Trade Zeke 1" reference_style="replace">
+      <DATA0>Doge Walker MP</DATA0>
+      <HELP>BONUSCTWDOGEWALKER</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cluster Bomb 4" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 3" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 4" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Invincible Armor" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Recruit" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Recruit 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Recruit 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Recruit 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Laser Sniper" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Laser Sniper 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Laser Sniper 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Besiege" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Besiege 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Besiege 5" reference_style="replace">
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Doomcannon" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Doomcannon 2" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cease Fire" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaHeal" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaProduction" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Allies" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Treachery" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+  </TYPES>
+</ROOT>

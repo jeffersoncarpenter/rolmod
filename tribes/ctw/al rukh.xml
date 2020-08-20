@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<ROOT name="Al Rukh" loc_name="Al Rukh" diplo_icon_string="Adromelek, the Dark Prince">
+  <TRIBES base_tribe="Alim">
+    <NEEDS_TRIBE>CTWAlim</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Andromolek</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY/>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim mine"/>
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Desert Walker"/>
+      <UNIT num="3" type="Citizen"/>
+      <UNIT num="1" type="Caravan"/>
+    </START>
+    <START name="defender">
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="alim military district"/>
+      <BUILDING num="1" type="alim merchant district"/>
+      <BUILDING num="1" type="magus district"/>
+      <BUILDING num="1" type="alim palace district"/>
+      <BUILDING num="1" type="alim mine"/>
+      <UNIT num="2" type="Fire Scout"/>
+      <UNIT num="4" type="Desert Walker"/>
+      <UNIT num="6" type="Citizen"/>
+      <UNIT num="2" type="Caravan"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Fire Scout"/>
+      <UNIT num="2" type="Desert Walker"/>
+      <UNIT num="5" type="Citizen"/>
+      <UNIT num="1" type="Caravan"/>
+      <UNIT num="1" type="Heartseeker"/>
+      <UNIT num="1" type="Scorpion Rider"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Juvenile Salamander</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Nomad Army">
+      <NEED>Fire Scout</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>HeartSeeker</NEED>
+      <NEED>Scorpion Rider</NEED>
+      <NEED>Fire Scout</NEED>
+    </ARMY>
+    <ARMY name="Air Army">
+      <NEED percent="95">Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED percent="5">Fire Scout</NEED>
+      <WANT>Glass Dragon Start</WANT>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Scorpion Rider</NEED>
+      <NEED percent="20">Scorpion Rider</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED percent="20">Heartseeker</NEED>
+      <NEED percent="20">Heartseeker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore">
+      <NEED>Fire Scout</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="50">
+      <NEED>Desert Walker</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="50">
+      <NEED>Desert Walker</NEED>
+    </ARMY>
+    <ARMY name="Easy Small City Attack" retreat_health="20">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack" retreat_health="20">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Heartseeker</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack" retreat_health="0">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Heartseeker</WANT>
+      <WANT>Heartseeker</WANT>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army" retreat_health="10">
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <NEED>Afreet</NEED>
+      <WANT>Afreet</WANT>
+      <WANT>Afreet</WANT>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack" retreat_health="25">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack" retreat_health="25">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Magic Bottle</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack" retreat_health="0">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Scorpion Rider</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Heartseeker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Magic Bottle</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack" retreat_health="10">
+      <NEED>Heartseeker</NEED>
+      <NEED>Scorpion Rider</NEED>
+      <NEED>Glass Cannon</NEED>
+      <NEED>Magic Bottle</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Magic Bottle</WANT>
+      <WANT>Glass Cannon</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army" retreat_health="10">
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <NEED>Glass Golem Start</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Glass Golem Start</WANT>
+      <WANT>Glass Golem Start</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army" retreat_health="10">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Desert Walker</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small" retreat_health="5">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Afreet</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large" retreat_health="5">
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <NEED>Desert Walker</NEED>
+      <WANT>Scorpion Rider</WANT>
+      <WANT>Afreet</WANT>
+    </ARMY>
+  </ARMIES>
+  <TYPES>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince" reference_style="own"/>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L2" reference_style="own"/>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L3" reference_style="own"/>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L4" reference_style="own"/>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L5" reference_style="own"/>
+    <UNIT class="units" reference_name="Marwan, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, Lord of Mezakesh" reference_style="remove"/>
+    <UNIT class="units" reference_name="Memphis, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kharga, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Theben, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Buto, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mendes, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Baharya, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Shard" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Shard 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Shard 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Shard 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Glass Rupture" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Glass Rupture 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Glass Rupture 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Cannon" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Summon Glass Cannon 4" reference_style="own"/>
+  </TYPES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <BASE_AGE_NAME/>
+  <PRODAI_SCRIPT>Alim.bhs</PRODAI_SCRIPT>
+  <AI_DATA>
+    <STRING id="mine_type">
+      <VAL>Alim Mine</VAL>
+    </STRING>
+    <STRING id="barracks_type">
+      <VAL>Sand Spire</VAL>
+    </STRING>
+    <STRING id="airport_type">
+      <VAL>Eternal Flame</VAL>
+    </STRING>
+    <STRING id="siege_workshop_type">
+      <VAL>Glass Citadel</VAL>
+    </STRING>
+    <STRING id="gatherer_type">
+      <VAL>spirit</VAL>
+    </STRING>
+    <STRING id="caravan">
+      <VAL>Alim Caravan</VAL>
+    </STRING>
+    <STRING id="sand_circle_type">
+      <VAL>Sand Circle</VAL>
+    </STRING>
+    <STRING id="fire_circle_type">
+      <VAL>Fire Circle</VAL>
+    </STRING>
+    <STRING id="glass_circle_type">
+      <VAL>Glass Circle</VAL>
+    </STRING>
+    <STRING id="nation_specific_district">
+      <VAL>Magus District</VAL>
+    </STRING>
+    <STRING id="alim_military_district">
+      <VAL>Alim Military District</VAL>
+    </STRING>
+    <STRING id="alim_merchant_district">
+      <VAL>Alim Merchant District</VAL>
+    </STRING>
+    <STRING id="alim_palace_district">
+      <VAL>Alim Palace District</VAL>
+    </STRING>
+  </AI_DATA>
+</ROOT>

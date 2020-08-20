@@ -1,0 +1,24 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Mind Control CTW";  
+}
+
+//==============================================================================
+int game_callback spell_leader_cast_object (Leader the_caster, Object the_target)
+{
+  Leader who_castee = get_object_leader(the_target);
+  Unit the_unit = get_object_unit(the_target);
+  int duration = get_spell_type_duration(spell_type, the_caster);   
+    
+  unit_switch_teams(the_caster, the_unit);
+  give_object_buff_from_leader(the_caster, the_target, spell_type, duration);  
+  //add_unit_to_group("Mind Controlled", the_unit);
+    
+  return 1;    
+}
+
+  

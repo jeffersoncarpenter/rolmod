@@ -1,0 +1,2379 @@
+<ROOT name="CTWVinci" loc_name="CTWVinci" xml:space="preserve">
+  <TRIBES base_tribe="Vinci">
+    <NEEDS_TRIBE>CTWHeroes</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <!--Vinci Campaign-only Units-->
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Inspiration</NAME>
+      <TYPENAME>Inspiration Dominance</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>5</DATA2>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>GAMBLE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Industry</NAME>
+      <TYPENAME>Industry Dominance</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>0</DATA0>
+      <DATA1>250</DATA1>
+      <DATA2>0</DATA2>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>GAMBLE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Planetoid" reference_style="copy">
+      <NAME>Condottieri Camp</NAME>
+      <TYPENAME>Condottieri Dominance</TYPENAME>
+      <SPELL_FLAGS>e6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>2d</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Condottieri Outpost</DATA0>
+      <DATA1>1 Do construction? (0 N and 1 Y)</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>5</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>MAKETOTEM</GRAPH>
+      <GRAFT>Make Totem</GRAFT>
+      <HELP>MAKETOTEM</HELP>
+    </CRAFT>
+    <BUILDING class="builds" reference_name="Doge's Battleship" reference_style="copy">
+      <NAME>Doge Square</NAME>
+      <OBJ_MASKS>ZXH</OBJ_MASKS>
+      <BUILD_FLAGS>ael</BUILD_FLAGS>
+      <COST>500w,500e</COST>
+      <PURCHASE_COST>500w/500e</PURCHASE_COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>2000</HITS>
+      <STORM>20</STORM>
+      <PUSH>-20,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Doge Square</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Doge Statue Square</GRAPH>
+      <HELP>DOGESTATUE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Doge's Battleship" reference_style="copy">
+      <NAME>Pirata City</NAME>
+      <OBJ_MASKS>ZX</OBJ_MASKS>
+      <BUILD_FLAGS>aeln</BUILD_FLAGS>
+      <COST>500w,500e</COST>
+      <PURCHASE_COST>500w/500e</PURCHASE_COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>6000</HITS>
+      <STORM>20</STORM>
+      <PUSH>-40,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Pirata City</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Pirata City</GRAPH>
+      <HELP>CONDCASTLE</HELP>
+      <CODETAG>PIRATA_CITY</CODETAG>
+    </BUILDING>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Area Shock</NAME>
+      <TYPENAME>Area Shock</TYPENAME>
+      <GRAPH>THUNDERCLAP</GRAPH>
+      <SPELL_FLAGS>jgl6a</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abdefq</TARGET_FLAGS>
+      <RANK>1</RANK>
+      <RESEARCH_COST/>
+      <COST>0</COST>
+      <TIME>43</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME/>
+      <DURATION>0</DURATION>
+      <COOLDOWN>60</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>9 radius</RADIUS>
+      <DAMAGE>0yxv13n3,36,100,100,2</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dante, Viscount of Tarona</WHERE>
+      <FROM>None</FROM>
+      <GRAFT>Thunder Clap</GRAFT>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5</TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Shock</NAME>
+      <TYPENAME>Shock</TYPENAME>
+      <GRAPH>LIGHTNINGSTRIKE</GRAPH>
+      <SPELL_FLAGS>jgl6a</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abcdfynqp</TARGET_FLAGS>
+      <RANK>2</RANK>
+      <RESEARCH_COST/>
+      <COST>0</COST>
+      <TIME>8</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME/>
+      <DURATION>0</DURATION>
+      <COOLDOWN>90</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>400xy,16,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dante, Viscount of Tarona</WHERE>
+      <FROM>None</FROM>
+      <GRAFT>Lightning</GRAFT>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Bribery</NAME>
+      <TYPENAME>Bribery Viscount</TYPENAME>
+      <GRAPH>BRIBE</GRAPH>
+      <SPELL_FLAGS>g</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfln</TARGET_FLAGS>
+      <RANK>3</RANK>
+      <RESEARCH_COST/>
+      <COST>0</COST>
+      <TIME>44</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME/>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>10</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>5 maximum number of units that captured at one time</DATA0>
+      <DATA1>1 Shots for small units</DATA1>
+      <DATA2>2 Shots for medium units</DATA2>
+      <DATA3>3 Shots for large units</DATA3>
+      <WHERE>Dante, Viscount of Tarona</WHERE>
+      <FROM>None</FROM>
+      <GRAFT>Piracy</GRAFT>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>5</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>4</ANIM>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Explode Truck</NAME>
+      <TYPENAME>Explode Truck</TYPENAME>
+      <GRAPH>TRUCK_EXPLODE</GRAPH>
+      <CODETAG> </CODETAG>
+      <SPELL_FLAGS>g</SPELL_FLAGS>
+      <SPELL_FLAGS2>b</SPELL_FLAGS2>
+      <TARGET_FLAGS/>
+      <RANK>0</RANK>
+      <RESEARCH_COST> </RESEARCH_COST>
+      <COST>0</COST>
+      <TIME>2</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>30</RES_TIME>
+      <DURATION>1</DURATION>
+      <COOLDOWN>20</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>2000fexyn2gb500,42,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Demolition Truck</WHERE>
+      <FROM>none</FROM>
+      <GRAFT>Demolition Shell</GRAFT>
+      <CHAIN>none</CHAIN>
+      <PREQ0>none</PREQ0>
+      <COUNTERED_BY>none</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <TYPENAME>Taronan Barracks</TYPENAME>
+    </BUILDING>
+    <UNIT class="units" reference_name="Condottieri Soldier" reference_style="copy">
+      <ICONGRAFT>Condottieri Soldier</ICONGRAFT>
+      <WHERE>Taronan Barracks</WHERE>
+      <TYPENAME>Viscount Soldier</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Dragoon" reference_style="copy">
+      <ICONGRAFT>Condottieri Dragoon</ICONGRAFT>
+      <WHERE>Taronan Barracks</WHERE>
+      <TYPENAME>Viscount Dragoon</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <ICONGRAFT>Condottieri Knight</ICONGRAFT>
+      <WHERE>Taronan Barracks</WHERE>
+      <HITS>275</HITS>
+      <TYPENAME>Viscount Knight</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <NAME>Vinci Lord</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>k3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>37</MOVES>
+      <FAST>68</FAST>
+      <COST>80m/80w/80e</COST>
+      <RAMP_COST>5m/5w ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>30</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>10kc</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>10kc</AA>
+      <AR>0-16</AR>
+      <BA>4</BA>
+      <BR>0-16</BR>
+      <HITS>200</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>150</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>1</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>Large City</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>Condottieri Knight</GRAFT>
+      <TYPENAME>Vinci Lord</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <NAME>Vinci Lord (Level 2)</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>k3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>37</MOVES>
+      <FAST>68</FAST>
+      <COST>80m/80w/80e</COST>
+      <RAMP_COST>5m/5w ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>30</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>10kc</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>10kc</AA>
+      <AR>0-16</AR>
+      <BA>4</BA>
+      <BR>0-16</BR>
+      <HITS>200</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>150</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>1</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Vinci Lord</FROM>
+      <PREQ0>Large City</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <GRAFT>Condottieri Knight</GRAFT>
+      <TYPENAME>Vinci Lord (Level 2)</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <NAME>Vinci Lord (Level 3)</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>k3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>37</MOVES>
+      <FAST>68</FAST>
+      <COST>80m/80w/80e</COST>
+      <RAMP_COST>5m/5w ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>30</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>10kc</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>10kc</AA>
+      <AR>0-16</AR>
+      <BA>4</BA>
+      <BR>0-16</BR>
+      <HITS>200</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>150</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>1</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Vinci Lord (Level 2)</FROM>
+      <PREQ0>Large City</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <GRAFT>Condottieri Knight</GRAFT>
+      <TYPENAME>Vinci Lord (Level 3)</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <NAME>Vinci Lord (Level 4)</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>k3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>37</MOVES>
+      <FAST>68</FAST>
+      <COST>80m/80w/80e</COST>
+      <RAMP_COST>5m/5w ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>30</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>10kc</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>10kc</AA>
+      <AR>0-16</AR>
+      <BA>4</BA>
+      <BR>0-16</BR>
+      <HITS>200</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>150</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>1</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Vinci Lord (Level 3)</FROM>
+      <PREQ0>Large City</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <GRAFT>Condottieri Knight</GRAFT>
+      <TYPENAME>Vinci Lord (Level 4)</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <NAME>Vinci Lord (Level 5)</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>k3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>37</MOVES>
+      <FAST>68</FAST>
+      <COST>80m/80w/80e</COST>
+      <RAMP_COST>5m/5w ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>30</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>10kc</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>10kc</AA>
+      <AR>0-16</AR>
+      <BA>4</BA>
+      <BR>0-16</BR>
+      <HITS>200</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>150</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>1</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Vinci Lord (Level 4)</FROM>
+      <PREQ0>Large City</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <GRAFT>Condottieri Knight</GRAFT>
+      <TYPENAME>Vinci Lord (Level 5)</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Juggernaut" reference_style="copy">
+      <GRAPH>DOGE_WALKER</GRAPH>
+      <NAME>Doge Walker</NAME>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>V</OBJ_MASK>
+      <FLAGS>uy3k</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>25</MOVES>
+      <FAST>35</FAST>
+      <COST>150m/50w</COST>
+      <RAMP_COST>10m/5w ramp</RAMP_COST>
+      <TIME>475</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>9n2j</TRAMPLE>
+      <SPIKY>17</SPIKY>
+      <SPLAT>4n2,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>9pg</GA>
+      <GR>0-14</GR>
+      <AM>0</AM>
+      <AA>9pg</AA>
+      <AR>0-14</AR>
+      <BA>9gu3</BA>
+      <BR>0-14</BR>
+      <HITS>400</HITS>
+      <WOUNDS>350</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>4</AMMO_PER_ATT>
+      <TURN_SPEED>12</TURN_SPEED>
+      <PROJ_SPEED>220</PROJ_SPEED>
+      <POP>4</POP>
+      <RAMP_TIME>6/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>4</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>8</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>8</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>8</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>Large City Tech</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>Doge Walker</TYPENAME>
+      <HELP>DOGEWALKER</HELP>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Venucci Guards</NAME>
+      <CAT>Grunt</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>kg3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Small</SIZE>
+      <MOVES>27</MOVES>
+      <FAST>46</FAST>
+      <COST>25m</COST>
+      <RAMP_COST>3m ramp</RAMP_COST>
+      <TIME>300</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>3</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>3d</GM>
+      <GA>6pc</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>6pc</AA>
+      <AR>0-12</AR>
+      <BA>1</BA>
+      <BR>0-12</BR>
+      <HITS>114</HITS>
+      <WOUNDS>60</WOUNDS>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>L</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>45</TURN_SPEED>
+      <PROJ_SPEED>400</PROJ_SPEED>
+      <POP>1</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>5</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>2</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>9</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>2</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Doge Guard MP</SPELL_GRAFT>
+      <GRAFT>Doge Guard MP</GRAFT>
+      <TYPENAME>Venucci Guard</TYPENAME>
+      <HELP>IMPERIALMUSKETEER</HELP>
+      <CODETAG/>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Grenadier" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Doge Guards</NAME>
+      <CAT>Grunt</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>g3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Small</SIZE>
+      <MOVES>29</MOVES>
+      <FAST>64</FAST>
+      <COST>25m,x8</COST>
+      <RAMP_COST>3m ramp</RAMP_COST>
+      <TIME>300,x5</TIME>
+      <LOS>12</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>4</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>6d</GM>
+      <GA>9pc</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>9pc</AA>
+      <AR>0-12</AR>
+      <BA>2</BA>
+      <BR>0-12</BR>
+      <HITS>144</HITS>
+      <WOUNDS>78</WOUNDS>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>L</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>45</TURN_SPEED>
+      <PROJ_SPEED>400</PROJ_SPEED>
+      <POP>1</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>5</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>2</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>9</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>2</PUSH_SIZE>
+      <FROM>Venucci Guard</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <SPELL_GRAFT>Doge Guard MP</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>Doge Guard</TYPENAME>
+      <HELP>IMPERIALGRENDADIER</HELP>
+      <ART/>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="copy">
+      <NAME>Augmentation</NAME>
+      <TYPENAME>Augmentation Lord</TYPENAME>
+      <SPELL_FLAGS>jw2g</SPELL_FLAGS>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TIME>25</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>6</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>200 hit points healed immediately</DATA0>
+      <DATA1>0% incoming damage reduced by this amount</DATA1>
+      <DATA2>5% attack increase</DATA2>
+      <DATA3>10% speed increase</DATA3>
+      <WHERE>Vinci Lord</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>AUGMENTATION</GRAPH>
+      <GRAFT/>
+      <HELP>AUGMENTATION</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="copy">
+      <NAME>Sonic Blast</NAME>
+      <TYPENAME>Sonic Blast Lord</TYPENAME>
+      <SPELL_FLAGS>12g</SPELL_FLAGS>
+      <TARGET_FLAGS>dbfy</TARGET_FLAGS>
+      <TIME>25</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>0</DURATION>
+      <COOLDOWN>150</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>6 radius</RADIUS>
+      <DAMAGE>10yl10v3n2,24,100,100,7</DAMAGE>
+      <DATA0>-1 Projectile speed</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Vinci Lord</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Sonic Blast</ICONGRAFT>
+      <GRAPH>SONICBLAST</GRAPH>
+      <GRAFT/>
+      <HELP>SHIELD</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Convert" reference_style="copy">
+      <NAME>Bribe</NAME>
+      <TYPENAME>Bribe Lord</TYPENAME>
+      <SPELL_FLAGS>m</SPELL_FLAGS>
+      <TARGET_FLAGS>abfl</TARGET_FLAGS>
+      <TIME>25</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>2</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>1 Kill the target unit? (1Y and 0N)</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Vinci Lord</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>5</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Convert</ICONGRAFT>
+      <GRAPH>BRIBE</GRAPH>
+      <GRAFT>CONVERT</GRAFT>
+      <HELP>CONVERT</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Snipe" reference_style="copy">
+      <NAME>Snipe</NAME>
+      <TYPENAME>Snipe Lord</TYPENAME>
+      <SPELL_FLAGS>mj</SPELL_FLAGS>
+      <TARGET_FLAGS>abfelpy</TARGET_FLAGS>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>0</DURATION>
+      <COOLDOWN>210</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>400xy</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Vinci Lord</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>0</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>1</ANIM>
+      <ICONGRAFT>Snipe</ICONGRAFT>
+      <GRAPH>SNIPER</GRAPH>
+      <GRAFT/>
+      <HELP>SNIPER</HELP>
+    </CRAFT>
+    <UNIT class="units" reference_name="Land Leviathan" reference_style="copy">
+      <NAME>Doge's Leviathan</NAME>
+      <SPELL_GRAFT>Land Leviathan</SPELL_GRAFT>
+      <TYPENAME>Doge's Leviathan</TYPENAME>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Rocco</SHORT>
+      <NAME>Rocco, Lord of the Wasteland</NAME>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <TYPENAME>Rocco, Lord of the Wasteland</TYPENAME>
+      <FLAGS>kh</FLAGS>
+      <HELP>Rocco, Lord of Dirsi</HELP>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FROM>none</FROM>
+      <WHERE>leader</WHERE>
+      <GM>0</GM>
+      <GA>15n2</GA>
+      <GR>0-16</GR>
+      <AM>9</AM>
+      <AA>0</AA>
+      <AR>0-16</AR>
+      <BA>10</BA>
+      <BR>0-16</BR>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <HITS>500</HITS>
+      <WOUNDS>300</WOUNDS>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Sclario</SHORT>
+      <NAME>Sclario, Don of Feligno</NAME>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <TYPENAME>Sclario, Don of Feligno</TYPENAME>
+      <FLAGS>kh</FLAGS>
+      <HELP>Sclario, Don of Carne</HELP>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FROM>none</FROM>
+      <WHERE>leader</WHERE>
+      <GM>0</GM>
+      <GA>9ka</GA>
+      <GR>0-16</GR>
+      <AM>9</AM>
+      <AA>9ka</AA>
+      <AR>0-16</AR>
+      <BA>5</BA>
+      <BR>0-16</BR>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <HITS>500</HITS>
+      <WOUNDS>300</WOUNDS>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Petruzzo</SHORT>
+      <NAME>Petruzzo, Lord of Miana</NAME>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <TYPENAME>Petruzzo, Lord of Miana</TYPENAME>
+      <WHERE>none</WHERE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GM>0</GM>
+      <GA>9ka</GA>
+      <GR>0-16</GR>
+      <AM>9</AM>
+      <AA>9ka</AA>
+      <AR>0-16</AR>
+      <BA>5</BA>
+      <BR>0-16</BR>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Supply Truck" reference_style="copy">
+      <NAME>Demolition Truck</NAME>
+      <TYPENAME>Demolition Truck</TYPENAME>
+      <OBJ_MASK>V</OBJ_MASK>
+      <WHERE>none</WHERE>
+      <MOVES>20</MOVES>
+      <TIME>300</TIME>
+      <COST>40w/40m</COST>
+      <RAMP_COST>10w/10m ramp</RAMP_COST>
+      <HITS>200</HITS>
+      <ICONGRAFT>Supply Truck</ICONGRAFT>
+    </UNIT>
+    <UNIT class="units" reference_name="Marid" reference_style="copy">
+      <SHORT>Avaris</SHORT>
+      <NAME>Avaris, the Alin Genie</NAME>
+      <TYPENAME>Avaris, the Alim Genie</TYPENAME>
+      <HELP>AVARIS</HELP>
+      <HITS>800</HITS>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Golem Start" reference_style="copy">
+      <NAME>Summoned Golem</NAME>
+      <TYPENAME>Summoned Golem</TYPENAME>
+      <HELP>Summoned Golem</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Man" reference_style="copy">
+      <NAME>Clockwork Man</NAME>
+      <TYPENAME>Clockwork Man Spawn</TYPENAME>
+      <SPELL_GRAFT>Clockwork Man</SPELL_GRAFT>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Spider" reference_style="copy">
+      <NAME>Scavenger Spider</NAME>
+      <TYPENAME>CTW Scavenger Spider</TYPENAME>
+      <WHERE>Clockwork Scrap Yard</WHERE>
+      <SPELL_GRAFT>Clockwork Spider</SPELL_GRAFT>
+      <TRAMPLE>1n1</TRAMPLE>
+      <SPIKY>2</SPIKY>
+      <TIME>30</TIME>
+      <GM>3apc</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>2pc</AA>
+      <AR>0-12</AR>
+      <BA>10</BA>
+      <BR>0-8</BR>
+      <COST>5m/5w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>60</HITS>
+      <WOUNDS>40</WOUNDS>
+      <PREQ0>none</PREQ0>
+      <GRAPH>SCAVENGERSPIDER</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="HClockwork Spider" reference_style="copy">
+      <NAME>Heavy Scavenger Spider</NAME>
+      <TYPENAME>Heavy Scavenger Spider</TYPENAME>
+      <FLAGS>xy3tu</FLAGS>
+      <FROM>CTW Scavenger Spider</FROM>
+      <WHERE>Clockwork Scrap Yard</WHERE>
+      <SPELL_GRAFT>HClockwork Spider</SPELL_GRAFT>
+      <TRAMPLE>1n1</TRAMPLE>
+      <SPIKY>2</SPIKY>
+      <TIME>30</TIME>
+      <GM>4apc</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>3pc</AA>
+      <AR>0-12</AR>
+      <BA>11</BA>
+      <BR>0-9</BR>
+      <COST>5m/5w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>75</HITS>
+      <WOUNDS>40</WOUNDS>
+      <PREQ0>Large City Tech</PREQ0>
+      <GRAPH>SCAVENGERSPIDER</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Man" reference_style="copy">
+      <NAME>Clockwork Scavenger</NAME>
+      <TYPENAME>Clockwork Scavenger</TYPENAME>
+      <WHERE>Clockwork Scrap Yard</WHERE>
+      <SPELL_GRAFT>Clockwork Man</SPELL_GRAFT>
+      <TIME>30</TIME>
+      <GM>6kn2</GM>
+      <AA>2pc</AA>
+      <AR>0-2</AR>
+      <BA>3</BA>
+      <BR>0-8</BR>
+      <COST>5m/5w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>60</HITS>
+      <WOUNDS>40</WOUNDS>
+      <PREQ0>none</PREQ0>
+      <GRAPH>SCAVENGERGRUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Heavy Clockwork Man" reference_style="copy">
+      <NAME>Heavy Clockwork Scavenger</NAME>
+      <TYPENAME>Heavy Clockwork Scavenger</TYPENAME>
+      <FLAGS>xy3</FLAGS>
+      <FROM>Clockwork Scavenger</FROM>
+      <WHERE>Clockwork Scrap Yard</WHERE>
+      <SPELL_GRAFT>Heavy Clockwork Man</SPELL_GRAFT>
+      <TIME>30</TIME>
+      <GM>7kn2</GM>
+      <AA>3pc</AA>
+      <AR>0-2</AR>
+      <BA>4</BA>
+      <BR>0-8</BR>
+      <COST>5m/5w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>75</HITS>
+      <WOUNDS>40</WOUNDS>
+      <PREQ0>Large City Tech</PREQ0>
+      <GRAPH>SCAVENGERGRUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Land Leviathan" reference_style="copy">
+      <NAME>Scavenger Boss</NAME>
+      <FLAGS>ptuyh3</FLAGS>
+      <GRAPH>SCAVENGERLEVIATHAN</GRAPH>
+      <TYPENAME>Scavenger Boss</TYPENAME>
+      <WHERE>Clockwork Scrap Yard</WHERE>
+      <SPELL_GRAFT>Land Leviathan</SPELL_GRAFT>
+      <TRAMPLE>33n2ij</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <TIME>100</TIME>
+      <GM>50n2</GM>
+      <GA>40n2</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>80a</AA>
+      <AR>0-10</AR>
+      <BA>33u5g</BA>
+      <BR>0-10</BR>
+      <COST>100w</COST>
+      <RAMP_COST>10w ramp</RAMP_COST>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>3500</HITS>
+      <WOUNDS>1000</WOUNDS>
+      <ICONGRAFT>Land Leviathan</ICONGRAFT>
+      <PREQ0>none</PREQ0>
+      <PUSH_SIZE>13</PUSH_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Venucci Conscripts</NAME>
+      <TYPENAME>Vendoge</TYPENAME>
+      <WHERE>none</WHERE>
+      <SPELL_GRAFT>Imperial Musketeer</SPELL_GRAFT>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>0</SPIKY>
+      <TIME>100</TIME>
+      <GM>0</GM>
+      <GA>2a</GA>
+      <GR>0-10</GR>
+      <AM>1</AM>
+      <AA>1</AA>
+      <AR>0-10</AR>
+      <BA>1</BA>
+      <BR>0-12</BR>
+      <COST>5m/5w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>42</HITS>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Venucci Guards</NAME>
+      <TYPENAME>Elite Vendoge</TYPENAME>
+      <WHERE>none</WHERE>
+      <SPELL_GRAFT>Imperial Musketeer</SPELL_GRAFT>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>1</SPIKY>
+      <TIME>250</TIME>
+      <GM>0</GM>
+      <GA>6a</GA>
+      <GR>0-10</GR>
+      <AM>1</AM>
+      <AA>1</AA>
+      <AR>0-10</AR>
+      <BA>1</BA>
+      <BR>0-12</BR>
+      <COST>10m/10w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>60</HITS>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Venucci Guards</NAME>
+      <TYPENAME>Royal Vendoge</TYPENAME>
+      <WHERE>none</WHERE>
+      <SPELL_GRAFT>Imperial Musketeer</SPELL_GRAFT>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>3</SPIKY>
+      <GM>0</GM>
+      <GA>8c</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>7c</AA>
+      <AR>0-10</AR>
+      <BA>2</BA>
+      <BR>0-12</BR>
+      <COST>15m/15w</COST>
+      <RAMP_COST>1m ramp</RAMP_COST>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HITS>140</HITS>
+    </UNIT>
+    <UNIT class="units" reference_name="Condottieri Knight" reference_style="copy">
+      <NAME>Venucci Guards</NAME>
+      <TYPENAME>Vendoge Guard</TYPENAME>
+      <WHERE>Barracks</WHERE>
+      <SPELL_GRAFT>Condottieri Knight</SPELL_GRAFT>
+      <TRAMPLE>1</TRAMPLE>
+      <SPIKY>1</SPIKY>
+      <TIME>200</TIME>
+      <GM>3apc</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>1</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>2</BA>
+      <BR>0-0</BR>
+      <COST>10m/15w</COST>
+      <RAMP_COST>1w ramp</RAMP_COST>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <HITS>50</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Clockwork Spider" reference_style="copy">
+      <NAME>Clockwork Spider</NAME>
+      <TYPENAME>Vendoge Spider</TYPENAME>
+      <WHERE>Barracks</WHERE>
+      <SPELL_GRAFT>Clockwork Spider</SPELL_GRAFT>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>1</GRID_Y>
+    </UNIT>
+    <UNIT class="units" reference_name="Scout Flyer" reference_style="copy">
+      <NAME>Scout Flyer</NAME>
+      <TYPENAME>Feligno Scout</TYPENAME>
+      <WHERE>Feligno Aerodrome</WHERE>
+      <SPELL_GRAFT>Scout Flyer</SPELL_GRAFT>
+      <ICONGRAFT>Scout Flyer</ICONGRAFT>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Improved Pirata Flyer" reference_style="copy">
+      <NAME>Improved Pirata Flyer</NAME>
+      <TYPENAME>Feligno Flyer</TYPENAME>
+      <WHERE>Feligno Aerodrome</WHERE>
+      <SPELL_GRAFT>Pirata Flyer</SPELL_GRAFT>
+      <ICONGRAFT>Pirata Flyer</ICONGRAFT>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Improved Dirigible" reference_style="copy">
+      <NAME>Heavy Cargo Dirigible</NAME>
+      <TYPENAME>Feligno Dirigible</TYPENAME>
+      <HELP>IMPDIRIGIBLE</HELP>
+      <WHERE>Feligno Aerodrome</WHERE>
+      <SPELL_GRAFT>Dirigible</SPELL_GRAFT>
+      <ICONGRAFT>Improved Dirigible</ICONGRAFT>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Siege Zeppelin" reference_style="copy">
+      <NAME>Siege Zeppelin</NAME>
+      <TYPENAME>Feligno Zeppelin</TYPENAME>
+      <WHERE>Feligno Aerodrome</WHERE>
+      <SPELL_GRAFT>Siege Zeppelin</SPELL_GRAFT>
+      <ICONGRAFT>Siege Zeppelin</ICONGRAFT>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <NAME>Single Musketeer</NAME>
+      <TYPENAME>Single Musketeer</TYPENAME>
+      <SPELL_GRAFT>Imperial Musketeer</SPELL_GRAFT>
+      <COST>20m/10w</COST>
+      <GM>2</GM>
+      <GA>7c</GA>
+      <GR>0-9</GR>
+      <AM>2</AM>
+      <AA>7c</AA>
+      <AR>0-9</AR>
+      <BA>1</BA>
+      <BR>0-10</BR>
+      <HITS>75</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <GRAPH>DOGE_MUSKETEER</GRAPH>
+      <NAME>Single Doge Musketeer</NAME>
+      <TYPENAME>Single Doge Musketeer</TYPENAME>
+      <SPELL_GRAFT>Imperial Musketeer</SPELL_GRAFT>
+      <COST>20m/10w</COST>
+      <GM>2</GM>
+      <GA>7c</GA>
+      <GR>0-9</GR>
+      <AM>2</AM>
+      <AA>7c</AA>
+      <AR>0-9</AR>
+      <BA>1</BA>
+      <BR>0-10</BR>
+      <HITS>75</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Rocket Launcher" reference_style="copy">
+      <NAME>Doge Cannon</NAME>
+      <TYPENAME>Doge Cannon</TYPENAME>
+      <ICONGRAFT>Rocket Launcher</ICONGRAFT>
+      <GRAPH>DOGE_STEAM_CANNON</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Steam Cannon" reference_style="copy">
+      <NAME>Super Doge Cannon</NAME>
+      <TYPENAME>Super Doge Cannon</TYPENAME>
+      <FLAGS>y3r</FLAGS>
+      <FROM>Doge Cannon</FROM>
+      <ICONGRAFT>Super Steam Cannon</ICONGRAFT>
+      <GRAPH>DOGE_STEAM_CANNON</GRAPH>
+    </UNIT>
+    <!--various Barons-->
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Poli</SHORT>
+      <NAME>Poli, Master of Munitions</NAME>
+      <TYPENAME>Poli, Master of Munitions</TYPENAME>
+      <FLAGS>k15</FLAGS>
+      <HELP>PRISONER</HELP>
+      <GM>0</GM>
+      <GA>0</GA>
+      <AA>0 </AA>
+      <BA>0</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>800</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+      <TRAMPLE>0</TRAMPLE>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>Vinici_Lord4</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Marco</SHORT>
+      <NAME>Marco, Quaestor of Venucci</NAME>
+      <TYPENAME>Marco, Quaestor of Venucci</TYPENAME>
+      <FLAGS>k15</FLAGS>
+      <HELP>PRISONER</HELP>
+      <GM>0</GM>
+      <GA>0</GA>
+      <AA>0 </AA>
+      <BA>0</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>800</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+      <TRAMPLE>0</TRAMPLE>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>Vinici_Lord4</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Giovanni</SHORT>
+      <NAME>Giovanni, Tribune of Venucci</NAME>
+      <TYPENAME>Giovanni, Tribune of Venucci</TYPENAME>
+      <FLAGS>k15</FLAGS>
+      <HELP>PRISONER</HELP>
+      <GM>0</GM>
+      <GA>0</GA>
+      <AA>0 </AA>
+      <BA>0</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>800</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+      <TRAMPLE>0</TRAMPLE>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>Vinici_Lord3</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Paolo</SHORT>
+      <NAME>Paolo, Praetor of Venucci</NAME>
+      <TYPENAME>Paolo, Praetor of Venucci</TYPENAME>
+      <FLAGS>k15</FLAGS>
+      <HELP>PRISONER</HELP>
+      <GM>0</GM>
+      <GA>0</GA>
+      <AA>0 </AA>
+      <BA>0</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>800</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+      <TRAMPLE>0</TRAMPLE>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>Vinici_Lord2</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Isaia</SHORT>
+      <NAME>Isaia, Censor of Venucci</NAME>
+      <TYPENAME>Isaia, Censor of Venucci</TYPENAME>
+      <FLAGS>k15</FLAGS>
+      <HELP>PRISONER</HELP>
+      <GM>0</GM>
+      <GA>0</GA>
+      <AA>0 </AA>
+      <BA>0</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>800</HITS>
+      <UBER_SIZE>1</UBER_SIZE>
+      <TRAMPLE>0</TRAMPLE>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>Vinici_Lord1</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Dante</SHORT>
+      <NAME>Dante, Viscount of Tarona</NAME>
+      <TYPENAME>Dante, Viscount of Tarona</TYPENAME>
+      <FLAGS>kh</FLAGS>
+      <HELP>Dante</HELP>
+      <GM>0</GM>
+      <GA>15kn2</GA>
+      <AA>15kn2</AA>
+      <BA>3</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>750</HITS>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Marco</SHORT>
+      <NAME>Marco, Captain of Miana</NAME>
+      <TYPENAME>Marco, Captain of Miana</TYPENAME>
+      <HELP>Marco</HELP>
+      <GM>0</GM>
+      <GA>15kn2</GA>
+      <AA>15kn2</AA>
+      <BA>3</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>750</HITS>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Giancarlo</SHORT>
+      <NAME>Giancarlo, Baron of Umberto</NAME>
+      <TYPENAME>Giancarlo, Baron of Umberto</TYPENAME>
+      <HELP>Marco</HELP>
+      <GM>0</GM>
+      <GA>15kn2</GA>
+      <AA>15kn2</AA>
+      <BA>3</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Vinci Lord" reference_style="copy">
+      <SHORT>Mauricio</SHORT>
+      <NAME>Mauricio, the Prison Warden</NAME>
+      <TYPENAME>Mauricio, the Prison Warden</TYPENAME>
+      <FLAGS>kh</FLAGS>
+      <HELP>Mauricio</HELP>
+      <GM>0</GM>
+      <GA>35kn2</GA>
+      <AA>35kn2</AA>
+      <BA>3</BA>
+      <AR>0-16</AR>
+      <BR>0-16</BR>
+      <GR>0-16</GR>
+      <HITS>1200</HITS>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="copy">
+      <NAME>Mechanical Regen</NAME>
+      <TYPENAME>Mechanical Regen</TYPENAME>
+      <TARGET_FLAGS>abehklmp</TARGET_FLAGS>
+      <SPELL_FLAGS>g6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <SCRIPT_FLAGS>de</SCRIPT_FLAGS>
+      <SCRIPT_FILE>mechregen.bhs</SCRIPT_FILE>
+      <RANK>3</RANK>
+      <WHERE>Scavenger Boss</WHERE>
+      <GRAFT>Augmentation</GRAFT>
+      <GRAPH>AUGMENTATION</GRAPH>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <CODETAG/>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COST/>
+      <MANA>0</MANA>
+      <TIME>8</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>10</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <SPELL_RANGE>10</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <FROM>none</FROM>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <ANIM>0</ANIM>
+      <HELP>MECHREGEN</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition Shell" reference_style="copy">
+      <NAME>Doge Hammer Dominance</NAME>
+      <TYPENAME>Doge Hammer Dominance</TYPENAME>
+      <TARGET_FLAGS>d2</TARGET_FLAGS>
+      <SPELL_FLAGS>jz6</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <WHERE>None</WHERE>
+      <GRAFT>Demolition Shell</GRAFT>
+      <GRAPH>DEMOLITION</GRAPH>
+      <COST>0</COST>
+      <MANA>0</MANA>
+      <TIME>0</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>15</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <SPELL_RANGE>9999</SPELL_RANGE>
+      <RADIUS>8</RADIUS>
+      <DAMAGE>500ofxn2,42,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <FROM>none</FROM>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <PREQ0>None</PREQ0>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+    </CRAFT>
+    <!--Vinci Custom Units-->
+    <!--Upgrades-->
+    <UNIT class="units" reference_name="Clockwork Miner" reference_style="copy">
+      <NAME>Clockwork Miner</NAME>
+      <TYPENAME>Clockwork Miner 2</TYPENAME>
+      <SPELL_GRAFT>Clockwork Miner</SPELL_GRAFT>
+      <FROM>Clockwork Miner</FROM>
+      <GRAFT>None</GRAFT>
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <!--prison stuff-->
+    <BUILDING class="builds" reference_name="Defense Tower" reference_style="copy">
+      <NAME>Crane</NAME>
+      <TYPENAME>Crane</TYPENAME>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <GRAPH>bavarian_construct_03</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="BaseGate" reference_style="copy">
+      <NAME>Prison Gate</NAME>
+      <TYPENAME>Prison Front Gate</TYPENAME>
+      <HITS>200</HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <FROM>BaseGate</FROM>
+      <PUSH>0</PUSH>
+      <GRAPH>prison_front_gate</GRAPH>
+      <HELP>PRISONGATE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="BaseGate" reference_style="copy">
+      <NAME>Prison Gate</NAME>
+      <TYPENAME>Prison Large Gate</TYPENAME>
+      <HITS>200</HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <FROM>BaseGate</FROM>
+      <PUSH>0</PUSH>
+      <GRAPH>prison_back_gate</GRAPH>
+      <HELP>PRISONGATE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="BaseGate" reference_style="copy">
+      <NAME>Cell Gate</NAME>
+      <TYPENAME>Cell Front Gate</TYPENAME>
+      <HITS>75</HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <FROM>BaseGate</FROM>
+      <GRAPH>prison_front_cell_gate</GRAPH>
+      <HELP>CELLGATE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="BaseGate" reference_style="copy">
+      <NAME>Cell Gate</NAME>
+      <TYPENAME>Cell Small Gate</TYPENAME>
+      <HITS>75</HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <FROM>BaseGate</FROM>
+      <GRAPH>prison_back_cell_gate</GRAPH>
+      <HELP>CELLGATE</HELP>
+    </BUILDING>
+    <!--Vinci Campaign-only housing district-->
+    <BUILDING class="district" reference_name="Guild District" reference_style="copy">
+      <NAME>Housing District</NAME>
+      <TYPENAME>Housing District</TYPENAME>
+      <GRAPH>Housing District</GRAPH>
+      <HELP>HOUSING</HELP>
+    </BUILDING>
+    <!--Vinci Campaign-only Buildings-->
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Condottieri Castle</NAME>
+      <TYPENAME>Condottieri Castle</TYPENAME>
+      <GRAPH>Vinci merc base</GRAPH>
+      <PUSH>-50,2</PUSH>
+      <OBJ_MASKS>ZXH</OBJ_MASKS>
+      <BUILD_FLAGS>aeiln</BUILD_FLAGS>
+      <COST>10000w</COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>6000</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <HELP>CONDCASTLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Imperial Observatory</NAME>
+      <TYPENAME>Imperial Observatory</TYPENAME>
+      <GRAPH>Observatory</GRAPH>
+      <PUSH>-20,1</PUSH>
+      <OBJ_MASKS>ZXH</OBJ_MASKS>
+      <BUILD_FLAGS>aeiln</BUILD_FLAGS>
+      <COST>500w</COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>500</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <CODETAG>OBSERVATORY</CODETAG>
+      <HELP>OBSERVATORY</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Timonium Smelter 2" reference_style="copy">
+      <NAME>Timonium Smelter</NAME>
+      <TYPENAME>Padonia Smelter</TYPENAME>
+      <GRAPH>Vinci smelter</GRAPH>
+      <PUSH>-40,2</PUSH>
+      <OBJ_MASKS>XHJ</OBJ_MASKS>
+      <BUILD_FLAGS>aeiln</BUILD_FLAGS>
+      <COST>500w</COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>1000</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <ICONGRAFT>Timonium Smelter 2</ICONGRAFT>
+      <PREQ2>none</PREQ2>
+      <GRAFT>Timonium Smelter 2</GRAFT>
+      <FROM>none</FROM>
+      <HELP>TSMELTER</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver A" reference_style="copy">
+      <NAME>Timonium Mine</NAME>
+      <TYPENAME>Mine A</TYPENAME>
+      <GRAPH>ctw_mine_a</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver B" reference_style="copy">
+      <NAME>Timonium Mine</NAME>
+      <TYPENAME>Mine B</TYPENAME>
+      <GRAPH>ctw_mine_b</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver C" reference_style="copy">
+      <NAME>Timonium Mine</NAME>
+      <TYPENAME>Mine C</TYPENAME>
+      <GRAPH>ctw_mine_c</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver D" reference_style="copy">
+      <NAME>Timonium Mine</NAME>
+      <TYPENAME>Mine D</TYPENAME>
+      <GRAPH>ctw_mine_d</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver A" reference_style="copy">
+      <NAME>House</NAME>
+      <TYPENAME>House A</TYPENAME>
+      <GRAPH>House A</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver B" reference_style="copy">
+      <NAME>House</NAME>
+      <TYPENAME>House B</TYPENAME>
+      <GRAPH>House B</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver C" reference_style="copy">
+      <NAME>House</NAME>
+      <TYPENAME>House C</TYPENAME>
+      <GRAPH>House C</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver D" reference_style="copy">
+      <NAME>House</NAME>
+      <TYPENAME>House D</TYPENAME>
+      <GRAPH>House D</GRAPH>
+    </BUILDING>
+    <!--Vinci Custom Buildings-->
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Mining Complex</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Mining Complex</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Vinci Mining Complex</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Aerodrome" reference_style="copy">
+      <NAME>Pirata Aerodrome</NAME>
+      <TYPENAME>Pirata Aerodrome</TYPENAME>
+      <HELP>Capturableaerodrome</HELP>
+      <OBJ_MASKS>ZH</OBJ_MASKS>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Defense Tower" reference_style="copy">
+      <NAME>Taronan Defense</NAME>
+      <TYPENAME>Taronan Defense</TYPENAME>
+      <COST>45w</COST>
+      <PLUNDER>40w</PLUNDER>
+      <GA>14</GA>
+      <AA>14</AA>
+      <RANGE>0-12rng</RANGE>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Steam Fortress" reference_style="copy">
+      <NAME>Zeke's Laboratory</NAME>
+      <TYPENAME>Zeke's Laboratory</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Aerodrome" reference_style="copy">
+      <NAME>Aerodrome</NAME>
+      <TYPENAME>Feligno Aerodrome</TYPENAME>
+      <ICONGRAFT>Aerodrome</ICONGRAFT>
+      <HELP>Capturableaerodrome</HELP>
+      <OBJ_MASKS>XZH</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>20m</COST>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <HITS>400</HITS>
+      <STORM>20</STORM>
+      <PUSH>7,1</PUSH>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-10rng</RANGE>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Clockwork Scrapyard</NAME>
+      <TYPENAME>Clockwork Scrap Yard</TYPENAME>
+      <HELP>Clockwork Scrap Yard</HELP>
+      <COST>200m</COST>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>300</PLUNDER>
+      <HITS>400</HITS>
+      <PUSH>48,2</PUSH>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-12rng</RANGE>
+      <GRAPH>Repair Shop</GRAPH>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Steam Fortress" reference_style="copy">
+      <NAME>Doge's Hammer</NAME>
+      <TYPENAME>Doom Hammer</TYPENAME>
+      <OBJ_MASKS>XH</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>950m</COST>
+      <RAMP_COST>50m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>1000</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>4000</HITS>
+      <STORM>20</STORM>
+      <PUSH>-40,4</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-120rng</RANGE>
+      <MOST_SHOTS>4</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>5</X_SIZE>
+      <Y_SIZE>5</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>64</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Doges Hammer</GRAPH>
+      <HELP>DOGEHAMMER</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Steam Fortress" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Aerodrome" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+    </BUILDING>
+    <!--Vinci Unit Custom Spells-->
+    <CRAFT class="craft" reference_name="Telescope Spell" reference_style="copy">
+      <NAME>Telescope</NAME>
+      <TYPENAME>Telescope2</TYPENAME>
+      <GRAPH>TELESCOPE</GRAPH>
+      <FROM>none</FROM>
+      <GRAFT>none</GRAFT>
+      <ICONGRAFT>Telescope Spell</ICONGRAFT>
+      <SPELL_FLAGS>x6</SPELL_FLAGS>
+      <TIME>100</TIME>
+      <WHERE>Imperial Observatory</WHERE>
+      <PREQ0>none</PREQ0>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <CODETAG/>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burning Cloud" reference_style="copy">
+      <NAME>Doom Shell</NAME>
+      <TYPENAME>Doom Shell</TYPENAME>
+      <GRAPH>BURNINGCLOUD</GRAPH>
+      <SPELL_FLAGS>jglmj2</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <COST>10w</COST>
+      <TIME>345</TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>15</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>999</SPELL_RANGE>
+      <RADIUS>12</RADIUS>
+      <DAMAGE>9999exyzl2n2,48, 100, 50, 2</DAMAGE>
+      <DATA0>25000</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Doom Hammer</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>none</CHAIN>
+      <PREQ0>none</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <CODETAG/>
+      <HELP>SHRAPNELSHELL</HELP>
+    </CRAFT>
+    <!--Vinci QB Upgrade Techs and Bonuses-->
+    <TECH class="other" reference_style="new">
+      <NAME>Vinci QB Leader Upgrade</NAME>
+      <TYPENAME>Vinci QB Leader Upgrade</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Vinci QB Leader Upgrade</NAME>
+      <TYPENAME>Vinci QB Leader Upgrade 2</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Vinci QB Leader Upgrade</NAME>
+      <TYPENAME>Vinci QB Leader Upgrade 3</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Vinci QB Leader Upgrade</NAME>
+      <TYPENAME>Vinci QB Leader Upgrade 4</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Vinci QB Bonus</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Vinci QB Leader Upgrade</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>10%;5%;5%;5%;5%;5%;5%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Vinci QB Bonus 2</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Vinci QB Leader Upgrade 2</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>20%;10%;10%;10%;10%;10%;10%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Vinci QB Bonus 3</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Vinci QB Leader Upgrade 3</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>30%;20%;20%;20%;20%;20%;20%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Vinci QB Bonus 4</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Vinci QB Leader Upgrade 4</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>40%;30%;30%;30%;30%;30%;30%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Barracks;Aerodrome;Steam Fortress;Timonium Smelter 2</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <!--Doge Minion Upgrade Techs and Bonuses-->
+    <TECH class="other" reference_style="new">
+      <NAME>Minion Upgrade</NAME>
+      <TYPENAME>Minion Upgrade</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Minion Upgrade</NAME>
+      <TYPENAME>Minion Upgrade 2</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Minion Upgrade</NAME>
+      <TYPENAME>Minion Upgrade 3</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Minion Upgrade</NAME>
+      <TYPENAME>Minion Upgrade 4</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Minion Bonus</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0>Minion Upgrade</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>25%;10%;10%;10%;10%;10%;10%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Sclario, Don of Feligno;Rocco, Lord of the Wasteland</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Minion Bonus 2</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0>Minion Upgrade 2</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>50%;25%;25%;25%;25%;25%;25%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Sclario, Don of Feligno;Rocco, Lord of the Wasteland</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Minion Bonus 3</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0>Minion Upgrade 3</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>75%;50%;50%;50%;50%;50%;50%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Sclario, Don of Feligno;Rocco, Lord of the Wasteland</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Minion Bonus 4</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0>Minion Upgrade 4</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE</DATA0>
+      <DATA1>100%;75%;75%;75%;75%;75%;75%</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Sclario, Don of Feligno;Rocco, Lord of the Wasteland</DATA3>
+      <TRIBE_MASK>1000</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <!--Special CTW-Only Doge Hammer Spell-->
+    <CRAFT class="craft" reference_name="Doomcannon" reference_style="replace">
+      <DAMAGE>350yzgn3v3,16,100,90,5</DAMAGE>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Doomcannon 2" reference_style="replace">
+      <DAMAGE>400yzgn3v3,16,100,90,5</DAMAGE>
+    </CRAFT>
+  </TYPES>
+</ROOT>

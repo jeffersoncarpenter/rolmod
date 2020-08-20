@@ -1,0 +1,15 @@
+include "spells_basic.bhs"
+
+//==============================================================================
+int game_callback spell_process_buff (Object the_target, Spell the_buff)
+{
+    
+  Unit the_unit = get_object_unit(the_target);
+  Leader the_leader = get_unit_leader(the_unit);
+    
+  if ((the_buff == "Pulitore's Protection 1" || the_buff == "Pulitore's Protection 2" || the_buff == "Pulitore's Protection 3" || the_buff == "Pulitore's Protection 4" || the_buff == "Pulitore's Protection 5") && num_type_non_strict(the_leader, "Pulitore, the Chicken Rider") == 0) {
+    return SPELL_ENDED;
+  }
+  
+  return SPELL_RUNNING;
+}

@@ -1,0 +1,42 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Crystallize";  
+}
+
+//==============================================================================
+int game_callback spell_cast_location (Object the_caster, int x, int y)
+{
+  UnitGroup the_units;
+  Leader the_leader = get_object_leader(the_caster);
+  
+  SpellType upgraded_type = get_current_spell_type_upgrade(spell_type, the_leader);  
+  
+  int scan;
+  int group_size = 0;
+  int include_neutral = true;  
+  int radius   = get_spell_type_radius(upgraded_type, the_leader);
+  int duration = get_spell_type_duration(upgraded_type, the_leader); 
+
+  the_units = get_units (x, y, radius, include_neutral);
+  group_size = unit_group_length(the_units);
+  for (scan = 0; scan < group_size; scan++) {
+    Unit the_unit = unit_at_index(the_units, scan);
+    Object the_object = get_unit_object(the_unit);
+    give_object_buff(the_caster, the_object, upgraded_type, duration);
+  }
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_cast_object (Object the_caster, Object the_target)
+{
+  int x = get_object_x(the_target);
+  int y = get_object_y(the_target);
+  
+  return spell_cast_location(the_caster, x, y);
+}

@@ -1,0 +1,4024 @@
+<?xml version="1.0"?>
+<ROOT name="CTWCuotl2" loc_name="CTWCuotl2" playable="1" icon="73" diplo_icon_string="Xil, the Sun God" type="Doge Guard MP">
+  <TRIBES base_tribe="cuotl">
+    <NEEDS_TRIBE>CTWHeroes2</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Kakoolha</LEADER>
+    <LEADER>Zog</LEADER>
+    <LEADER>Tash</LEADER>
+    <LEADER>Vol</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="fane"/>
+    </START>
+    <START name="large city">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="sanctuary district"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="defender">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="sun jaguar"/>
+      <UNIT num="1" type="death snake"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="sanctuary district"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="deathmatch">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="10000" type="timonium"/>
+      <RESOURCE num="5000" type="energy"/>
+      <RESOURCE num="14" type="research points"/>
+    </START>
+    <START name="guild district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="military district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="merchant district">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="1" type="Sun Jaguar"/>
+      <UNIT num="1" type="Death Snake"/>
+      <UNIT num="5" type="Citizen"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="none"/>
+    <START name="master unit">
+      <UNIT num="1" type="Cuotl Master Unit"/>
+    </START>
+    <START name="rax start">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="fane"/>
+    </START>
+    <START name="tower start">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="obelisk"/>
+    </START>
+    <START name="x2 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 all">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="4" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 resources">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x3 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x5 troops">
+      <UNIT num="1" type="Scout Eye"/>
+      <UNIT num="4" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <!--Standard ProdAI Armies-->
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore">
+      <WANT>Scout Eye</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0">
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Energy Only Army">
+      <NEED>Scout Eye</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Energy Gathering Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack">
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <WANT>Storm Disk</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Death Sphere</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Holy Ark</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Death Snake</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <!--Scenario Specific Armies-->
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <PRODAI_SCRIPT>Cuotl.bhs</PRODAI_SCRIPT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Pulitore</SHORT>
+      <NAME>Pulitore, Vinci Alchemist</NAME>
+      <TYPENAME>Pulitore, the Chicken Rider</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>kh1q345</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>2n1</TRAMPLE>
+      <SPIKY>4</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>5qs1</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>5qs1</AA>
+      <AR>0-10</AR>
+      <BA>3</BA>
+      <BR>0-10</BR>
+      <HITS>350</HITS>
+      <WOUNDS>90</WOUNDS>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>PULITORE</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>PULITOREMECH</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Pulitore</SHORT>
+      <NAME>Pulitore, Vinci Alchemist (Level 2)</NAME>
+      <TYPENAME>Pulitore, the Chicken Rider L2</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>42</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>3n1</TRAMPLE>
+      <SPIKY>5</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>7qs2</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>7qs2</AA>
+      <AR>0-10</AR>
+      <BA>4</BA>
+      <BR>0-10</BR>
+      <HITS>450</HITS>
+      <WOUNDS>180</WOUNDS>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Pulitore, the Chicken Rider</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>PULITORE</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>PULITOREMECH</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Pulitore</SHORT>
+      <NAME>Pulitore, Vinci Alchemist (Level 3)</NAME>
+      <TYPENAME>Pulitore, the Chicken Rider L3</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>44</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n1</TRAMPLE>
+      <SPIKY>6</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>9qs3</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>9qs3</AA>
+      <AR>0-10</AR>
+      <BA>5</BA>
+      <BR>0-10</BR>
+      <HITS>600</HITS>
+      <WOUNDS>270</WOUNDS>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Pulitore, the Chicken Rider L2</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>PULITORE</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>PULITOREMECH</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Pulitore</SHORT>
+      <NAME>Pulitore, Vinci Alchemist (Level 4)</NAME>
+      <TYPENAME>Pulitore, the Chicken Rider L4</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>46</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5n1</TRAMPLE>
+      <SPIKY>7</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>12qs4</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>12qs4</AA>
+      <AR>0-10</AR>
+      <BA>6</BA>
+      <BR>0-10</BR>
+      <HITS>850</HITS>
+      <WOUNDS>360</WOUNDS>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Pulitore, the Chicken Rider L3</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>PULITORE</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>PULITOREMECH</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Pulitore</SHORT>
+      <NAME>Pulitore, Vinci Alchemist (Level 5)</NAME>
+      <TYPENAME>Pulitore, the Chicken Rider L5</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>50</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>6n1</TRAMPLE>
+      <SPIKY>8</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>14qs5</GA>
+      <GR>0-10</GR>
+      <AM>0</AM>
+      <AA>14qs5</AA>
+      <AR>0-10</AR>
+      <BA>7</BA>
+      <BR>0-10</BR>
+      <HITS>1300</HITS>
+      <WOUNDS>450</WOUNDS>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>1</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Pulitore, the Chicken Rider L4</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>PULITORE</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>PULITOREMECH</GRAPH>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Plague" reference_style="replace">
+      <COUNTERED_BY>Augmentation; Cease Fire; Oasis Healing Power; Make Peace Town; Cease Spells; Instaheal; Sands of Regeneration; Heal Grenade Friendlies</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas" reference_style="copy">
+      <ICONGRAFT>Gas</ICONGRAFT>
+      <NAME>Poison Cloud</NAME>
+      <TYPENAME>Pulitore Gas</TYPENAME>
+      <XP>10</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>2g6j</SPELL_FLAGS>
+      <SPELL_FLAGS2>y</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdfpy</TARGET_FLAGS>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>0</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7 radius</RADIUS>
+      <DAMAGE>5yqs2</DAMAGE>
+      <DATA0>-1 Projectile Speed</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>POISONGAS</GRAPH>
+      <GRAFT>Gas</GRAFT>
+      <HELP>GAS</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 2" reference_style="copy">
+      <ICONGRAFT>Gas</ICONGRAFT>
+      <NAME>Toxic Cloud</NAME>
+      <TYPENAME>Pulitore Gas 2</TYPENAME>
+      <XP>10</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>a26gj</SPELL_FLAGS>
+      <SPELL_FLAGS2>y</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdfpy</TARGET_FLAGS>
+      <RESEARCH_COST>75e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>125</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7 radius</RADIUS>
+      <DAMAGE>6yqs3</DAMAGE>
+      <DATA0>-1 Projectile Speed</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Pulitore Gas</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>POISONGAS2</GRAPH>
+      <GRAFT>Gas</GRAFT>
+      <HELP>GAS2</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 3" reference_style="copy">
+      <ICONGRAFT>Gas</ICONGRAFT>
+      <NAME>Noxious Cloud</NAME>
+      <TYPENAME>Pulitore Gas 3</TYPENAME>
+      <XP>10</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>a26gj</SPELL_FLAGS>
+      <SPELL_FLAGS2>y</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdfpy</TARGET_FLAGS>
+      <RESEARCH_COST>125e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>150</RES_TIME>
+      <DURATION>50</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7 radius</RADIUS>
+      <DAMAGE>8yqs4</DAMAGE>
+      <DATA0>-1 Projectile Speed</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Pulitore Gas 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>POISONGAS3</GRAPH>
+      <GRAFT>Gas</GRAFT>
+      <HELP>GAS3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Gas 4" reference_style="copy">
+      <ICONGRAFT>Gas</ICONGRAFT>
+      <NAME>Corrosive Cloud</NAME>
+      <TYPENAME>Pulitore Gas 4</TYPENAME>
+      <XP>10</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>a26gj</SPELL_FLAGS>
+      <SPELL_FLAGS2>y</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdfpy</TARGET_FLAGS>
+      <RESEARCH_COST>175e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>175</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7 radius</RADIUS>
+      <DAMAGE>10yqs6</DAMAGE>
+      <DATA0>-1 Projectile Speed</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Pulitore Gas 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>POISONGAS4</GRAPH>
+      <GRAFT>Gas</GRAFT>
+      <HELP>GAS4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Improved Ground Shot</NAME>
+      <TYPENAME>Groundshot Upgrade</TYPENAME>
+      <XP>20</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>axw</SPELL_FLAGS>
+      <SPELL_FLAGS2>vs</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <RESEARCH_COST>150e</RESEARCH_COST>
+      <RES_TIME>200</RES_TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>none</FROM>
+      <MANA>0</MANA>
+      <DATA0>Groundshot Upgrade Bonus</DATA0>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITORE_UPGRADE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Enhanced Ground Shot</NAME>
+      <TYPENAME>Groundshot Upgrade 3</TYPENAME>
+      <XP>20</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>axw</SPELL_FLAGS>
+      <SPELL_FLAGS2>vs</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <RESEARCH_COST>225e</RESEARCH_COST>
+      <RES_TIME>250</RES_TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Groundshot Upgrade</FROM>
+      <MANA>0</MANA>
+      <DATA0>Groundshot Upgrade Bonus 3</DATA0>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITORE_UPGRADE3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Advanced Ground Shot</NAME>
+      <TYPENAME>Groundshot Upgrade 4</TYPENAME>
+      <XP>20</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>axw</SPELL_FLAGS>
+      <SPELL_FLAGS2>vs</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <RESEARCH_COST>300e</RESEARCH_COST>
+      <RES_TIME>300</RES_TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Groundshot Upgrade 3</FROM>
+      <MANA>0</MANA>
+      <DATA0>Groundshot Upgrade Bonus 4</DATA0>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITORE_UPGRADE4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="copy">
+      <NAME>Poison Rush</NAME>
+      <TYPENAME>Poison Charge</TYPENAME>
+      <XP>30</XP>
+      <SPELL_FLAGS>m2ga</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <RESEARCH_COST>300e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>10qs5xy,20,100,100,2</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>8</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>POISONCHARGE</GRAPH>
+      <GRAFT>Glass Scimitars</GRAFT>
+      <HELP>POISONCHARGE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="copy">
+      <NAME>Poison Assault</NAME>
+      <TYPENAME>Poison Charge 3</TYPENAME>
+      <XP>30</XP>
+      <SPELL_FLAGS>m2ag</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <RESEARCH_COST>400e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>45</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>16qs8xy,22,100,100,2</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Poison Charge</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>8</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>POISONCHARGE</GRAPH>
+      <HELP>POISONCHARGE3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="copy">
+      <NAME>Poison Blitz</NAME>
+      <TYPENAME>Poison Charge 4</TYPENAME>
+      <XP>30</XP>
+      <SPELL_FLAGS>m2ag</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <RESEARCH_COST>800e</RESEARCH_COST>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>20qs11xy,22,100,100,2</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Poison Charge 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>8</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>POISONCHARGE</GRAPH>
+      <HELP>POISONCHARGE4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Poison" reference_style="copy">
+      <NAME>Deadly Poison</NAME>
+      <TYPENAME>Deadly Poison</TYPENAME>
+      <XP>40</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>a6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfkl1p</TARGET_FLAGS>
+      <RESEARCH_COST>1000e</RESEARCH_COST>
+      <SCRIPT_FLAGS>de</SCRIPT_FLAGS>
+      <SCRIPT_FILE>deadlypoison.bhs</SCRIPT_FILE>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>1000</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>0</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>POISON</GRAPH>
+      <GRAFT>none</GRAFT>
+      <HELP>DEADLYPOISON</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Poison" reference_style="copy">
+      <NAME>Murderous Poison</NAME>
+      <TYPENAME>Deadly Poison 4</TYPENAME>
+      <XP>40</XP>
+      <CODETAG/>
+      <SPELL_FLAGS>a6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfkl1p</TARGET_FLAGS>
+      <RESEARCH_COST>2000e</RESEARCH_COST>
+      <SCRIPT_FLAGS>de</SCRIPT_FLAGS>
+      <SCRIPT_FILE>deadlypoison.bhs</SCRIPT_FILE>
+      <COST/>
+      <TIME>5</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>1000</RES_TIME>
+      <DURATION>90</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>Deadly Poison</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>4</TEX_COL>
+      <TEX_ROW>0</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>POISON</GRAPH>
+      <GRAFT>none</GRAFT>
+      <HELP>DEADLYPOISON4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Pulitore's Protection</NAME>
+      <TYPENAME>Pulitore's Protection 1</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>w</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS/>
+      <SCRIPT_FILE>pulitores_protection.bhs</SCRIPT_FILE>
+      <XP>
+			</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>7</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITOREPROTECTION1</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Pulitore's Safekeeping</NAME>
+      <TYPENAME>Pulitore's Protection 2</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>w</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS/>
+      <SCRIPT_FILE>pulitores_protection.bhs</SCRIPT_FILE>
+      <XP>
+			</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>7</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITOREPROTECTION2</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Pulitore's Preservation</NAME>
+      <TYPENAME>Pulitore's Protection 3</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>w</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS/>
+      <SCRIPT_FILE>pulitores_protection.bhs</SCRIPT_FILE>
+      <XP>
+			</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>7</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITOREPROTECTION3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Pulitore's Guardianship</NAME>
+      <TYPENAME>Pulitore's Protection 4</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>w</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS/>
+      <SCRIPT_FILE>pulitores_protection.bhs</SCRIPT_FILE>
+      <XP>
+			</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>7</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITOREPROTECTION4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Pulitore's Aegis</NAME>
+      <TYPENAME>Pulitore's Protection 5</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>w</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS/>
+      <SCRIPT_FILE>pulitores_protection.bhs</SCRIPT_FILE>
+      <XP>
+			</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Pulitore, the Chicken Rider</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>7</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>none</GRAPH>
+      <HELP>PULITOREPROTECTION5</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Slow">
+      <TYPENAME>Slow</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 1; Pulitore's Protection 2; Pulitore's Protection 3; Pulitore's Protection 4; Pulitore's Protection 5</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Poison">
+      <TYPENAME>Poison</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 5</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Rot Poison">
+      <TYPENAME>Rot Poison</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 4; Pulitore's Protection 5; Augmentation; InstaHeal; Sands of Regeneration; Heal Grenade Friendlies; Oasis Healing Power</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Stun">
+      <TYPENAME>Stun</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 2; Pulitore's Protection 3; Pulitore's Protection 4; Pulitore's Protection 5</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Immobilize">
+      <TYPENAME>Immobilize</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 2; Pulitore's Protection 3; Pulitore's Protection 4; Pulitore's Protection 5</COUNTERED_BY>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="replace" reference_name="Burn">
+      <TYPENAME>Burn</TYPENAME>
+      <COUNTERED_BY>Pulitore's Protection 3; Pulitore's Protection 4; Pulitore's Protection 5</COUNTERED_BY>
+    </CRAFT>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Groundshot Upgrade Bonus</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0/>
+      <DATA0>GM; GA</DATA0>
+      <DATA1>30%; 30%</DATA1>
+      <DATA3>Pulitore, the Chicken Rider</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Groundshot Upgrade Bonus 3</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0/>
+      <DATA0>GM; GA</DATA0>
+      <DATA1>40%; 40%</DATA1>
+      <DATA3>Pulitore, the Chicken Rider</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Groundshot Upgrade Bonus 4</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0/>
+      <DATA0>GM; GA</DATA0>
+      <DATA1>50%; 50%</DATA1>
+      <DATA3>Pulitore, the Chicken Rider</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+    </BONUS>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Kakoolha</SHORT>
+      <NAME>Kakoolha, King of the Cuotl</NAME>
+      <TYPENAME>Kakoolha, King of the Cuotl</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>kh1q345</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>20</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>20v2n1</TRAMPLE>
+      <SPIKY>72</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>10p</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>10p</AA>
+      <AR>0-12</AR>
+      <BA>5</BA>
+      <BR>0-12</BR>
+      <HITS>600</HITS>
+      <WOUNDS>90</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>KAKOOLHA</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>KAKOOLHAMOUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Kakoolha</SHORT>
+      <NAME>Kakoolha, King of the Cuotl (Level 2)</NAME>
+      <TYPENAME>Kakoolha, King of the Cuotl L2</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>20</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>25v2n2</TRAMPLE>
+      <SPIKY>78</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>12p</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>12p</AA>
+      <AR>0-12</AR>
+      <BA>6</BA>
+      <BR>0-12</BR>
+      <HITS>800</HITS>
+      <WOUNDS>180</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>Kakoolha, King of the Cuotl</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>KAKOOLHA</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>KAKOOLHAMOUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Kakoolha</SHORT>
+      <NAME>Kakoolha, King of the Cuotl (Level 3)</NAME>
+      <TYPENAME>Kakoolha, King of the Cuotl L3</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>20</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>30v3n3</TRAMPLE>
+      <SPIKY>84</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>16p</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>16p</AA>
+      <AR>0-12</AR>
+      <BA>7</BA>
+      <BR>0-12</BR>
+      <HITS>1100</HITS>
+      <WOUNDS>270</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>Kakoolha, King of the Cuotl L2</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>KAKOOLHA</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>KAKOOLHAMOUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Kakoolha</SHORT>
+      <NAME>Kakoolha, King of the Cuotl (Level 4)</NAME>
+      <TYPENAME>Kakoolha, King of the Cuotl L4</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>20</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>35v3n3</TRAMPLE>
+      <SPIKY>90</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>20p</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>20p</AA>
+      <AR>0-12</AR>
+      <BA>8</BA>
+      <BR>0-12</BR>
+      <HITS>1500</HITS>
+      <WOUNDS>360</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>Kakoolha, King of the Cuotl L3</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>KAKOOLHA</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>KAKOOLHAMOUNT</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Kakoolha</SHORT>
+      <NAME>Kakoolha, King of the Cuotl (Level 5)</NAME>
+      <TYPENAME>Kakoolha, King of the Cuotl L5</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q345</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>20</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>40v4n3</TRAMPLE>
+      <SPIKY>96</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>26p</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>26p</AA>
+      <AR>0-12</AR>
+      <BA>10</BA>
+      <BR>0-12</BR>
+      <HITS>2000</HITS>
+      <WOUNDS>450</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>Kakoolha, King of the Cuotl L4</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>KAKOOLHA</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>KAKOOLHAMOUNT</GRAPH>
+    </UNIT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Stomp</NAME>
+      <TYPENAME>Stomp</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>bfnqy</TARGET_FLAGS>
+      <XP>10</XP>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>0</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>16 radius</RADIUS>
+      <DAMAGE>20yv3,64,100,100,7</DAMAGE>
+      <DATA0>0</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>STOMP</GRAPH>
+      <HELP>STOMP</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Thump</NAME>
+      <TYPENAME>Stomp 2</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>bfnqy</TARGET_FLAGS>
+      <XP>10</XP>
+      <RESEARCH_COST>75e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>125</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>18 radius</RADIUS>
+      <DAMAGE>40yv5,72,100,100,7</DAMAGE>
+      <DATA0>0</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Stomp</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>STOMP</GRAPH>
+      <HELP>STOMP2</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Wallop</NAME>
+      <TYPENAME>Stomp 3</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>bfnqy</TARGET_FLAGS>
+      <XP>10</XP>
+      <RESEARCH_COST>125e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>150</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>20 radius</RADIUS>
+      <DAMAGE>60yv7,80,100,100,7</DAMAGE>
+      <DATA0>0</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Stomp 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>STOMP</GRAPH>
+      <HELP>STOMP3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Clobber</NAME>
+      <TYPENAME>Stomp 4</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>bfnqy</TARGET_FLAGS>
+      <XP>10</XP>
+      <RESEARCH_COST>175e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>175</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>22 radius</RADIUS>
+      <DAMAGE>80yv10,88,100,100,7</DAMAGE>
+      <DATA0>0</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Stomp 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAPH>STOMP</GRAPH>
+      <HELP>STOMP4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="copy" reference_name="Sniper">
+      <NAME>Laser Burst</NAME>
+      <TYPENAME>Laser Burst</TYPENAME>
+      <GRAFT>Snipe</GRAFT>
+      <CODETAG>LASER_BURST</CODETAG>
+      <SPELL_FLAGS>aglm</SPELL_FLAGS>
+      <TARGET_FLAGS>abfkl1py</TARGET_FLAGS>
+      <XP>20</XP>
+      <RESEARCH_COST>150e</RESEARCH_COST>
+      <RES_TIME>200</RES_TIME>
+      <TIME>14</TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>500fxy,40,100,100,15,12w</DAMAGE>
+      <DATA0>48 start this far from the cast (in Coords 192 coords = 1 Tile)</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>LASERBURST</GRAPH>
+      <HELP>LASERBURST</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="copy" reference_name="Sniper">
+      <NAME>Laser Flare</NAME>
+      <TYPENAME>Laser Burst 3</TYPENAME>
+      <GRAFT>Snipe</GRAFT>
+      <CODETAG/>
+      <SPELL_FLAGS>aglm</SPELL_FLAGS>
+      <TARGET_FLAGS>abfkl1py</TARGET_FLAGS>
+      <XP>20</XP>
+      <RESEARCH_COST>225e</RESEARCH_COST>
+      <RES_TIME>250</RES_TIME>
+      <TIME>14</TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>600fxy,40,100,100,15,12w</DAMAGE>
+      <DATA0>48 start this far from the cast (in Coords 192 coords = 1 Tile)</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Laser Burst</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>LASERBURST</GRAPH>
+      <HELP>LASERBURST3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="copy" reference_name="Sniper">
+      <NAME>Laser Torrent</NAME>
+      <TYPENAME>Laser Burst 4</TYPENAME>
+      <GRAFT>Snipe</GRAFT>
+      <CODETAG/>
+      <SPELL_FLAGS>aglm</SPELL_FLAGS>
+      <TARGET_FLAGS>abfkl1py</TARGET_FLAGS>
+      <XP>20</XP>
+      <RESEARCH_COST>300e</RESEARCH_COST>
+      <RES_TIME>300</RES_TIME>
+      <TIME>14</TIME>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>8</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>700fxy,40,100,100,15,12w</DAMAGE>
+      <DATA0>48 start this far from the cast (in Coords 192 coords = 1 Tile)</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Laser Burst 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>LASERBURST</GRAPH>
+      <HELP>LASERBURST4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Dispersal Field</NAME>
+      <TYPENAME>Dispersal Field</TYPENAME>
+      <CODETAG> DISPERSAL_FIELD</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfnqy</TARGET_FLAGS>
+      <XP>30</XP>
+      <RESEARCH_COST>300e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>300</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>10 radius</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>20% Damage an object by this percent of the health it has left</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>DISPERSALFIELD</GRAPH>
+      <HELP>DISPERSALFIELD</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Diffusion Field</NAME>
+      <TYPENAME>Dispersal Field 3</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfnqy</TARGET_FLAGS>
+      <XP>30</XP>
+      <RESEARCH_COST>400e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>18</SPELL_RANGE>
+      <RADIUS>12 radius</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>30% Damage an object by this percent of the health it has left</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Dispersal Field</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>DISPERSALFIELD</GRAPH>
+      <HELP>DISPERSALFIELD3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Dissolution Field</NAME>
+      <TYPENAME>Dispersal Field 4</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <SPELL_FLAGS>a1</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abfnqy</TARGET_FLAGS>
+      <XP>30</XP>
+      <RESEARCH_COST>800e</RESEARCH_COST>
+      <COST/>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>2</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>20</SPELL_RANGE>
+      <RADIUS>14 radius</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>40% Damage an object by this percent of the health it has left</DATA0>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Dispersal Field 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>DISPERSALFIELD</GRAPH>
+      <HELP>DISPERSALFIELD4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Improved Trample</NAME>
+      <TYPENAME>Heretic Trample</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>axw</SPELL_FLAGS>
+      <SPELL_FLAGS2>vs</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <XP>40</XP>
+      <COOLDOWN>480</COOLDOWN>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>none</FROM>
+      <RESEARCH_COST>1000e</RESEARCH_COST>
+      <RES_TIME>1000</RES_TIME>
+      <MANA>0</MANA>
+      <DATA0>Heretic Trample Bonus</DATA0>
+      <PREQ0>Great City Tech</PREQ0>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>none</GRAPH>
+      <HELP>HERETICTRAMPLE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Advanced Trample</NAME>
+      <TYPENAME>Heretic Trample 4</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>axw</SPELL_FLAGS>
+      <SPELL_FLAGS2>vs</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <XP>40</XP>
+      <COOLDOWN>480</COOLDOWN>
+      <WHERE>Kakoolha, King of the Cuotl</WHERE>
+      <FROM>Heretic Trample</FROM>
+      <RESEARCH_COST>2000e</RESEARCH_COST>
+      <RES_TIME>1000</RES_TIME>
+      <MANA>0</MANA>
+      <DATA0>Heretic Trample Bonus 4</DATA0>
+      <PREQ0>Great City Tech</PREQ0>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>none</GRAPH>
+      <HELP>HERETICTRAMPLE4</HELP>
+    </CRAFT>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Heretic Trample Bonus</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0/>
+      <DATA0>TRAMPLE;SPEED</DATA0>
+      <DATA1>50%;33%</DATA1>
+      <DATA3>Kakoolha, King of the Cuotl</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <HELP>HERETICTRAMPLEBONUS</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Heretic Trample Bonus 4</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0/>
+      <DATA0>TRAMPLE;SPEED</DATA0>
+      <DATA1>100%;66%</DATA1>
+      <DATA3>Kakoolha, King of the Cuotl</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <HELP>HERETICTRAMPLEBONUS</HELP>
+    </BONUS>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Yontash</SHORT>
+      <NAME>Yontash, Spiritchief</NAME>
+      <TYPENAME>Yontash, the Spiritchief</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>kh1q5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>1000</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>6n1</TRAMPLE>
+      <SPIKY>8</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>5r1</GA>
+      <GR>0-18</GR>
+      <AM>0</AM>
+      <AA>5r1</AA>
+      <AR>0-18</AR>
+      <BA>3</BA>
+      <BR>0-18</BR>
+      <HITS>350</HITS>
+      <WOUNDS>90</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>YONTASHSPIRITCHIEF</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>YONTASH_BEAST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Yontash</SHORT>
+      <NAME>Yontash, Spiritchief (Level 2)</NAME>
+      <TYPENAME>Yontash, the Spiritchief L2</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>1100</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>9n1</TRAMPLE>
+      <SPIKY>9</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>6r2</GA>
+      <GR>0-18</GR>
+      <AM>0</AM>
+      <AA>6r2</AA>
+      <AR>0-18</AR>
+      <BA>4</BA>
+      <BR>0-18</BR>
+      <HITS>450</HITS>
+      <WOUNDS>180</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Yontash, the Spiritchief</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>YONTASHSPIRITCHIEF</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>YONTASH_BEAST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Yontash</SHORT>
+      <NAME>Yontash, Spiritchief (Level 3)</NAME>
+      <TYPENAME>Yontash, the Spiritchief L3</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>12n1</TRAMPLE>
+      <SPIKY>10</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>8r3</GA>
+      <GR>0-18</GR>
+      <AM>0</AM>
+      <AA>8r3</AA>
+      <AR>0-18</AR>
+      <BA>5</BA>
+      <BR>0-18</BR>
+      <HITS>600</HITS>
+      <WOUNDS>270</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Yontash, the Spiritchief L2</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>YONTASHSPIRITCHIEF</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>YONTASH_BEAST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Yontash</SHORT>
+      <NAME>Yontash, Spiritchief (Level 4)</NAME>
+      <TYPENAME>Yontash, the Spiritchief L4</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>1300</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>15n1</TRAMPLE>
+      <SPIKY>11</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>10r4</GA>
+      <GR>0-18</GR>
+      <AM>0</AM>
+      <AA>10r4</AA>
+      <AR>0-18</AR>
+      <BA>6</BA>
+      <BR>0-18</BR>
+      <HITS>800</HITS>
+      <WOUNDS>360</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Yontash, the Spiritchief L3</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>YONTASHSPIRITCHIEF</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>YONTASH_BEAST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <SHORT>Yontash</SHORT>
+      <NAME>Yontash, Spiritchief (Level 5)</NAME>
+      <TYPENAME>Yontash, the Spiritchief L5</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>100e/100m</COST>
+      <RAMP_COST>300e/300m, 50e/50m</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>16</LOS>
+      <MANA>1400</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>18n1</TRAMPLE>
+      <SPIKY>12</SPIKY>
+      <SPLAT>4n1,4,100,100,1</SPLAT>
+      <GM>0</GM>
+      <GA>13r5</GA>
+      <GR>0-18</GR>
+      <AM>0</AM>
+      <AA>13r5</AA>
+      <AR>0-18</AR>
+      <BA>7</BA>
+      <BR>0-18</BR>
+      <HITS>1100</HITS>
+      <WOUNDS>450</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>22</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>1000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>3</PUSH_SIZE>
+      <FROM>Yontash, the Spiritchief L4</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>YONTASHSPIRITCHIEF</HELP>
+      <CODETAG>
+			</CODETAG>
+      <GRAPH>YONTASH_BEAST</GRAPH>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Silence</NAME>
+      <TYPENAME>Silence</TYPENAME>
+      <XP>10</XP>
+      <SPELL_FLAGS>aglm</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <COST>0</COST>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RESEARCH_COST>0e</RESEARCH_COST>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>20</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>3</RADIUS>
+      <DAMAGE>50xyv5h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>6</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <GRAPH>Silence</GRAPH>
+      <GRAFT>Soul Burn</GRAFT>
+      <HELP>SILENCE1</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Hush</NAME>
+      <TYPENAME>Silence 2</TYPENAME>
+      <XP>10</XP>
+      <SPELL_FLAGS>aglm6</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <COST>0</COST>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RESEARCH_COST>75ee</RESEARCH_COST>
+      <RES_TIME>125</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>100xyv10h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Silence</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>6</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>-1</ANIM>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <GRAPH>SOULBURN</GRAPH>
+      <HELP>SILENCE2</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Mute</NAME>
+      <TYPENAME>Silence 3</TYPENAME>
+      <XP>10</XP>
+      <SPELL_FLAGS>aglm6</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <COST>0</COST>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RESEARCH_COST>125e</RESEARCH_COST>
+      <RES_TIME>150</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>5</RADIUS>
+      <DAMAGE>150xyv15h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Silence 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>6</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>-1</ANIM>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <GRAPH>SOULBURN</GRAPH>
+      <HELP>SILENCE3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Quiet</NAME>
+      <TYPENAME>Silence 4</TYPENAME>
+      <XP>10</XP>
+      <SPELL_FLAGS>aglm6</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <COST>0</COST>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RESEARCH_COST>175e</RESEARCH_COST>
+      <RES_TIME>175</RES_TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>6</RADIUS>
+      <DAMAGE>200xyv20h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Silence 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>6</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>-1</ANIM>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <GRAPH>SOULBURN</GRAPH>
+      <HELP>SILENCE4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Life Sap</NAME>
+      <TYPENAME>Life Sap</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <XP>20</XP>
+      <SPELL_FLAGS>jwa2gx</SPELL_FLAGS>
+      <SPELL_FLAGS2>v</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST>150e</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>45</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>10% Percent of damage done by Yontash's attacks that he recieves as health back.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>LIFESAP</GRAPH>
+      <GRAFT>Spiritchief Life Sap</GRAFT>
+      <HELP>LIFESAP</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Life Drain</NAME>
+      <TYPENAME>Life Sap 3</TYPENAME>
+      <XP>20</XP>
+      <SPELL_FLAGS>jwa2gx</SPELL_FLAGS>
+      <SPELL_FLAGS2>v</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST>225e</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>250</RES_TIME>
+      <DURATION>45</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>20% Percent of damage done by Yontash's attacks that he recieves as health back.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Life Sap</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>LIFESAP</GRAPH>
+      <HELP>LIFESAP3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Life Bleed</NAME>
+      <TYPENAME>Life Sap 4</TYPENAME>
+      <XP>20</XP>
+      <SPELL_FLAGS>jwa2gx</SPELL_FLAGS>
+      <SPELL_FLAGS2>v</SPELL_FLAGS2>
+      <SPELL_FLAGS3>b</SPELL_FLAGS3>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST>300e</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>300</RES_TIME>
+      <DURATION>45</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>7</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>30% Percent of damage done by Yontash's attacks that he recieves as health back.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Life Sap 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>LIFESAP</GRAPH>
+      <HELP>LIFESAP4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Resurrect</NAME>
+      <TYPENAME>Reincarnation</TYPENAME>
+      <CODETAG>REINCARNATION</CODETAG>
+      <XP>30</XP>
+      <SPELL_FLAGS>wa2g</SPELL_FLAGS>
+      <SPELL_FLAGS2>
+			</SPELL_FLAGS2>
+      <TARGET_FLAGS>abenquhpl</TARGET_FLAGS>
+      <TARGET_FLAGS2>j</TARGET_FLAGS2>
+      <RESEARCH_COST>300w</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>55</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>25% Heal back o this much of total health.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Large City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>REINCARNATION</GRAPH>
+      <GRAFT>Augmentation 4</GRAFT>
+      <HELP>REINCARNATION</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Greater Resurrect</NAME>
+      <TYPENAME>Reincarnation 3</TYPENAME>
+      <XP>30</XP>
+      <SPELL_FLAGS>wa2g</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abenquhpl</TARGET_FLAGS>
+      <TARGET_FLAGS2>j</TARGET_FLAGS2>
+      <RESEARCH_COST>400w</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>55</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>50% Heal back o this much of total health.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Reincarnation</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>REINCARNATION</GRAPH>
+      <HELP>REINCARNATION3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Full Resurrect</NAME>
+      <TYPENAME>Reincarnation 4</TYPENAME>
+      <XP>90</XP>
+      <SPELL_FLAGS>wa26g</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>abenquhpl</TARGET_FLAGS>
+      <TARGET_FLAGS2>j</TARGET_FLAGS2>
+      <RESEARCH_COST>800w</RESEARCH_COST>
+      <COST/>
+      <TIME>4</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>600</RES_TIME>
+      <DURATION>55</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>1</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>75% Heal back o this much of total health.</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Reincarnation 3</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <GRAPH>REINCARNATION</GRAPH>
+      <HELP>REINCARNATION4</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Tear Wounds" reference_style="copy">
+      <NAME>Split Wounds</NAME>
+      <TYPENAME>Yontash Tear Wounds</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <XP>40</XP>
+      <SPELL_FLAGS>ag6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <RESEARCH_COST>1000w</RESEARCH_COST>
+      <COST/>
+      <TIME>39</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>1000</RES_TIME>
+      <DURATION>20</DURATION>
+      <COOLDOWN>540</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>None</DATA0>
+      <DATA1>2 Damage multiplier</DATA1>
+      <DATA2>20</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Tear Wounds</ICONGRAFT>
+      <GRAPH>TEARWOUNDS</GRAPH>
+      <GRAFT>Tear Wounds</GRAFT>
+      <HELP>TEARWOUNDSY</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Tear Wounds" reference_style="copy">
+      <NAME>Tear Wounds</NAME>
+      <TYPENAME>Yontash Tear Wounds 4</TYPENAME>
+      <CODETAG>
+			</CODETAG>
+      <XP>40</XP>
+      <SPELL_FLAGS>ag6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS/>
+      <RESEARCH_COST>2000e</RESEARCH_COST>
+      <COST/>
+      <TIME>39</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>1000</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>540</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>None</DATA0>
+      <DATA1>2 Damage multiplier</DATA1>
+      <DATA2>30</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Yontash, the Spiritchief</WHERE>
+      <FROM>Yontash Tear Wounds</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Great City Tech</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>3</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <ICONGRAFT>Tear Wounds</ICONGRAFT>
+      <GRAPH>TEARWOUNDS</GRAPH>
+      <GRAFT>Tear Wounds</GRAFT>
+      <HELP>TEARWOUNDSY4</HELP>
+    </CRAFT>
+  
+  
+  
+  
+  
+  
+  
+    <CRAFT class="craft" reference_name="Piracy" reference_style="copy">
+      <NAME>Mind Control</NAME>
+      <TYPENAME>Mind Control CTW</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>g6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>abflny</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS>de</SCRIPT_FLAGS>
+      <SCRIPT_FILE>mind_control_ctw.bhs</SCRIPT_FILE>
+      <XP>0</XP>
+      <RESEARCH_COST> </RESEARCH_COST>
+      <COST/>
+      <TIME>44</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>1 maximum number of units that captured at one time</DATA0>
+      <DATA1>2 Shots for small units</DATA1>
+      <DATA2>3 Shots for medium units</DATA2>
+      <DATA3>4 Shots for large units</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>5</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>4</ANIM>
+      <GRAPH>CHARM</GRAPH>
+      <HELP>CHARM</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Farsight 4" reference_style="copy">
+      <NAME>Star Blast</NAME>
+      <TYPENAME>Farsight CTW</TYPENAME>
+      <SPELL_FLAGS>fnz6</SPELL_FLAGS>
+      <SPELL_FLAGS2>dy</SPELL_FLAGS2>
+      <TARGET_FLAGS>codfnpy</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <XP>1</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>0</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>9</RADIUS>
+      <DAMAGE>12xyz</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>Farsight Spell Unit</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>FARSIGHT1</GRAPH>
+      <GRAFT>Farsight</GRAFT>
+      <HELP>FARSIGHT</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Power Surge</NAME>
+      <TYPENAME>Power Surge</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>250</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>250 energy</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>GAMBLE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Planetoid" reference_style="copy">
+      <NAME>Build Camp</NAME>
+      <TYPENAME>Build Camp</TYPENAME>
+      <SPELL_FLAGS>e6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>2d</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>9999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Camp</DATA0>
+      <DATA1>1 Do construction? (0 N and 1 Y)</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>5</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>MAKETOTEM</GRAPH>
+      <GRAFT>Make Totem</GRAFT>
+      <HELP>MAKETOTEM</HELP>
+    </CRAFT>
+    <!--Cuotl Campaign-only Units-->
+    <UNIT class="units" reference_name="Fallen Sentinel" reference_style="copy">
+      <NAME>Fallen Sentinels</NAME>
+      <TYPENAME>CTW Fallen Sentinel</TYPENAME>
+      <ICONGRAFT>Fallen Sentinel</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Jaguar" reference_style="copy">
+      <NAME>Fallen Jaguar</NAME>
+      <TYPENAME>CTW Fallen Jaguar</TYPENAME>
+      <ICONGRAFT>Fallen Jaguar</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Snake" reference_style="copy">
+      <NAME>Fallen Snake</NAME>
+      <TYPENAME>CTW Fallen Snake</TYPENAME>
+      <ICONGRAFT>Fallen Snake</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Idol" reference_style="copy">
+      <NAME>Fallen Idol</NAME>
+      <TYPENAME>CTW Fallen Idol</TYPENAME>
+      <ICONGRAFT>Fallen Idol</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Heretic" reference_style="copy">
+      <NAME>Fallen Warriors</NAME>
+      <TYPENAME>CTW Heretic</TYPENAME>
+      <ICONGRAFT>Heretic</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Priest" reference_style="copy">
+      <NAME>Fallen Priest</NAME>
+      <TYPENAME>CTW Fallen Priest</TYPENAME>
+      <ICONGRAFT>Fallen Priest</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Unholy Ark" reference_style="copy">
+      <NAME>Unholy Ark</NAME>
+      <TYPENAME>CTW Unholy Ark</TYPENAME>
+      <ICONGRAFT>Unholy Ark</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Siege Elephant" reference_style="copy">
+      <NAME>Siege Elephant</NAME>
+      <TYPENAME>CTW Siege Elephant</TYPENAME>
+      <ICONGRAFT>Siege Elephant</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>High Priest</NAME>
+      <SHORT/>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>FW</OBJ_MASK>
+      <FLAGS>kg3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>33</MOVES>
+      <FAST>54</FAST>
+      <COST>45w</COST>
+      <RAMP_COST>3w ramp</RAMP_COST>
+      <TIME>400</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>12</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>5cqs3</GA>
+      <GR>0-14</GR>
+      <AM>0</AM>
+      <AA>11cqs6</AA>
+      <AR>0-14</AR>
+      <BA>1.2</BA>
+      <BR>0-14</BR>
+      <HITS>175</HITS>
+      <WOUNDS>100</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>L</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>45</TURN_SPEED>
+      <PROJ_SPEED>900</PROJ_SPEED>
+      <POP>2</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>2</CARRY_SIZE>
+      <FLOAT_HEIGHT>50</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>4</BLOCK_RADIUS>
+      <SPACING>5</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>4</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>High Priest</TYPENAME>
+      <HELP>HIGHPRIEST</HELP>
+      <GRAPH>HIGHPRIEST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>Moon Gorilla</NAME>
+      <SHORT/>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>VW</OBJ_MASK>
+      <FLAGS>3kyq</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>70</MOVES>
+      <FAST>100</FAST>
+      <COST>45w</COST>
+      <RAMP_COST>3w ramp</RAMP_COST>
+      <TIME>400</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>15v4n2j</TRAMPLE>
+      <SPIKY>150</SPIKY>
+      <SPLAT>45n2,12,100,100,1</SPLAT>
+      <GM>15n2, 8, 100, 25, 5, 45</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-14</AR>
+      <BA>17gu6</BA>
+      <BR>0-2</BR>
+      <HITS>3000</HITS>
+      <WOUNDS>1500</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>5</TURN_SPEED>
+      <PROJ_SPEED>300</PROJ_SPEED>
+      <POP>10</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>-1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>12</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>Ship Guardian</TYPENAME>
+      <HELP>DISHGUARDIAN</HELP>
+      <GRAPH>GORILLA_BOSS</GRAPH>
+    </UNIT>
+    <!--Cuotl Campaign-only Buildings-->
+    <CRAFT class="craft" reference_name="Purify" reference_style="copy">
+      <NAME>Purify</NAME>
+      <TYPENAME>Purify High</TYPENAME>
+      <SPELL_FLAGS>jwg</SPELL_FLAGS>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>6</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>200 hit points healed immediately</DATA0>
+      <DATA1>0% incoming damage reduced by this amount</DATA1>
+      <DATA2>0% attack increase</DATA2>
+      <DATA3>0% speed increase</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Purify</GRAFT>
+      <GRAPH>AUGMENTATION</GRAPH>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <HELP>PURIFY</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Soul Burn</NAME>
+      <TYPENAME>Soul Burn High</TYPENAME>
+      <SPELL_FLAGS>glm</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <TIME>21</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>20;40;60;80;100</DURATION>
+      <COOLDOWN>150</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>2;3;4;5;6</RADIUS>
+      <DAMAGE>1xyv5h1;1xyv8h1;1xyv11h1;1xyv14h1;1xyv20h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>0</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Soul Burn</GRAFT>
+      <GRAPH>SOULBURN</GRAPH>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <HELP>SOULBURN</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Blinding Armor" reference_style="copy">
+      <NAME>Blinding Armor</NAME>
+      <TYPENAME>Blinding Armor High</TYPENAME>
+      <SPELL_FLAGS>yg2</SPELL_FLAGS>
+      <SPELL_FLAGS2>fx</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdenqp</TARGET_FLAGS>
+      <TIME>21</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>10;15;20;25;30</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>6;7;8;9;10 radius</RADIUS>
+      <DATA0>25;33;50;66 % to reduce damage</DATA0>
+      <DATA1>60 Frames to reach blindness</DATA1>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5</TEX_ID>
+      <TEX_COL>3</TEX_COL>
+      <TEX_ROW>3</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Blinding Armor</GRAFT>
+      <GRAPH>BLINDING_ARMOR</GRAPH>
+      <ICONGRAFT>Blinding Armor</ICONGRAFT>
+      <HELP>BLINDING_ARMOR</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Lightning" reference_style="copy">
+      <NAME>Lightning Blast</NAME>
+      <TYPENAME>Lightning Blast High</TYPENAME>
+      <SPELL_FLAGS>jglmj</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abcdfnqpy</TARGET_FLAGS>
+      <TIME>28</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>0</DURATION>
+      <COOLDOWN>210</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4;5;6;7;8</RADIUS>
+      <DAMAGE>100xy,12,100,100,1;50xy,16,100,100,1;75xy,20,100,100,1;150xy,24,100,100,1;400xy,28,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAFT>Lightning</GRAFT>
+      <GRAPH>LIGHTNINGSTRIKE</GRAPH>
+      <ICONGRAFT>Lightning</ICONGRAFT>
+      <HELP>LIGHTNINGSTRIKE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Ship Guardian</NAME>
+      <TYPENAME>Summon Ship Guardian</TYPENAME>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Ship Guardian</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <ICONGRAFT>Ship Guardian</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk" reference_style="copy">
+      <NAME>Alin Blessing</NAME>
+      <TYPENAME>Alin Blessing</TYPENAME>
+      <DURATION>-1</DURATION>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAPH>None</GRAPH>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="copy">
+      <NAME>Vinci Blessing</NAME>
+      <TYPENAME>Vinci Blessing</TYPENAME>
+      <DURATION>-1</DURATION>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAPH>None</GRAPH>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <!--Cuotl Custom Buildings-->
+    <BUILDING class="builds" reference_name="Fane" reference_style="copy">
+      <NAME>Fallen Refuge</NAME>
+      <TYPENAME>CTW Fallen Refuge</TYPENAME>
+      <GRAPH>Heretic_Hideaway</GRAPH>
+      <ICONGRAFT>Heretic Hideaway</ICONGRAFT>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Great Temple" reference_style="copy">
+      <NAME>Spaceship</NAME>
+      <TYPENAME>Spaceship</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Sun Temple</NAME>
+      <INCOME>100e/100w</INCOME>
+      <POP_CAP>50</POP_CAP>
+      <COMMERCE_CAP>100</COMMERCE_CAP>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Sun Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple</GRAPH>
+      <HELP>SUNTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Rain Temple</NAME>
+      <INCOME>100e/100w</INCOME>
+      <POP_CAP>50</POP_CAP>
+      <COMMERCE_CAP>100</COMMERCE_CAP>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Rain Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple Storm</GRAPH>
+      <HELP>STORMTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Death Temple</NAME>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Death Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple Moon</GRAPH>
+      <HELP>DEATHTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Obelisk" reference_style="copy">
+      <NAME>Cuotl Fort</NAME>
+      <TYPENAME>Cuotl Fort</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver A" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut A</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver B" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut B</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver C" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut C</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver D" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut D</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 1</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield 1</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 1st</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 2</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield 2</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 2nd</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 3</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield3</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 3rd</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Center</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>30</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Center</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Center</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Entrance</NAME>
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>48,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Entrance</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Entrance</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Power Node</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>1500, 25</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Power Node</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Powernode</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Turret</NAME>
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>2500</HITS>
+      <STORM>60</STORM>
+      <PUSH>48,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>15n1,4,100,100,2</GA>
+      <BA>15</BA>
+      <AA>15</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 25</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Turret</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Turret</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+  </TYPES>
+</ROOT>

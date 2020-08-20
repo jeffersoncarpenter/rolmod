@@ -1,0 +1,1229 @@
+<?xml version="1.0"?>
+<ROOT xml:space="preserve" name="CTWCuotl" loc_name="CTWCuotl">
+  <TRIBES base_tribe="Cuotl">
+    <NEEDS_TRIBE>CTWHeroes</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES>
+    <!--Standard ProdAI Armies-->
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore">
+      <WANT>Scout Eye</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0">
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Energy Only Army">
+      <NEED>Scout Eye</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Energy Gathering Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack">
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <WANT>Storm Disk</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Death Sphere</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Holy Ark</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Death Snake</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <!--Scenario Specific Armies-->
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <PRODAI_SCRIPT>Cuotl.bhs</PRODAI_SCRIPT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <CRAFT class="craft" reference_name="Piracy" reference_style="copy">
+      <NAME>Mind Control</NAME>
+      <TYPENAME>Mind Control CTW</TYPENAME>
+      <CODETAG/>
+      <SPELL_FLAGS>g6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>abflny</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <SCRIPT_FLAGS>de</SCRIPT_FLAGS>
+      <SCRIPT_FILE>mind_control_ctw.bhs</SCRIPT_FILE>
+      <XP>0</XP>
+      <RESEARCH_COST> </RESEARCH_COST>
+      <COST/>
+      <TIME>44</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>1 maximum number of units that captured at one time</DATA0>
+      <DATA1>2 Shots for small units</DATA1>
+      <DATA2>3 Shots for medium units</DATA2>
+      <DATA3>4 Shots for large units</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>5</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>4</ANIM>
+      <GRAPH>CHARM</GRAPH>
+      <HELP>CHARM</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Farsight 4" reference_style="copy">
+      <NAME>Star Blast</NAME>
+      <TYPENAME>Farsight CTW</TYPENAME>
+      <SPELL_FLAGS>fnz6</SPELL_FLAGS>
+      <SPELL_FLAGS2>dy</SPELL_FLAGS2>
+      <TARGET_FLAGS>codfnpy</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <XP>1</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>0</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>9</RADIUS>
+      <DAMAGE>12xyz</DAMAGE>
+      <PROJ_SPEED>-1</PROJ_SPEED>
+      <DATA0>Farsight Spell Unit</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>FARSIGHT1</GRAPH>
+      <GRAFT>Farsight</GRAFT>
+      <HELP>FARSIGHT</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Power Surge</NAME>
+      <TYPENAME>Power Surge</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>250</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>250 energy</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>GAMBLE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Planetoid" reference_style="copy">
+      <NAME>Build Camp</NAME>
+      <TYPENAME>Build Camp</TYPENAME>
+      <SPELL_FLAGS>e6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>2d</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>9999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Camp</DATA0>
+      <DATA1>1 Do construction? (0 N and 1 Y)</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>5</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>MAKETOTEM</GRAPH>
+      <GRAFT>Make Totem</GRAFT>
+      <HELP>MAKETOTEM</HELP>
+    </CRAFT>
+    <!--Cuotl Campaign-only Units-->
+    <UNIT class="units" reference_name="Fallen Sentinel" reference_style="copy">
+      <NAME>Fallen Sentinels</NAME>
+      <TYPENAME>CTW Fallen Sentinel</TYPENAME>
+      <ICONGRAFT>Fallen Sentinel</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Jaguar" reference_style="copy">
+      <NAME>Fallen Jaguar</NAME>
+      <TYPENAME>CTW Fallen Jaguar</TYPENAME>
+      <ICONGRAFT>Fallen Jaguar</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Snake" reference_style="copy">
+      <NAME>Fallen Snake</NAME>
+      <TYPENAME>CTW Fallen Snake</TYPENAME>
+      <ICONGRAFT>Fallen Snake</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Idol" reference_style="copy">
+      <NAME>Fallen Idol</NAME>
+      <TYPENAME>CTW Fallen Idol</TYPENAME>
+      <ICONGRAFT>Fallen Idol</ICONGRAFT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Heretic" reference_style="copy">
+      <NAME>Fallen Warriors</NAME>
+      <TYPENAME>CTW Heretic</TYPENAME>
+      <ICONGRAFT>Heretic</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Fallen Priest" reference_style="copy">
+      <NAME>Fallen Priest</NAME>
+      <TYPENAME>CTW Fallen Priest</TYPENAME>
+      <ICONGRAFT>Fallen Priest</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Unholy Ark" reference_style="copy">
+      <NAME>Unholy Ark</NAME>
+      <TYPENAME>CTW Unholy Ark</TYPENAME>
+      <ICONGRAFT>Unholy Ark</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Siege Elephant" reference_style="copy">
+      <NAME>Siege Elephant</NAME>
+      <TYPENAME>CTW Siege Elephant</TYPENAME>
+      <ICONGRAFT>Siege Elephant</ICONGRAFT>
+      <WHERE>CTW Fallen Refuge</WHERE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>Ix, the Moon God (Level 5)</NAME>
+      <SHORT>Ix</SHORT>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>1khq35j</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75e/75m</COST>
+      <RAMP_COST>150e/150m ramp</RAMP_COST>
+      <TIME>1200</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>12v2n3</TRAMPLE>
+      <SPIKY>39</SPIKY>
+      <SPLAT>8n1,4,100,100,1</SPLAT>
+      <GM>11d</GM>
+      <GA>4pth1n5,6,100,100,10,40</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>4pth1n5,6,100,100,10,40</AA>
+      <AR>0-0</AR>
+      <BA>8</BA>
+      <BR>0-2</BR>
+      <HITS>2500</HITS>
+      <WOUNDS>1300</WOUNDS>
+      <SHIELD>1000</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>26</TURN_SPEED>
+      <PROJ_SPEED>1000</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2400</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>Giacomo, the Moon God</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>Ix, the Moon God 5</TYPENAME>
+      <HELP>MOONGOD</HELP>
+      <GRAPH>MOONGOD</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>High Priest</NAME>
+      <SHORT/>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>FW</OBJ_MASK>
+      <FLAGS>kg3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>33</MOVES>
+      <FAST>54</FAST>
+      <COST>45w</COST>
+      <RAMP_COST>3w ramp</RAMP_COST>
+      <TIME>400</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>12</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>5cqs3</GA>
+      <GR>0-14</GR>
+      <AM>0</AM>
+      <AA>11cqs6</AA>
+      <AR>0-14</AR>
+      <BA>1.2</BA>
+      <BR>0-14</BR>
+      <HITS>175</HITS>
+      <WOUNDS>100</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>L</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>45</TURN_SPEED>
+      <PROJ_SPEED>900</PROJ_SPEED>
+      <POP>2</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>2</CARRY_SIZE>
+      <FLOAT_HEIGHT>50</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>4</BLOCK_RADIUS>
+      <SPACING>5</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>4</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>High Priest</TYPENAME>
+      <HELP>HIGHPRIEST</HELP>
+      <GRAPH>HIGHPRIEST</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>Moon Gorilla</NAME>
+      <SHORT/>
+      <CAT>Vehicle</CAT>
+      <OBJ_MASK>VW</OBJ_MASK>
+      <FLAGS>3kyq</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>70</MOVES>
+      <FAST>100</FAST>
+      <COST>45w</COST>
+      <RAMP_COST>3w ramp</RAMP_COST>
+      <TIME>400</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>15v4n2j</TRAMPLE>
+      <SPIKY>150</SPIKY>
+      <SPLAT>45n2,12,100,100,1</SPLAT>
+      <GM>15n2, 8, 100, 25, 5, 45</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-14</AR>
+      <BA>17gu6</BA>
+      <BR>0-2</BR>
+      <HITS>3000</HITS>
+      <WOUNDS>1500</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>5</TURN_SPEED>
+      <PROJ_SPEED>300</PROJ_SPEED>
+      <POP>10</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>-1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>12</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <TYPENAME>Ship Guardian</TYPENAME>
+      <HELP>DISHGUARDIAN</HELP>
+      <GRAPH>GORILLA_BOSS</GRAPH>
+    </UNIT>
+    <!--Cuotl Campaign-only Buildings-->
+    <CRAFT class="craft" reference_name="Purify" reference_style="copy">
+      <NAME>Purify</NAME>
+      <TYPENAME>Purify High</TYPENAME>
+      <SPELL_FLAGS>jwg</SPELL_FLAGS>
+      <TARGET_FLAGS>abdenquhp</TARGET_FLAGS>
+      <TIME>14</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>16</SPELL_RANGE>
+      <RADIUS>6</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>200 hit points healed immediately</DATA0>
+      <DATA1>0% incoming damage reduced by this amount</DATA1>
+      <DATA2>0% attack increase</DATA2>
+      <DATA3>0% speed increase</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Purify</GRAFT>
+      <GRAPH>AUGMENTATION</GRAPH>
+      <ICONGRAFT>Augmentation</ICONGRAFT>
+      <HELP>PURIFY</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Soul Burn" reference_style="copy">
+      <NAME>Soul Burn</NAME>
+      <TYPENAME>Soul Burn High</TYPENAME>
+      <SPELL_FLAGS>glm</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abfply</TARGET_FLAGS>
+      <TIME>21</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>20;40;60;80;100</DURATION>
+      <COOLDOWN>150</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>2;3;4;5;6</RADIUS>
+      <DAMAGE>1xyv5h1;1xyv8h1;1xyv11h1;1xyv14h1;1xyv20h1</DAMAGE>
+      <DATA0>0 mana drained per HP damage</DATA0>
+      <DATA1>0 hp taken (Small Unit)</DATA1>
+      <DATA2>0 hp taken (Medium Unit)</DATA2>
+      <DATA3>0 hp taken (Large Unit)</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>0</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Soul Burn</GRAFT>
+      <GRAPH>SOULBURN</GRAPH>
+      <ICONGRAFT>Soul Burn</ICONGRAFT>
+      <HELP>SOULBURN</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Blinding Armor" reference_style="copy">
+      <NAME>Blinding Armor</NAME>
+      <TYPENAME>Blinding Armor High</TYPENAME>
+      <SPELL_FLAGS>yg2</SPELL_FLAGS>
+      <SPELL_FLAGS2>fx</SPELL_FLAGS2>
+      <TARGET_FLAGS>abdenqp</TARGET_FLAGS>
+      <TIME>21</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>10;15;20;25;30</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>6;7;8;9;10 radius</RADIUS>
+      <DATA0>25;33;50;66 % to reduce damage</DATA0>
+      <DATA1>60 Frames to reach blindness</DATA1>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5</TEX_ID>
+      <TEX_COL>3</TEX_COL>
+      <TEX_ROW>3</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>1</ANIM>
+      <GRAFT>Blinding Armor</GRAFT>
+      <GRAPH>BLINDING_ARMOR</GRAPH>
+      <ICONGRAFT>Blinding Armor</ICONGRAFT>
+      <HELP>BLINDING_ARMOR</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Lightning" reference_style="copy">
+      <NAME>Lightning Blast</NAME>
+      <TYPENAME>Lightning Blast High</TYPENAME>
+      <SPELL_FLAGS>jglmj</SPELL_FLAGS>
+      <SPELL_FLAGS2>x</SPELL_FLAGS2>
+      <TARGET_FLAGS>abcdfnqpy</TARGET_FLAGS>
+      <TIME>28</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>0</DURATION>
+      <COOLDOWN>210</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4;5;6;7;8</RADIUS>
+      <DAMAGE>100xy,12,100,100,1;50xy,16,100,100,1;75xy,20,100,100,1;150xy,24,100,100,1;400xy,28,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>High Priest</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L5 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>1</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAFT>Lightning</GRAFT>
+      <GRAPH>LIGHTNINGSTRIKE</GRAPH>
+      <ICONGRAFT>Lightning</ICONGRAFT>
+      <HELP>LIGHTNINGSTRIKE</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Ship Guardian</NAME>
+      <TYPENAME>Summon Ship Guardian</TYPENAME>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Ship Guardian</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <ICONGRAFT>Ship Guardian</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk" reference_style="copy">
+      <NAME>Alin Blessing</NAME>
+      <TYPENAME>Alin Blessing</TYPENAME>
+      <DURATION>-1</DURATION>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAPH>None</GRAPH>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="copy">
+      <NAME>Vinci Blessing</NAME>
+      <TYPENAME>Vinci Blessing</TYPENAME>
+      <DURATION>-1</DURATION>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAPH>None</GRAPH>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <HELP>NYI</HELP>
+    </CRAFT>
+    <!--Cuotl Custom Buildings-->
+    <BUILDING class="builds" reference_name="Fane" reference_style="copy">
+      <NAME>Fallen Refuge</NAME>
+      <TYPENAME>CTW Fallen Refuge</TYPENAME>
+      <GRAPH>Heretic_Hideaway</GRAPH>
+      <ICONGRAFT>Heretic Hideaway</ICONGRAFT>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Great Temple" reference_style="copy">
+      <NAME>Spaceship</NAME>
+      <TYPENAME>Spaceship</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Sun Temple</NAME>
+      <INCOME>100e/100w</INCOME>
+      <POP_CAP>50</POP_CAP>
+      <COMMERCE_CAP>100</COMMERCE_CAP>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Sun Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple</GRAPH>
+      <HELP>SUNTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Rain Temple</NAME>
+      <INCOME>100e/100w</INCOME>
+      <POP_CAP>50</POP_CAP>
+      <COMMERCE_CAP>100</COMMERCE_CAP>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Rain Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple Storm</GRAPH>
+      <HELP>STORMTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Moon Temple" reference_style="copy">
+      <NAME>Death Temple</NAME>
+      <HITS>2000</HITS>
+      <STORM>60</STORM>
+      <SHIELD>0</SHIELD>
+      <TYPENAME>Death Temple</TYPENAME>
+      <GRAPH>Cuotl God Temple Moon</GRAPH>
+      <HELP>DEATHTEMPLE</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Obelisk" reference_style="copy">
+      <NAME>Cuotl Fort</NAME>
+      <TYPENAME>Cuotl Fort</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver A" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut A</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver B" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut B</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver C" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut C</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver D" reference_style="copy">
+      <NAME>Hut</NAME>
+      <TYPENAME>Hut D</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 1</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield 1</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 1st</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 2</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield 2</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 2nd</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate Shield 3</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate Shield3</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate Shield 3rd</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Gate</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Gate</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Gate</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Center</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>30</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Center</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Center</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Entrance</NAME>
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>48,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Entrance</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Entrance</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Power Node</NAME>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>ean</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>5000</HITS>
+      <STORM>60</STORM>
+      <PUSH>0</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>1500, 25</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Power Node</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Powernode</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="new">
+      <NAME>Dish Turret</NAME>
+      <OBJ_MASKS>XHL</OBJ_MASKS>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>200m</COST>
+      <PURCHASE_COST>175w/175e</PURCHASE_COST>
+      <RAMP_COST>50w/50e</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>50</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>500</TIME>
+      <HITS>2500</HITS>
+      <STORM>60</STORM>
+      <PUSH>48,2</PUSH>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>15n1,4,100,100,2</GA>
+      <BA>15</BA>
+      <AA>15</AA>
+      <RANGE>0-16rng</RANGE>
+      <MOST_SHOTS>1</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <X_SIZE>2</X_SIZE>
+      <Y_SIZE>2</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>12</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>500, 25</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <TYPENAME>Dish Turret</TYPENAME>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>none</GRAFT>
+      <FROM>none</FROM>
+      <GRAPH>Cuotl Dish Turret</GRAPH>
+      <HELP>NYI</HELP>
+    </BUILDING>
+  </TYPES>
+</ROOT>

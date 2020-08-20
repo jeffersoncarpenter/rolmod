@@ -1,0 +1,769 @@
+<?xml version="1.0"?>
+<ROOT name="CTWCuotlRules" loc_name="CTWCuotlRules">
+  <TRIBES base_tribe="none">
+    <NEEDS_TRIBE>CTWHeroes</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <UNIT class="units" reference_name="Sentinel" reference_style="replace">
+      <FLAGS>g3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Guardian" reference_style="replace">
+      <FLAGS>g3</FLAGS>
+      <FROM>Sentinel</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Defender" reference_style="replace">
+      <FLAGS>g3</FLAGS>
+      <FROM>Guardian</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Sun Jaguar" reference_style="replace">
+      <FLAGS>tyu3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Veteran Sun Jaguar" reference_style="replace">
+      <FLAGS>tyu3</FLAGS>
+      <FROM>Sun Jaguar</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Sun Jaguar" reference_style="replace">
+      <FLAGS>tyu3</FLAGS>
+      <FROM>Veteran Sun Jaguar</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Death Snake" reference_style="replace">
+      <FLAGS>y3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Death Snake" reference_style="replace">
+      <FLAGS>y3</FLAGS>
+      <FROM>Death Snake</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Storm Disk" reference_style="replace">
+      <FLAGS>fy3t</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Storm Disk" reference_style="replace">
+      <FLAGS>fy3t</FLAGS>
+      <FROM>Storm Disk</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Storm Eagle" reference_style="replace">
+      <FLAGS>y3tf</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Greater Idol" reference_style="replace">
+      <FLAGS>3yq</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Greater Idol" reference_style="replace">
+      <FLAGS>3yq</FLAGS>
+      <FROM>Greater Idol</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Scout Eye" reference_style="replace">
+      <FLAGS>fy3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Blazing Scout Eye" reference_style="replace">
+      <FLAGS>fy3</FLAGS>
+      <FROM>Scout Eye</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Quetzal" reference_style="replace">
+      <FLAGS>y3f</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Veteran Quetzal" reference_style="replace">
+      <FLAGS>y3f</FLAGS>
+      <FROM>Quetzal</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Quetzal" reference_style="replace">
+      <FLAGS>y3f</FLAGS>
+      <FROM>Veteran Quetzal</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Sun Cannon" reference_style="replace">
+      <FLAGS>yr3</FLAGS>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Elite Sun Cannon" reference_style="replace">
+      <FLAGS>yr3</FLAGS>
+      <FROM>Sun Cannon</FROM>
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+    </UNIT>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Adromolek, the Dark Prince L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Battaglion, the Siege General" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, the Moon God" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, the Moon God L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, the Moon God L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, the Moon God L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, the Moon God L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Yontash, the Spiritchief" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Yontash, the Spiritchief L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Yontash, the Spiritchief L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Yontash, the Spiritchief L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Yontash, the Spiritchief L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted 5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+      <HELP>LENORACUOTL</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L2" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 3" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 4" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame upgrade 5" reference_style="replace">
+      <COST>100e/100m</COST>
+      <RAMP_COST>150e/150m, 0e/0m</RAMP_COST>
+    </UNIT>
+    <UNIT class="units" reference_name="Cuotl Master Unit" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Sanctuary" reference_style="replace">
+      <PREQ0>None</PREQ0>
+      <PREQ1>None</PREQ1>
+      <HELP>SANCTUARYCTW</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Temple" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </BUILDING>
+    <CRAFT class="craft" reference_name="Burning Beams" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sun Blast" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Hurricane" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Lightning Jump" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Death Grip" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Death Gate" reference_style="replace">
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="replace">
+      <SPELL_FLAGS>m2gw</SPELL_FLAGS>
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 2" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 3" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Scimitars 4" reference_style="replace">
+      <SPELL_FLAGS>m2a6gw</SPELL_FLAGS>
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison 2" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison 3" reference_style="replace">
+      <TARGET_FLAGS>abdfnqrhyp</TARGET_FLAGS>
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon GSpiders 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon GSpiders 4" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Desert Walk 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm 2" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sandstorm 3" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 5" reference_style="replace">
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Dust Devils 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Dust Devils 4" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Salamanders 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath 3" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Wrath 4" reference_style="replace">
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burning Cloud" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burning Cloud 2" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Augmentation 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 3" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast 4" reference_style="replace">
+      <TARGET_FLAGS>pdbfy</TARGET_FLAGS>
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Demolition 5" reference_style="replace">
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Invincible Armor" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Ultra Super Armor" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost" reference_style="replace">
+      <XP>0</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 2" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 3" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Boost 4" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy" reference_style="replace">
+      <XP>20</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 3" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Piracy 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast" reference_style="replace">
+      <XP>30</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast 4" reference_style="replace">
+      <XP>60</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sky Blast 5" reference_style="replace">
+      <XP>90</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cluster Bomb 4" reference_style="replace">
+      <XP>40</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cluster Bomb 5" reference_style="replace">
+      <XP>80</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Web" reference_style="replace">
+      <XP>10</XP>
+      <PREQ0>None</PREQ0>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Cease Fire" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaHeal" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="InstaProduction" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Allies" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Treachery" reference_style="replace">
+      <COOLDOWN>120</COOLDOWN>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Plunder Venza" reference_style="replace">
+      <HELP>VENZA_PLUNDERC</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Plunder Venza 2" reference_style="replace">
+      <HELP>VENZA_PLUNDERC2</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Plunder Venza 3" reference_style="replace">
+      <HELP>VENZA_PLUNDERC3</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Plunder Venza 4" reference_style="replace">
+      <HELP>VENZA_PLUNDERC4</HELP>
+    </CRAFT>
+  </TYPES>
+</ROOT>

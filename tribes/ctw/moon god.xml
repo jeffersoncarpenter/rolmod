@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<ROOT name="Moon God" loc_name="Moon God" diplo_icon_string="Kakoolha, King of the Cuotl">
+  <TRIBES base_tribe="Cuotl">
+    <NEEDS_TRIBE>CTWCuotlRules</NEEDS_TRIBE>
+    <NEEDS_TRIBE>CTWCuotl</NEEDS_TRIBE>
+    <NEEDS_TRIBE>CTWHeroes</NEEDS_TRIBE>
+    <NEEDS_TRIBE>CTWBonuses</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Kakoolha</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>x</CITY>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="large city">
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="defender">
+      <UNIT num="1" type="sun jaguar"/>
+      <UNIT num="1" type="death snake"/>
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl palace district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="6" type="research points"/>
+    </START>
+    <START name="deathmatch">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="10000" type="timonium"/>
+      <RESOURCE num="5000" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="guild district">
+      <UNIT num="1" type="holy ark"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="Sanctuary District"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="military district">
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl military district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="merchant district">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl merchant district"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Sun Jaguar"/>
+      <UNIT num="1" type="Death Snake"/>
+      <UNIT num="5" type="Citizen"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="energy"/>
+      <RESOURCE num="1" type="research points"/>
+    </START>
+    <START name="rax start">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="temple"/>
+    </START>
+    <START name="tower start">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <BUILDING num="1" type="obelisk"/>
+    </START>
+    <START name="x2 all">
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 all">
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 all">
+      <UNIT num="4" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 resources">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="energy"/>
+      <RESOURCE num="2" type="research points"/>
+    </START>
+    <START name="x3 resources">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="energy"/>
+      <RESOURCE num="3" type="research points"/>
+    </START>
+    <START name="x5 resources">
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="energy"/>
+      <RESOURCE num="5" type="research points"/>
+    </START>
+    <START name="x2 troops">
+      <UNIT num="1" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x3 troops">
+      <UNIT num="2" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+    <START name="x5 troops">
+      <UNIT num="4" type="Sentinel"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="fane"/>
+      <BUILDING num="1" type="cuotl mine"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <!--Standard ProdAI Armies-->
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Nomad Army">
+      <NEED>Scout Eye</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Death Snake</NEED>
+    </ARMY>
+    <ARMY name="Air Army">
+      <NEED percent="95">Storm Disk</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED percent="5">Scout Eye</NEED>
+      <WANT>Storm Disk</WANT>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Sun Jaguar</NEED>
+      <NEED percent="20">Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED percent="20">Death Snake</NEED>
+      <NEED percent="20">Death Snake</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Greater Idol</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore" retreat_health="-1" retreat_units="-1">
+      <WANT>Scout Eye</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0">
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+    </ARMY>
+    <ARMY name="Energy Only Army">
+      <NEED>Scout Eye</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <NEED>Storm Eagle</NEED>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Energy Gathering Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Storm Eagle</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack">
+      <NEED>Sentinel</NEED>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED>Hero</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED>Sentinel</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <WANT>Storm Disk</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Greater Idol</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Death Sphere</NEED>
+      <NEED>Death Snake</NEED>
+      <NEED>Storm Disk</NEED>
+      <NEED>Greater Idol</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Holy Ark</WANT>
+      <WANT>Death Snake</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Death Snake</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Holy Ark</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large">
+      <NEED>Sentinel</NEED>
+      <NEED>Sentinel</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <NEED>Sun Jaguar</NEED>
+      <WANT>Sentinel</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+    </ARMY>
+    <!--Scenario Specific Armies-->
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <PRODAI_SCRIPT>Cuotl.bhs</PRODAI_SCRIPT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <UNIT class="units" reference_name="Condottieri Soldier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Grunt" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Burn" reference_style="remove"/>
+    <UNIT class="units" reference_name="Magus Stun" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dark Walker" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dune Walker" reference_style="remove"/>
+    <UNIT class="units" reference_name="Fallen Sentinel" reference_style="remove"/>
+    <UNIT class="units" reference_name="Renegade Musketeer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Base Giacomo CTW" reference_style="remove"/>
+    <UNIT class="units" reference_name="Base Xil" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Xil, the Sun God L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mirror Xil 5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Czin, God of Death L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Shok, Goddess of storm L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Holy Ark" reference_style="own"/>
+    <UNIT class="units" reference_name="Holy Ark Spawned 2" reference_style="own"/>
+    <UNIT class="units" reference_name="Holy Ark Spawned 3" reference_style="own"/>
+    <UNIT class="units" reference_name="Holy Ark Spawned 4" reference_style="own"/>
+    <UNIT class="units" reference_name="Holy Ark Spawned 5" reference_style="own"/>
+    <UNIT class="units" reference_name="BaseShieldUnit" reference_style="own"/>
+    <UNIT class="units" reference_name="BaseCloakUnit" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dakhla, the Sand Warden L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Damanhur, the Desert Flame L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider" reference_style="remove"/>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Pulitore, the Chicken Rider L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter" reference_style="remove"/>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Arri, the Glass Hunter L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert" reference_style="remove"/>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Belisari, Queen of the Desert L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Battaglion, the Siege General" reference_style="remove"/>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Battaglion, the Siege General L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy" reference_style="remove"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Venza, Lieutenant of Miana L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Kakoolha, King of the Cuotl L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sentinel" reference_style="remove"/>
+    <UNIT class="units" reference_name="Guardian" reference_style="remove"/>
+    <UNIT class="units" reference_name="Defender" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Veteran Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Sun Jaguar" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Death Snake" reference_style="remove"/>
+    <UNIT class="units" reference_name="Scout Eye" reference_style="remove"/>
+    <UNIT class="units" reference_name="Blazing Scout Eye" reference_style="remove"/>
+    <UNIT class="units" reference_name="Greater Idol" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Greater Idol" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Eagle" reference_style="remove"/>
+    <UNIT class="units" reference_name="Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Storm Disk" reference_style="remove"/>
+    <UNIT class="units" reference_name="Death Sphere" reference_style="remove"/>
+    <UNIT class="units" reference_name="Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Veteran Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Quetzal" reference_style="remove"/>
+    <UNIT class="units" reference_name="Elite Sun Cannon" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <UNIT class="units" reference_name="Cuotl Master Unit" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dark Walker" reference_style="own"/>
+    <UNIT class="units" reference_name="Cuotl Master Unit 2" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Fane" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Temple" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Sanctuary" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Obelisk" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Lesser Idol Build" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Idol Build" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Greater Idol Build" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Great Temple" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Heretic Hideaway" reference_style="remove"/>
+    <BONUSES class="other" reference_name="Groundshot Upgrade Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Groundshot Upgrade Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Groundshot Upgrade Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Flyer Upgrade Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Flyer Upgrade Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Flyer Upgrade Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Dark Well Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Dark Well Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Desert Strength Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Desert Strength Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Desert Strength Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Improved Mortar Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Improved Mortar Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Improved Mortar Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Scope Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Scope Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Scope Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio GA Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio AA Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio BA Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio Hits Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio GA Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio AA Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio BA Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Distruzio Hits Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Heretic Trample Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Heretic Trample Bonus 4" reference_style="own"/>
+    <BONUSES class="other" reference_name="Moon Curse Bonus" reference_style="own"/>
+    <BONUSES class="other" reference_name="Moon Curse Bonus 3" reference_style="own"/>
+    <BONUSES class="other" reference_name="Moon Curse Bonus 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="DestructionDragon" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Healing Power Dragon" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Fury" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Fury 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Pulitore's Protection 1" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Pulitore's Protection 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Pulitore's Protection 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Pulitore's Protection 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Pulitore's Protection 5" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Farsight" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Farsight 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Farsight 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Farsight 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Mind Control CTW" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Farsight CTW" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Power Surge" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Build Camp" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Obelisk Laser" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Shard" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Shard 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Shard 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Shard 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Rupture" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Rupture 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Rupture 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Glass Cannon" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Glass Cannon 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Glass Cannon 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dark Well" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dark Well 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Charge" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Fire Charge 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Charge 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Charge 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Blink Strike" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Blink Strike 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Blink Strike 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Rukh" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Rukh 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Rukh 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Blast" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Fire Blast 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Siege Shot" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Siege Shot 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Siege Shot 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Siege Shot 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Grapeshot" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Grapeshot 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Grapeshot 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Improved Mortar" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Improved Mortar 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Improved Mortar 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Timonium Shot" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Timonium Shot 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sands of Regeneration" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Sands of Regeneration 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sands of Regeneration 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sands of Regeneration 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Call of the Manta" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Call of the Manta 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Call of the Manta 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Strength" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Strength 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Strength 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Shifting Sands" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Shifting Sands 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Snipe" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Snipe 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Snipe 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Snipe 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Defensive Placement" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Defensive Placement 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Defensive Placement 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Scope Carlini" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Scope Carlini 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Scope Carlini 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heroic Charge" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heroic Charge 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Purify" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Purify 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Purify 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Purify 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mirror Image Giacomo" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mirror Image Giacomo 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mirror Image Giacomo 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Moon Curse" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Moon Curse 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Moon Curse 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Lunar Beam" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Lunar Beam 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Stomp" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Stomp 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Stomp 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Stomp 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Laser Burst" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Laser Burst 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Laser Burst 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dispersal Field" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dispersal Field 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dispersal Field 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heretic Trample" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heretic Trample 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Pulitore Gas" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Pulitore Gas 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Pulitore Gas 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Pulitore Gas 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Groundshot Upgrade" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Groundshot Upgrade 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Groundshot Upgrade 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Poison Charge" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Poison Charge 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Poison Charge 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Deadly Poison" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Deadly Poison 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Plunder Venza" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Plunder Venza 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Plunder Venza 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Plunder Venza 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Flyer Upgrade" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Flyer Upgrade 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Flyer Upgrade 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Launch Gun Drones" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Launch Gun Drones 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Launch Gun Drones 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Signal Tank Blimp" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Signal Tank Blimp 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Silence" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Silence 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Silence 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Silence 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Life Sap" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Life Sap 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Life Sap 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Reincarnation" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Reincarnation 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Reincarnation 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Yontash Tear Wounds" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Yontash Tear Wounds 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Walk" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Desert Walk 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Walk 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Desert Walk 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sandstorm" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sandstorm 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sandstorm 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Sand Horror" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Sand Horror 5" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dust Devils 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Dust Devils 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mass Immolation" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Mass Immolation 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mass Immolation 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Mass Immolation 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Salamanders" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Salamanders 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Salamanders 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Wrath" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Wrath 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Wrath 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Burning Cloud" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Burning Cloud 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Boost" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Boost 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Boost 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Boost 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Piracy" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Piracy 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Piracy 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sky Blast" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sky Blast 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sky Blast 5" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Cluster Bomb 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Cluster Bomb 5" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Augmentation" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Augmentation 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Augmentation 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Augmentation 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sonic Blast 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Sonic Blast 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Demolition" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Demolition 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Demolition 5" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Invincible Armor" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Ultra Super Armor" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 1" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 2a" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 3a" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Army Part 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Scimitars" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Glass Scimitars 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Scimitars 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Scimitars 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Marids 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Marids 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Prison" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Prison 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Prison 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Glass Dragon 1" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon Glass Dragon 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon GSpiders 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Summon GSpiders 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Damage Grenade" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Damage Grenade 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Damage Grenade 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Damage Grenade 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heal Grenade" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heal Grenade 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Heal Grenade 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Clockwork Summon Distruzio" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Clockwork Summon Distruzio 3" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Clockwork Summon Distruzio 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Random Improvement" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Random Improvement 4" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Web" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Glass Web 2" reference_style="remove"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Enemies" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Enemies 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Enemies 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Enemies 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Enemies" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Enemies 2" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Enemies 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Enemies 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Friendlies" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Friendlies 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade Friendlies 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Friendlies" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Friendlies 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade Friendlies 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Miners" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Men" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Spider" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Miners 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Men 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Spider 3" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Miners 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Men 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Construct Clockwork Spider 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio GA" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio AA" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio BA" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio Hits" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio GA 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio AA 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio BA 4" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Distruzio Hits 4" reference_style="own"/>
+    <!--Removing Spells to replace with research friendly versions-->
+  </TYPES>
+</ROOT>

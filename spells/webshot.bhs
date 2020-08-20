@@ -1,0 +1,81 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Web Shot";  
+}
+
+//==============================================================================
+int game_callback spell_cast_location (Object the_caster, int x, int y)
+{
+  UnitGroup target_units;
+  BuildGroup target_builds;
+  Leader the_leader = get_object_leader(the_caster);
+  
+  SpellType upgraded_type = get_current_spell_type_upgrade(spell_type, the_leader);
+  
+  int scan;
+  int group_size = 0;
+  int include_neutral = true;  
+  int duration = get_spell_type_duration(upgraded_type, the_leader); 
+  
+  //get_spell_type_targets(upgraded_type, the_caster, x, y, target_units, target_builds);
+  //enemy_units = get_units_enemy (x, y, radius, the_leader, include_neutral);
+  target_units = get_spell_type_target_units(upgraded_type, the_caster, x, y);
+  group_size = unit_group_length(target_units);
+  for (scan = 0; scan < group_size; scan++) {
+    Unit the_unit = unit_at_index(target_units, scan);
+    Object the_object = get_unit_object(the_unit);
+    give_object_buff(the_caster, the_object, upgraded_type, duration);
+  }
+
+//  enemy_builds = get_buildings_enemy (x, y, radius, the_leader, include_neutral);
+  target_builds = get_spell_type_target_builds(upgraded_type, the_caster, x, y);
+  group_size = build_group_length(target_builds);
+  for (scan = 0; scan < group_size; scan++) {
+    Build the_build = building_at_index(target_builds, scan);
+    
+    if (is_city_core(the_build)) continue; 
+    
+    Object the_object = get_build_object(the_build);
+    give_object_buff(the_caster, the_object, upgraded_type, duration);   
+  }
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_cast_object (Object the_caster, Object the_target)
+{
+  //int x = get_object_x(the_target);
+  //int y = get_object_y(the_target);
+  
+  //return spell_cast_location(the_caster, x, y);
+  
+  Leader      the_leader     = get_object_leader(the_caster);
+  SpellType   upgraded_type  = get_current_spell_type_upgrade(spell_type, the_leader);
+  int         duration        = get_spell_type_duration(upgraded_type, the_leader);
+  
+  give_object_buff(the_caster, the_target, upgraded_type, duration);
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_process_buff (Object the_target, Spell the_buff)
+{
+  if (wait_one_second(the_target)) {
+    if (valid_unit(the_target)) {
+      Unit the_unit = get_object_unit(the_target);
+      if (unit_is_captain(the_unit)) {
+        spell_cast_damage_object(the_buff, the_target);
+      }
+    } else {
+      spell_cast_damage_object(the_buff, the_target);
+    } 
+  }    
+  
+  return SPELL_RUNNING;
+}

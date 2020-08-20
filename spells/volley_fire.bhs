@@ -1,0 +1,26 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Volley Fire";  
+}
+
+//==============================================================================
+int game_callback spell_cast_object (Object the_caster, Object the_target)
+{
+  Leader the_leader = get_object_leader(the_target);
+  
+  int duration = get_spell_type_duration(spell_type, the_leader);
+
+  give_object_buff(the_caster, the_target, spell_type, duration);
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_cast_location (Object the_caster, int x, int y)
+{
+  return spell_cast_object(the_caster, the_caster); // Since we cast it on ourselves it comes in here first
+}

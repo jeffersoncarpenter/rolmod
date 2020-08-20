@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+	<TIPS num="39">
+		<ENTRY name="T0">
+			<STRING>
+				<TEXTURE texture="Research Lab" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Points}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The Vinci gain #ICON3 Research Points by building Research Labs (click the Build button and then click Research Lab).</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T1">
+			<STRING>
+				<TEXTURE texture="Telescope" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Borehole" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Calculator" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Doge Statue" category="BUILDINGS" tex_type="BUTTON" x="166" y="20"/>
+				<TEXTURE texture="Timonium Smelter" category="BUILDINGS" tex_type="BUTTON" x="218" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Points}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Research Labs can also be upgraded into unique Vinci buildings, providing even more #ICON3 Research Points.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T2">
+			<STRING>
+				<TEXTURE texture="Research Lab" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Borehole" category="BUILDINGS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Calculator" category="BUILDINGS" tex_type="BUTTON" x="124" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Points}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>If you have built and/or upgraded Research Labs, you can locate them (and cycle between them) by pressing SHIFT + L.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T3">
+			<STRING>
+				<TEXTURE texture="Trade Mission" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="prototype_button" category="UIMAIN" tex_type="UITEX" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4The Prototype Factory}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>In addition to normal research, the Vinci start the game with a unique building called the Prototype Factory.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Earning Prototypes}: You can earn trips to the Prototype Factory by adding Industrial Districts to your Cities.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T4">
+			<STRING>
+				<TEXTURE texture="prototype_button" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4The Prototype Factory}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Researching Prototypes}: To see what prototypes are available for research, click the Prototype Factory button (the purple button next to the research button) or press the K key.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T5">
+			<STRING>
+				<TEXTURE texture="workshop" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<TEXTURE texture="Tougher Miners" category="TECHS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="FreeScout1" category="TECHS" tex_type="BUTTON" x="124" y="20"/>
+				<TEXTURE texture="FreeMiner1" category="TECHS" tex_type="BUTTON" x="176" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4The Prototype Factory}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Prototype Rules}: Three prototypes are available at any given time, but you can only pick one - the other two disappear once you have chosen! Only the final, most advanced level has prototypes which can be researched repeatedly.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T6">
+			<STRING>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="10" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="45" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="80" y="30"/>
+				<TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="115" y="30"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT> When your troops move into enemy territory, they automatically take [attrition] damage and can die. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T7">
+			<STRING>
+				<TEXTURE texture="Dirigible" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Protect your troops from attrition by creating a {Cargo Dirigible} at the Aerodrome.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Keep your {Cargo Dirigible} close to your units while moving in enemy territory. If upgraded, the Dirigible can also be used to transport your units.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T8">
+			<STRING>
+				<TEXTURE texture="Territory 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Scavenge 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Attrition}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Research {Politics} advances to cause attrition damage to your enemies. Research {Scavenge} advances to provide your own troops with additional protection.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T9">
+			<STRING>
+				<TEXTURE texture="Vinci Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Military District}: Increases your Population Cap, increases the City's health, and allows the City to defend itself. Also provides a free Imperial Musketeer unit, plus another for each Palace District you add there. The Population Cap effect is also increased for each Palace District.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T10">
+			<STRING>
+				<TEXTURE texture="Vinci Merchant District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Merchant District}: Increases your Resource Cap, allows you to create an additional Caravan, and increases the #ICON2 Wealth value of all trade routes in your nation. The Resource Cap effect is increased for each Palace District.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T11">
+			<STRING>
+				<TEXTURE texture="Industrial District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Industrial District}: Unique to the Vinci, each Industrial District you add provides you with one new prototype from your Prototype Factory. Industrial Districts also speed up building construction and unit creation; these effects are increased for each Palace District in the City.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T12">
+			<STRING>
+				<TEXTURE texture="Vinci Palace District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci City Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Palace District}: The first Palace District you add converts a City into a Large City; the second makes it a Great City. This makes your City stronger, a more lucrative trade location, and increases the effects of all the City's other districts. The very first Palace District you ever add also makes that City your Capital - and if you lose your Capital you will lose the game.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T13">
+			<STRING>
+				<TEXTURE texture="Territory 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Territory 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Territory 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Territory 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Politics}: Increases your National Borders and causes Attrition damage to enemies in your territory. Also lowers the cost to Purchase neutral sites, and lowers the amount of damage your soldiers take when storming a City or site using the Storm button.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T14">
+			<STRING>
+				<TEXTURE texture="Prosperity 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Prosperity 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Prosperity 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Prosperity 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Prosperity}: Allows your troops to heal themselves while in friendly territory. Also provides a constant income of #ICON2 Wealth on top of your normal trade income.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T15">
+			<STRING>
+				<TEXTURE texture="Scavenge 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Scavenge 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Scavenge 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Scavenge 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Scavenge}: Your troops collect bonus resources whenever they destroy an enemy unit or building. They also receive partial protection from taking Attrition damage in enemy territory.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T16">
+			<STRING>
+				<TEXTURE texture="Mining 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Mining 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Mining 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Mining 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Research Advances}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Mining}: Activates and improves your national power, Industrial Devastation. Also provides a constant income of #ICON1 Timonium on top of your normal mining income.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T17">
+			<STRING>
+				<TEXTURE texture="Giacomo" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Giacomo}: This genius inventor provides a bonus #ICON3 Research Point when he arrives and whenever he levels up; his engineering skills also improve your Clockwork units. His powers include Augmentation which heals your troops and provides a combat bonus, and Sonic Burst which can knock enemies down in a large radius. At higher levels he can create a Demolition Team and protect troops with Super Armor.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T18">
+			<STRING>
+				<TEXTURE texture="The Doge" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{The Doge}: The evil ruler of Venucci increases your unit creation rate, and this effect is enhanced each time he levels up. His knowledge of siege warfare also improves your Steam Cannon and Juggernaut units as well as units created at the Doge Statue. His powers include the effective if unethical Poison Cloud (damage over time to enemy units nearby), the much-feared Pain Ray (severe damage to a single unit), and the Siege Laser for destroying and capturing buildings. His ultimate weapon is the Doge Hammer, which can project an immense explosive shell far away across the map.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T19">
+			<STRING>
+				<TEXTURE texture="Lenora" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Lenora}: The sometime Pirata Captain costs slightly more to summon as do all flying heroines. Her reckless flying skills and superb training regimen increase the range and line-of-sight of your Aerodrome units, and her shady Pirata connections enhance your treasury with an under-the-table #ICON2 Wealth income. Lenora's powers include Boosters to temporarily increase her health and combat power, Piracy to seize control of enemy units, and Sky Burst to blast an enemy air force from the sky. Her ultimate power, Cluster Bomb, will devastate ground units and buildings in a large area.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T20">
+			<STRING>
+				<TEXTURE texture="Giacomo" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="The Doge" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Lenora" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Levels and Powers}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Vinci Hero Bonus}: Unlike Alin and Cuotl heroes, Vinci heroes do not require the use of either Mana or Energy to use their powers!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T21">
+			<STRING>
+				<TEXTURE texture="Giacomo, Inventor of Miana" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Giacomo, Inventor of Miana L2" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Giacomo, Inventor of Miana L3" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Giacomo, Inventor of Miana L4" category="UNITS" tex_type="BUTTON" x="166" y="20"/>
+				<TEXTURE texture="Giacomo, Inventor of Miana L5" category="UNITS" tex_type="BUTTON" x="218" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Levels and Powers}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{How to Level Up}: Vinci heroes level up by [researching] upgrades to their powers. Select your hero and purchase one of the upgrades in the second row of the options grid.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Experience}: The higher the level of the power you purchase or upgrade, the more experience your hero will gain toward his or her next level.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T22">
+			<STRING>
+				<TEXTURE texture="Lenora, Pirata Princess L5" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Hero Levels and Powers}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Benefits of Levels}: Higher level heroes gain more health and combat power. Their characteristic military and economic benefits also increase in power as heroes level up.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T23">
+			<STRING>
+				<TEXTURE texture="Barracks" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Aerodrome" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Steam Fortress" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Vinci Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>In order to create Vinci military units, you will need to build Barracks, Aerodromes and Steam Fortresses. Click the Build button and then select the kind of building you want from the options grid.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T24">
+			<STRING>
+				<TEXTURE texture="Barracks" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Clockwork Man" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+				<TEXTURE texture="Clockwork Spider" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Vinci Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Barracks}: Basic ground units come from the Barracks. Your standard Vinci soldier, the Imperial Musketeer, is a ranged unit with several useful modes. The Clockwork Man has a powerful melee attack, and the Clockwork Spider combines a trample attack with an anti-air weapon. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T25">
+			<STRING>
+				<TEXTURE texture="Aerodrome" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Scout Flyer" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Pirata Flyer" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+				<TEXTURE texture="Air Destroyer" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+				<TEXTURE texture="Dirigible" category="UNITS" tex_type="BUTTON" x="228" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Vinci Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Aerodrome}: The Aerodrome creates Vinci air units, including the upgradeable Scout Flyer, the fast multi-purpose Pirata Flyer, and the powerful Air Destroyer. It also creates Cargo Dirigibles which can transport your troops as well as protecting them from Attrition.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T26">
+			<STRING>
+				<TEXTURE texture="Steam Fortress" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Rocket Launcher" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Juggernaut" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+				<TEXTURE texture="Land Leviathan" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Creating Vinci Armies}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Steam Fortress}: The Steam Fortress combines powerful defensive weaponry with the ability to create the most powerful units. The Steam Cannon can be used to lay siege to enemy cities while your Juggernauts flatten your enemies with trample attacks combined with fire-on-the-move ability. The Land Leviathan is the Vinci [Master Unit], an incredible building-sized killing machine capable of destroying entire armies and cities.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T27">
+			<STRING>
+				<TEXTURE texture="Strip Mine" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci National Power}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The icon in the far upper right of the screen is used to activate your National Power, {Industrial Devastation}.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Damage Units and Buildings}: Industrial Devastation damages and slows enemy units and buildings in a large fixed area for a period of time.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T28">
+			<STRING>
+				<TEXTURE texture="Strip Mine" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Mining 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci National Power}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Activation}: In order to gain access to your National Power, you must research at least one {Mining} advance - that is, from the [bottom] row of advances on your research bar. Researching further Mining advances on the bottom row will upgrade the effect of Industrial Devastation.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T29">
+			<STRING>
+				<TEXTURE texture="national_spell" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Vinci National Power}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Cooldown Period}: Whenever you activate your national power it must cool down for several minutes before you can make use of it again. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T30">
+			<STRING>
+				<TEXTURE texture="Dirigible" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Vinci Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>To transport Vinci units by air, you will need to use {Dirigible} units from your {Aerodrome}.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T31">
+			<STRING>
+				<TEXTURE texture="Dirigible" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Medium Cargo Dirigible" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Improved Dirigible" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Vinci Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Transport Capacity}: Cargo Dirigibles can initially carry only a single small ground unit. To increase transport capacity, you will need to purchase Dirigible upgrades at the Aerodrome; to transport heavy siege units you will need to purchase [all] the upgrades!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T32">
+			<STRING>
+				<TEXTURE texture="OPTION_EMBARK" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="OPTION_DISEMBARK" category="OPTIONS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="OPTION_EJECT_ALL" category="OPTIONS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Transporting Vinci Armies By Air}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{How to Get On}: To load ground units onto a Dirigible, left-click the ground units to select them and then right-click the Dirigible (or, select the Dirigible and right-click a unit you wish to load).</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Where to Get Off}: To disembark units from a Dirigible, left-click the Dirigible and use the Disembark or Eject All buttons in the options grid.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T33">
+			<STRING>
+				<TEXTURE texture="Imperial Musketeer" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Imperial Musketeer Normal Mode" category="SPELLS" tex_type="BUTTON" x="72" y="20"/>
+				<TEXTURE texture="Volley Fire" category="SPELLS" tex_type="BUTTON" x="124" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Imperial Musketeer Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The most numerous unit in your army will often be your soldiers, Imperial Musketeers. These soldiers have several {tactics} available, which can be changed by selecting your Imperial Musketeers and clicking a button from the top row of options. It's important to pick the right tactic for the right situation!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T34">
+			<STRING>
+				<TEXTURE texture="Imperial Musketeer Normal Mode" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Imperial Musketeer Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Fire At Will}: This is the default tactic for your Imperial Musketeers at the beginning of the game, and provides moderate attack and moderate defense.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T35">
+			<STRING>
+				<TEXTURE texture="Volley Fire" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Imperial Musketeer Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Volley Fire}: Using this tactic Imperial Musketeers deliver a great deal more damage, though they take more damage as well if attacked. It's a particularly useful tactic if you outnumber your enemy. Note, however, that soldiers must switch to another tactic in order to move.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T36">
+			<STRING>
+				<TEXTURE texture="Loose Order" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Imperial Musketeer Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Skirmish}: An improved form of Fire At Will which becomes available when you upgrade your soldiers to Imperial Grenadiers. This tactic replaces Fire At Will and allows your Grenadiers to move faster and take less damage.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T37">
+			<STRING>
+				<TEXTURE texture="Plug Bayonets" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Imperial Musketeer Tactics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Assault}: This powerful tactic becomes available when you upgrade to the Imperial Fusilier. The Assault tactic gives up ranged attack for a powerful melee attack and resistance to trample.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T38">
+			<STRING>
+				<TEXTURE texture="Defense Tower" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Defense Towers}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Defense Towers are the primary Vinci defensive building. They can fire at both ground and air units, though they have a dead zone near their base at which they cannot target ground units.</TEXT>
+			</STRING>
+		</ENTRY>
+	</TIPS>
+</ROOT>

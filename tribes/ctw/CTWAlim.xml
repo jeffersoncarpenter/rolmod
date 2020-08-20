@@ -1,0 +1,3633 @@
+<?xml version="1.0"?>
+<ROOT name="CTWAlim" loc_name="CTWAlin" xml:space="preserve">
+  <TRIBES base_tribe="Alim">
+    <NEEDS_TRIBE>CTWHeroes</NEEDS_TRIBE>
+    <NEEDS_TRIBE>CTWVinci</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <!--Alim Campaign-only Units-->
+    <!--Thuran Custom Spells-->
+    <CRAFT class="craft" reference_name="Planetoid" reference_style="copy">
+      <NAME>Build Oasis</NAME>
+      <TYPENAME>build_oasis</TYPENAME>
+      <SPELL_FLAGS>e6z</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>2d</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>9999</SPELL_RANGE>
+      <RADIUS>0</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Oasis</DATA0>
+      <DATA1>1 Do construction? (0 N and 1 Y)</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>none</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>0</TEX_COL>
+      <TEX_ROW>5</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>MAKETOTEM</GRAPH>
+      <GRAFT>Make Totem</GRAFT>
+      <HELP>BUILD_OASIS</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Thuran</NAME>
+      <TYPENAME>summon_thuran</TYPENAME>
+      <SPELL_FLAGS>fnz6</SPELL_FLAGS>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <TARGET_FLAGS>d2</TARGET_FLAGS>
+      <TARGET_FLAGS2/>
+      <XP>1</XP>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>75</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Thuran, the Sky Inferno</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>None</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <HELP>SUMMON_THURAN</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Ancient Caravan</NAME>
+      <TYPENAME>ancient_caravan</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>250</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>ANCIENT_CARAVAN</HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Give Resources" reference_style="copy">
+      <NAME>Desert Courage</NAME>
+      <TYPENAME>desert_courage</TYPENAME>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <XP>1</XP>
+      <SPELL_FLAGS2>d</SPELL_FLAGS2>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <DATA0>250</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <WHERE>none</WHERE>
+      <FROM>none</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <GRAPH>COUNTERFIT</GRAPH>
+      <GRAFT>Give Resources</GRAFT>
+      <HELP>DESERT_COURAGE</HELP>
+    </CRAFT>
+    <UNIT class="units" reference_name="Thuran, the Sky Inferno" reference_style="replace">
+      <GA>24n1,16,100,100,5</GA>
+      <AA>24,12,100,100,5</AA>
+      <HITS>2000</HITS>
+      <WOUNDS>1000</WOUNDS>
+    </UNIT>
+    <UNIT class="units" reference_name="Marid" reference_style="copy">
+      <NAME>Dark Genie</NAME>
+      <TYPENAME>Dark Genie</TYPENAME>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>FR</OBJ_MASK>
+      <FLAGS>k</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>45</MOVES>
+      <FAST>54</FAST>
+      <COST>120w/120e</COST>
+      <RAMP_COST>10w ramp</RAMP_COST>
+      <TIME>400</TIME>
+      <LOS>17</LOS>
+      <MANA>1000</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>36</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>6dm</GM>
+      <GA>8m,2,100,100,3</GA>
+      <GR>0-13</GR>
+      <AM>0</AM>
+      <AA>11m</AA>
+      <AR>0-13</AR>
+      <BA>4.8m</BA>
+      <BR>0-13</BR>
+      <HITS>190</HITS>
+      <WOUNDS>100</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>M</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>25</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>4</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>2</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>4</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>Marid</GRAFT>
+      <HELP>MARID</HELP>
+      <GRAPH>THEBAN</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Sand Horror" reference_style="copy">
+      <NAME>Juvenile Sand Horror</NAME>
+      <TYPENAME>Juvenile Sand Horror</TYPENAME>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>kc</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>60</MOVES>
+      <COST>0</COST>
+      <RAMP_COST>2m ramp</RAMP_COST>
+      <TIME>0</TIME>
+      <LOS>8</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>1</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>2p</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>0</BA>
+      <BR>0-2</BR>
+      <HITS>20</HITS>
+      <WOUNDS>15</WOUNDS>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>80</PROJ_SPEED>
+      <POP>2</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>10</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>0</CREW_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>2</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <HELP>SANDHORROR</HELP>
+      <CODETAG/>
+      <GRAPH>SANDHORRORBABY</GRAPH>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Sand Horror" reference_style="copy">
+      <NAME>Adult Sand Horror</NAME>
+      <TYPENAME>Adult Sand Horror</TYPENAME>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>kc</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>55</MOVES>
+      <COST>0</COST>
+      <RAMP_COST>2m ramp</RAMP_COST>
+      <TIME>0</TIME>
+      <LOS>8</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>1n2</TRAMPLE>
+      <SPIKY>4</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>10p</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>4</BA>
+      <BR>0-2</BR>
+      <HITS>50</HITS>
+      <WOUNDS>40</WOUNDS>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>80</PROJ_SPEED>
+      <POP>2</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>10</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>0</CREW_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>2</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <HELP>SANDHORROR</HELP>
+      <CODETAG/>
+      <GRAPH>SANDHORRORADULT</GRAPH>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Sand Horror" reference_style="copy">
+      <NAME>Elder Sand Horror</NAME>
+      <TYPENAME>Elder Sand Horror</TYPENAME>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>F</OBJ_MASK>
+      <FLAGS>kc</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>45</MOVES>
+      <COST>0</COST>
+      <RAMP_COST>2m ramp</RAMP_COST>
+      <TIME>0</TIME>
+      <LOS>8</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>4n2</TRAMPLE>
+      <SPIKY>8</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>50p</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>12</BA>
+      <BR>0-2</BR>
+      <HITS>1000</HITS>
+      <WOUNDS>750</WOUNDS>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>16</TURN_SPEED>
+      <PROJ_SPEED>80</PROJ_SPEED>
+      <POP>2</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>2</BLOCK_RADIUS>
+      <SPACING>10</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <CREW_SIZE>0</CREW_SIZE>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>2</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <HELP>SANDHORROR</HELP>
+      <CODETAG/>
+      <GRAPH>SANDHORRORELDER</GRAPH>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Holy Ark" reference_style="copy">
+      <NAME>Holy Ark</NAME>
+      <TYPENAME>The Reactor</TYPENAME>
+      <ICONGRAFT>Holy Ark</ICONGRAFT>
+      <CAT>Civilian</CAT>
+      <OBJ_MASK>VA</OBJ_MASK>
+      <FLAGS>kvy3</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Medium</SIZE>
+      <MOVES>25</MOVES>
+      <FAST>50</FAST>
+      <COST>100w/100m</COST>
+      <RAMP_COST>20w/20m ramp</RAMP_COST>
+      <TIME>300</TIME>
+      <LOS>8</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>9</SPIKY>
+      <SPLAT>0</SPLAT>
+      <GM>0</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>0</BA>
+      <BR>0-0</BR>
+      <HITS>1000</HITS>
+      <WOUNDS>500</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>10</TURN_SPEED>
+      <PROJ_SPEED>100</PROJ_SPEED>
+      <POP>1</POP>
+      <RAMP_TIME>0</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>4</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>Large City Tech</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>HOLYARK</HELP>
+      <CODETAG> </CODETAG>
+      <GRAPH>HOLYARK</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Sawu, the Dark Alim" reference_style="copy">
+      <SHORT>Sawu</SHORT>
+      <NAME>Sawu, Lord of Mezekesh</NAME>
+      <TYPENAME>Sawu, Lord of Mezakesh</TYPENAME>
+      <ICONGRAFT>Sawu, the Dark Alim</ICONGRAFT>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1500</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>25</SPIKY>
+      <SPLAT>12n1,4,100,100,1</SPLAT>
+      <GM>20mdn1</GM>
+      <GA>25m,12,100,100,3,40</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>25m,2,100,100,3</AA>
+      <AR>0-16</AR>
+      <BA>8m</BA>
+      <BR>0-16</BR>
+      <HITS>3500</HITS>
+      <WOUNDS>1750</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>Sawu, the Dark Alim L4</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <SPELL_GRAFT>BaseHeroUnit</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>SAWU</HELP>
+      <GRAPH>EFREET</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>Glass Whelp</NAME>
+      <TYPENAME>Glass Whelp</TYPENAME>
+      <ICONGRAFT>Glass Dragon Start</ICONGRAFT>
+      <CAT>Flying</CAT>
+      <OBJ_MASK>3</OBJ_MASK>
+      <FLAGS>lkv</FLAGS>
+      <WHERE>Fire Circle</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>52</MOVES>
+      <FAST>44</FAST>
+      <COST>400m/150w,x2</COST>
+      <RAMP_COST>50m/25w ramp</RAMP_COST>
+      <TIME>700,x5/4</TIME>
+      <LOS>14</LOS>
+      <MANA>0</MANA>
+      <DOMAIN>Air</DOMAIN>
+      <TRAMPLE>0</TRAMPLE>
+      <SPIKY>96</SPIKY>
+      <SPLAT>10kcn2,6,100,100,1</SPLAT>
+      <GM>20kcn3,8,100,100,1</GM>
+      <GA>0</GA>
+      <GR>0-0</GR>
+      <AM>0</AM>
+      <AA>0</AA>
+      <AR>0-0</AR>
+      <BA>12</BA>
+      <BR>0-0</BR>
+      <HITS>400</HITS>
+      <WOUNDS>200</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>0</AMMO_PER_ATT>
+      <TURN_SPEED>10</TURN_SPEED>
+      <PROJ_SPEED>100</PROJ_SPEED>
+      <POP>6</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>-1</CARRY_SIZE>
+      <FLOAT_HEIGHT>1000</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>Great City Tech</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>RUKH</HELP>
+      <GRAPH>GLASSDRAGON</GRAPH>
+      <ART>techproto</ART>
+    </UNIT>
+    <UNIT class="units" reference_style="new">
+      <NAME>Master Fire Golem</NAME>
+      <TYPENAME>Master Fire Golem</TYPENAME>
+      <CAT>Foot</CAT>
+      <OBJ_MASK>FX</OBJ_MASK>
+      <FLAGS>hqkl</FLAGS>
+      <WHERE>none</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>30</MOVES>
+      <FAST>46</FAST>
+      <COST>150w/50m,x2</COST>
+      <RAMP_COST>10w/5m ramp</RAMP_COST>
+      <TIME>600,x4</TIME>
+      <LOS>14</LOS>
+      <MANA>2500</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>36v3n3h5</TRAMPLE>
+      <SPIKY>45</SPIKY>
+      <SPLAT>3n1,2,100,100,1</SPLAT>
+      <GM>40cn2h10,4,100,100,1</GM>
+      <GA>0</GA>
+      <GR>0-2</GR>
+      <AM>0</AM>
+      <AA>42ch10,3,100,100,1</AA>
+      <AR>0-14</AR>
+      <BA>8h8</BA>
+      <BR>0-14</BR>
+      <HITS>5500</HITS>
+      <WOUNDS>2000</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>0</FLY_HIGH>
+      <FLY_LOW>0</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>8</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>3</POP>
+      <RAMP_TIME>2/10</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>3</CARRY_SIZE>
+      <FLOAT_HEIGHT>0</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>7</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>7</BLOCK_RADIUS>
+      <SPACING>6</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>7</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>none</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>BIGFIREGOLEM</HELP>
+      <GRAPH>Firegolem_uber</GRAPH>
+    </UNIT>
+    <UNIT class="units" reference_name="Heartseeker" reference_style="copy">
+      <NAME>Narr Saghir</NAME>
+      <TYPENAME>Narr Saghir</TYPENAME>
+      <GM>0</GM>
+      <GA>10t</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>10t</AA>
+      <AR>0-12</AR>
+      <BA>3</BA>
+      <BR>0-12</BR>
+      <SPELL_GRAFT>Heartseeker</SPELL_GRAFT>
+      <GRAPH>HEARTSEEKER</GRAPH>
+      <UBER_SIZE>1</UBER_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Supply Truck" reference_style="copy">
+      <NAME>Vinci Trader</NAME>
+      <TYPENAME>Vinci Trader</TYPENAME>
+      <OBJ_MASK>V</OBJ_MASK>
+      <MOVES>10</MOVES>
+      <HITS>500</HITS>
+      <HELP>VINCITRADER</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Desert Walker" reference_style="copy">
+      <NAME>Single Walker</NAME>
+      <TYPENAME>Single Walker</TYPENAME>
+      <SPELL_GRAFT>Desert Walker</SPELL_GRAFT>
+      <UBER_SIZE>1</UBER_SIZE>
+    </UNIT>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana" reference_style="copy">
+      <SHORT>Marco</SHORT>
+      <NAME>Marco, Merchant of Silea</NAME>
+      <TYPENAME>Vinci Merchant</TYPENAME>
+      <ICONGRAFT>Petruzzo, Lord of Miana</ICONGRAFT>
+      <FLAGS>hkq13</FLAGS>
+      <GM>0</GM>
+      <GA>10kn2</GA>
+      <GR>0-16</GR>
+      <AA>10kn2</AA>
+      <AR>0-16</AR>
+      <BA>3</BA>
+      <BR>0-16</BR>
+      <HITS>600</HITS>
+      <SPELL_GRAFT>Vinci Lord</SPELL_GRAFT>
+      <GRAPH>PETRUZZOHORSE</GRAPH>
+      <HELP>MARCO</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <SHORT>Marwan</SHORT>
+      <NAME>Marwan, the Dark Alin</NAME>
+      <TYPENAME>Marwan, the Dark Alim</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>kh1pq5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5v1n1</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <SPLAT>5n1,4,100,100,1</SPLAT>
+      <GM>20dmn2</GM>
+      <GA>22m,2,100,100,3</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>11m,2,100,100,3</AA>
+      <AR>0-12</AR>
+      <BA>4m</BA>
+      <BR>0-12</BR>
+      <HITS>1000</HITS>
+      <WOUNDS>225</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>Dark Genie</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <GRAPH>THEBAN</GRAPH>
+      <HELP>EDFU</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <SHORT>Marwan</SHORT>
+      <NAME>Marwan, the Dark Alin</NAME>
+      <TYPENAME>Unchained Marid</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>kh1pq5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5v1n1</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <SPLAT>5n1,4,100,100,1</SPLAT>
+      <GM>20dmn2</GM>
+      <GA>22m,2,100,100,3</GA>
+      <GR>0-12</GR>
+      <AM>0</AM>
+      <AA>11m,2,100,100,3</AA>
+      <AR>0-12</AR>
+      <BA>4m</BA>
+      <BR>0-12</BR>
+      <HITS>1000</HITS>
+      <WOUNDS>225</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>Dark Genie</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <GRAPH>THEBAN</GRAPH>
+      <HELP>EDFU</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <SHORT>Memphis</SHORT>
+      <NAME>Memphis, the Dark Alin</NAME>
+      <TYPENAME>Memphis, the Dark Alim</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5v1n1</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <SPLAT>5n1,4,100,100,1</SPLAT>
+      <GM>12dn1</GM>
+      <GA>13mn1,4,100,100,2</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>13m</AA>
+      <AR>0-16</AR>
+      <BA>6m</BA>
+      <BR>0-16</BR>
+      <HITS>750</HITS>
+      <WOUNDS>225</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>Dark Genie</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>EDFU</HELP>
+      <GRAPH>THEBAN</GRAPH>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <SHORT>Kharga</SHORT>
+      <NAME>Kharga, the Dark Alin</NAME>
+      <TYPENAME>Kharga, the Dark Alim</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5v1n1</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <SPLAT>5n1,4,100,100,1</SPLAT>
+      <GM>12dn1</GM>
+      <GA>13mn1,4,100,100,2</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>13m</AA>
+      <AR>0-16</AR>
+      <BA>6m</BA>
+      <BR>0-16</BR>
+      <HITS>750</HITS>
+      <WOUNDS>225</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>Dark Genie</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>EDFU</HELP>
+      <GRAPH>THEBAN</GRAPH>
+      <ART/>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <SHORT>Theban</SHORT>
+      <NAME>Theben, the Dark Alin</NAME>
+      <TYPENAME>Theben, the Dark Alim</TYPENAME>
+      <CAT>Command</CAT>
+      <OBJ_MASK>FXQ</OBJ_MASK>
+      <FLAGS>h1q5</FLAGS>
+      <WHERE>leader</WHERE>
+      <SPAWN>0</SPAWN>
+      <CAP>0</CAP>
+      <SIZE>Large</SIZE>
+      <MOVES>40</MOVES>
+      <FAST>68</FAST>
+      <COST>75w/75m</COST>
+      <RAMP_COST>150w/150m ramp</RAMP_COST>
+      <TIME>1000</TIME>
+      <LOS>14</LOS>
+      <MANA>1200</MANA>
+      <DOMAIN>Land</DOMAIN>
+      <TRAMPLE>5v1n1</TRAMPLE>
+      <SPIKY>15</SPIKY>
+      <SPLAT>5n1,4,100,100,1</SPLAT>
+      <GM>12dn1</GM>
+      <GA>13mn1,4,100,100,2</GA>
+      <GR>0-16</GR>
+      <AM>0</AM>
+      <AA>13m</AA>
+      <AR>0-16</AR>
+      <BA>6m</BA>
+      <BR>0-16</BR>
+      <HITS>750</HITS>
+      <WOUNDS>225</WOUNDS>
+      <SHIELD>0</SHIELD>
+      <FLY_HIGH>100%</FLY_HIGH>
+      <FLY_LOW>100%</FLY_LOW>
+      <RECHARGE>30</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <AMMO_PER_ATT>1</AMMO_PER_ATT>
+      <TURN_SPEED>20</TURN_SPEED>
+      <PROJ_SPEED>200</PROJ_SPEED>
+      <POP>0</POP>
+      <RAMP_TIME>2000</RAMP_TIME>
+      <CARRY>0</CARRY>
+      <CARRY_SIZE>1</CARRY_SIZE>
+      <FLOAT_HEIGHT>25</FLOAT_HEIGHT>
+      <CIRCLE_RADIUS>6</CIRCLE_RADIUS>
+      <BLOCK_RADIUS>6</BLOCK_RADIUS>
+      <SPACING>7</SPACING>
+      <TARGET_SIZE>3</TARGET_SIZE>
+      <UBER_SIZE>1</UBER_SIZE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <PUSH_SIZE>6</PUSH_SIZE>
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <SPELL_GRAFT>Dark Genie</SPELL_GRAFT>
+      <GRAFT>none</GRAFT>
+      <HELP>EDFU</HELP>
+      <GRAPH>THEBAN</GRAPH>
+      <ART/>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walkers</NAME>
+      <TYPENAME>Summon Dark Walkers Genie</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walkers</NAME>
+      <TYPENAME>Summon Dark Walkers Genie 2</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Dark Walkers Genie</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Mod Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walkers</NAME>
+      <TYPENAME>Summon Dark Walkers Genie 3</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>50</DURATION>
+      <COOLDOWN>180</COOLDOWN>
+      <MANA>300</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Dark Walkers Genie 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Tough Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Marids</NAME>
+      <TYPENAME>Summon Marids Genie</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>500</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Marids</NAME>
+      <TYPENAME>Summon Marids Genie 2</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>40</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>500</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Marids Genie</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Mod Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Marids</NAME>
+      <TYPENAME>Summon Marids Genie 3</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>50</DURATION>
+      <COOLDOWN>240</COOLDOWN>
+      <MANA>500</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Marid</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Marids Genie 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Tough Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Spider</NAME>
+      <TYPENAME>Summon Glass Spider Genie</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>15</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>700</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Scorpion</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Spider</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Spider</NAME>
+      <TYPENAME>Summon Glass Spider Genie 2</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>700</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Scorpion</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Glass Spider Genie</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Mod Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Spider</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Spider</NAME>
+      <TYPENAME>Summon Glass Spider Genie 3</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>50</DURATION>
+      <COOLDOWN>360</COOLDOWN>
+      <MANA>700</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Spider Summoned</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Glass Spider Genie 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Tough Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Spider</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Golem</NAME>
+      <TYPENAME>Summon Glass Golem Genie</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>15</DURATION>
+      <COOLDOWN>540</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Golem</NAME>
+      <TYPENAME>Summon Glass Golem Genie 2</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>540</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Glass Golem Genie</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Mod Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Glass Golem</NAME>
+      <TYPENAME>Summon Glass Golem Genie 3</TYPENAME>
+      <SPELL_FLAGS>fng6</SPELL_FLAGS>
+      <TARGET_FLAGS> </TARGET_FLAGS>
+      <TIME>15</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>200</RES_TIME>
+      <DURATION>50</DURATION>
+      <COOLDOWN>540</COOLDOWN>
+      <MANA>1000</MANA>
+      <SPELL_RANGE>24</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Dark Genie</WHERE>
+      <FROM>Summon Glass Golem Genie 2</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Dark Genie Tough Spells</PREQ0>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3</TEX_ID>
+      <TEX_COL>1</TEX_COL>
+      <TEX_ROW>2</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>2</ANIM>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Healing Power" reference_style="copy">
+      <NAME>Trader Heal</NAME>
+      <TYPENAME>Trader Heal</TYPENAME>
+      <RADIUS>22</RADIUS>
+      <WHERE>Vinci Trader</WHERE>
+      <FROM>None</FROM>
+      <PREQ0>None</PREQ0>
+      <GRAFT>Healing Power</GRAFT>
+      <ICONGRAFT>Healing Power</ICONGRAFT>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>HEALINGPOWER</GRAPH>
+      <HELP> </HELP>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="DestructionDragon" reference_style="copy">
+      <NAME>Self Destruction</NAME>
+      <TYPENAME>DestructionWhelp</TYPENAME>
+      <SPELL_FLAGS>g</SPELL_FLAGS>
+      <SPELL_FLAGS2>b</SPELL_FLAGS2>
+      <TARGET_FLAGS/>
+      <RANK>1</RANK>
+      <COST/>
+      <TIME>10</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>100</RES_TIME>
+      <DURATION>5</DURATION>
+      <COOLDOWN>120</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>0</SPELL_RANGE>
+      <RADIUS>8</RADIUS>
+      <DAMAGE>750yx,32,100,100,1</DAMAGE>
+      <DATA0>0</DATA0>
+      <DATA1>0</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <WHERE>Glass Whelp</WHERE>
+      <FROM>None</FROM>
+      <GRAFT>DestructionDragon</GRAFT>
+      <CHAIN>None</CHAIN>
+      <PREQ0>Golembombtech</PREQ0>
+      <COUNTERED_BY>Cease Spells; Cease Fire; Make Peace Town</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+      <ANIM>-1</ANIM>
+      <GRAPH>DESTRUCTION</GRAPH>
+      <HELP>DESTRUCTION</HELP>
+    </CRAFT>
+    <!--Miscellaneous Genie Bosses and their powers-->
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <TYPENAME>Baharya, the Dark Alim</TYPENAME>
+      <NAME>Baharya, the Dark Alin</NAME>
+      <FLAGS>hkvw</FLAGS>
+      <HITS>1000</HITS>
+      <GRAPH>Theban</GRAPH>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <HELP>EDFU</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <TYPENAME>Mendes, the Dark Alim</TYPENAME>
+      <NAME>Mendes, the Dark Alin</NAME>
+      <FLAGS>hkvw</FLAGS>
+      <HITS>1000</HITS>
+      <GRAPH>Theban</GRAPH>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <HELP>EDFU</HELP>
+    </UNIT>
+    <UNIT class="units" reference_name="Dark Genie" reference_style="copy">
+      <TYPENAME>Buto, the Dark Alim</TYPENAME>
+      <NAME>Buto, the Dark Alin</NAME>
+      <FLAGS>hkvw</FLAGS>
+      <HITS>1000</HITS>
+      <GRAPH>Theban</GRAPH>
+      <ICONGRAFT>Marid</ICONGRAFT>
+      <HELP>EDFU</HELP>
+    </UNIT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Spider</NAME>
+      <TYPENAME>Baharya Summon Spider</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Glass Spider Built</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Heartseeker</NAME>
+      <TYPENAME>Mendes Summon Heartseeker</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Mendes, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Heartseeker</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Golem</NAME>
+      <TYPENAME>Buto Summon Golem</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walker</NAME>
+      <TYPENAME>Baharya Summon Walker</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walker</NAME>
+      <TYPENAME>Mendes Summon Walker</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Mendes, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Summon Dark Walker</NAME>
+      <TYPENAME>Buto Summon Walker</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Mendes Army</NAME>
+      <TYPENAME>Mendes Summon Army</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <WHERE>Mendes, the Dark Alim</WHERE>
+      <CHAIN>Mendes Summon Army 2</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Mendes Army</NAME>
+      <TYPENAME>Mendes Summon Army 2</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Mendes, the Dark Alim</WHERE>
+      <CHAIN>Mendes Summon Army 3</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Mendes Army</NAME>
+      <TYPENAME>Mendes Summon Army 3</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Mendes, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Buto Army</NAME>
+      <TYPENAME>Buto Summon Army</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>3</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>Buto Summon Army 2</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Buto Army</NAME>
+      <TYPENAME>Buto Summon Army 2</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>3</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>Buto Summon Army 3</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Buto Army</NAME>
+      <TYPENAME>Buto Summon Army 3</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>Buto Summon Army 4</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Buto Army</NAME>
+      <TYPENAME>Buto Summon Army 4</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Scorpion</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>Buto Summon Army 5</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Buto Army</NAME>
+      <TYPENAME>Buto Summon Army 5</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Buto, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Baharya Army</NAME>
+      <TYPENAME>Baharya Summon Army</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>Baharya Summon Army 2</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Baharya Army</NAME>
+      <TYPENAME>Baharya Summon Army 2</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>2</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>Baharya Summon Army 3</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Baharya Army</NAME>
+      <TYPENAME>Baharya Summon Army 3</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>2</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>Baharya Summon Army 4</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Baharya Army</NAME>
+      <TYPENAME>Baharya Summon Army 4</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Scorpion</DATA0>
+      <DATA1>2</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>Baharya Summon Army 5</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Marids" reference_style="copy">
+      <NAME>Baharya Army</NAME>
+      <TYPENAME>Baharya Summon Army 5</TYPENAME>
+      <SPELL_FLAGS>fngb</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <RESEARCH_COST/>
+      <RES_TIME>500</RES_TIME>
+      <DURATION>180</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <RADIUS>4</RADIUS>
+      <DAMAGE>0</DAMAGE>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <WHERE>Baharya, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <ICONGRAFT>Summon Army</ICONGRAFT>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <!--Alim Campaign-only Buildings-->
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Imprisoned Dragon</NAME>
+      <TYPENAME>Imprisoned Dragon</TYPENAME>
+      <GRAPH>desert_glass_statue_dragon1</GRAPH>
+      <PUSH>0</PUSH>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>aen</BUILD_FLAGS>
+      <COST>120w</COST>
+      <RAMP_COST>50w</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>0</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>200</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>6</X_SIZE>
+      <Y_SIZE>6</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>14</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Imprisoned Dragon</NAME>
+      <TYPENAME>Imprisoned Dragon B</TYPENAME>
+      <GRAPH>desert_glass_statue_dragon2</GRAPH>
+      <PUSH>0</PUSH>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>aen</BUILD_FLAGS>
+      <COST>120w</COST>
+      <RAMP_COST>50w</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>0</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>200</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>6</X_SIZE>
+      <Y_SIZE>6</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>14</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="copy">
+      <NAME>Imprisoned Dragon</NAME>
+      <TYPENAME>Imprisoned Dragon C</TYPENAME>
+      <GRAPH>desert_glass_statue_dragon3</GRAPH>
+      <PUSH>0</PUSH>
+      <OBJ_MASKS>X</OBJ_MASKS>
+      <BUILD_FLAGS>aen</BUILD_FLAGS>
+      <COST>120w</COST>
+      <RAMP_COST>50w</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>wealth</PLUNDER_GOOD>
+      <PLUNDER>0</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>200</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>6</X_SIZE>
+      <Y_SIZE>6</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>14</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <GRAFT>BaseNeutral</GRAFT>
+      <FROM>none</FROM>
+      <HELP>NYI</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Glass Spire" reference_style="copy">
+      <NAME>Dark Spire</NAME>
+      <TYPENAME>Dark Spire</TYPENAME>
+      <GRAPH>Alim Glass Spire</GRAPH>
+      <OBJ_MASKS/>
+      <BUILD_FLAGS>eanhuv</BUILD_FLAGS>
+      <COST>100m</COST>
+      <RAMP_COST>40m ramp</RAMP_COST>
+      <TIME>375</TIME>
+      <GRAFT>BaseBarracks</GRAFT>
+      <ICONGRAFT>Glass Spire</ICONGRAFT>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Timonium Smelter 2" reference_style="copy">
+      <NAME>Desert Outrigger Camp</NAME>
+      <TYPENAME>Lost Smelter</TYPENAME>
+      <GRAPH>Vinci smelter</GRAPH>
+      <PUSH>0</PUSH>
+      <OBJ_MASKS>XHJ</OBJ_MASKS>
+      <BUILD_FLAGS>aeiln</BUILD_FLAGS>
+      <COST>500w</COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <RAMP>0</RAMP>
+      <MAX_RANK>1</MAX_RANK>
+      <RANK_TIME>0</RANK_TIME>
+      <PLUNDER_GOOD>timonium</PLUNDER_GOOD>
+      <PLUNDER>100</PLUNDER>
+      <CAT>W</CAT>
+      <TIME>1000</TIME>
+      <HITS>1000</HITS>
+      <STORM>20</STORM>
+      <TOWN_HITS>0</TOWN_HITS>
+      <GA>0</GA>
+      <BA>0</BA>
+      <AA>0</AA>
+      <RANGE>0</RANGE>
+      <MOST_SHOTS>0</MOST_SHOTS>
+      <CARRY>0</CARRY>
+      <RECHARGE>0</RECHARGE>
+      <ARMOR>H</ARMOR>
+      <X_SIZE>7</X_SIZE>
+      <Y_SIZE>7</Y_SIZE>
+      <CIRCLE_RADIUS>1500</CIRCLE_RADIUS>
+      <LOS>15</LOS>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <DOMAIN>Land</DOMAIN>
+      <SHIELD>0</SHIELD>
+      <FLY>0</FLY>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <ICONGRAFT>Timonium Smelter 2</ICONGRAFT>
+      <PREQ2>none</PREQ2>
+      <GRAFT>Timonium Smelter 2</GRAFT>
+      <FROM>none</FROM>
+      <HELP>DOUTRIGGER</HELP>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver A" reference_style="copy">
+      <NAME>Farm</NAME>
+      <TYPENAME>Farm A</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver B" reference_style="copy">
+      <NAME>Farm</NAME>
+      <TYPENAME>Farm B</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver C" reference_style="copy">
+      <NAME>Farm</NAME>
+      <TYPENAME>Farm C</TYPENAME>
+    </BUILDING>
+    <BUILDING class="builds" reference_name="Farm ver D" reference_style="copy">
+      <NAME>Farm</NAME>
+      <TYPENAME>Farm D</TYPENAME>
+    </BUILDING>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (1)</NAME>
+      <TYPENAME>Dark Army 1</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (2)</NAME>
+      <TYPENAME>Dark Army 2</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Dark Army Part 2</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (Part 2)</NAME>
+      <TYPENAME>Dark Army Part 2</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (3)</NAME>
+      <TYPENAME>Dark Army 3</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Dark Army Part 3</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>3</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (Part 3)</NAME>
+      <TYPENAME>Dark Army Part 3</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Dark Army Part 3a</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (Part 3a)</NAME>
+      <TYPENAME>Dark Army Part 3a</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (4)</NAME>
+      <TYPENAME>Dark Army 4</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Dark Army Part 4</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>4</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (Part 4)</NAME>
+      <TYPENAME>Dark Army Part 4</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Dark Army Part 4a</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Dark Army (Part 4a)</NAME>
+      <TYPENAME>Dark Army Part 4a</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>480</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Burn" reference_style="copy">
+      <NAME>Lava Burn</NAME>
+      <TYPENAME>Lava Burn</TYPENAME>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <GRAPH>LAVA_BURN</GRAPH>
+      <SPELL_FLAGS>6zw</SPELL_FLAGS>
+      <TARGET_FLAGS>abdfnqryh</TARGET_FLAGS>
+      <WHERE>none</WHERE>
+      <FROM>Burn</FROM>
+      <PREQ0>None</PREQ0>
+      <TIME>0</TIME>
+      <DURATION>30</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+    </CRAFT>
+    <CRAFT class="craft" reference_style="new">
+      <NAME>Summon Fire Units</NAME>
+      <TYPENAME>Summon Fire Units</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONFIREARMY</GRAPH>
+      <ICONGRAFT>Afreet</ICONGRAFT>
+      <HELP>NYI</HELP>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <DAMAGE>0</DAMAGE>
+      <FROM>None</FROM>
+      <CHAIN>None</CHAIN>
+      <PREQ0>None</PREQ0>
+      <RANK>1</RANK>
+      <RESEARCH_COST/>
+      <COST/>
+      <TIME>75</TIME>
+      <EXIT_TIME>0</EXIT_TIME>
+      <RES_TIME>0</RES_TIME>
+      <DURATION>60</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Fireswarm</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <TEX_ID>TEX_ICONS_PROTO_L3 </TEX_ID>
+      <TEX_COL>2</TEX_COL>
+      <TEX_ROW>4</TEX_ROW>
+      <TEX_CLIP>0</TEX_CLIP>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>2</GRID_X2>
+      <GRID_Y2>1</GRID_Y2>
+      <ANIM>0</ANIM>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Glass Prison" reference_style="copy">
+      <NAME>Global Glass Prison</NAME>
+      <TYPENAME>Global Glass Prison</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>GLASSPRISON</GRAPH>
+      <ICONGRAFT>Glass Prison</ICONGRAFT>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <TARGET_FLAGS>abdfnqr</TARGET_FLAGS>
+      <WHERE>none</WHERE>
+      <DURATION>-1</DURATION>
+      <FROM>none</FROM>
+      <GRAFT>Glass Prison</GRAFT>
+      <PREQ0>None</PREQ0>
+      <TIME>0</TIME>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>14</SPELL_RANGE>
+      <RADIUS>8</RADIUS>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sniper" reference_style="copy">
+      <NAME>Fireball</NAME>
+      <TYPENAME>Fire Small Golem Ball</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>FIREBALL</GRAPH>
+      <FROM>none</FROM>
+      <ICONGRAFT>Sniper</ICONGRAFT>
+      <HELP>FIREGOLEMBALL</HELP>
+      <TARGET_FLAGS>abfkl1p</TARGET_FLAGS>
+      <DAMAGE>800</DAMAGE>
+      <RANK>4</RANK>
+      <TIME>1</TIME>
+      <CODETAG/>
+      <SPELL_FLAGS>glm</SPELL_FLAGS>
+      <TARGET_FLAGS>abfekl1</TARGET_FLAGS>
+      <WHERE>Master Fire Golem</WHERE>
+      <COOLDOWN>180</COOLDOWN>
+      <GRAFT>Sniper</GRAFT>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <MANA>700</MANA>
+      <DAMAGE>300fxyh50</DAMAGE>
+      <PREQ0>None</PREQ0>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>0</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Sonic Blast" reference_style="copy">
+      <NAME>Fireblast</NAME>
+      <TYPENAME>Fire Golem Blast</TYPENAME>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <GRAPH>FIREBLAST</GRAPH>
+      <FROM>none</FROM>
+      <ICONGRAFT>Sonic Blast</ICONGRAFT>
+      <HELP>FIREGOLEMBLAST</HELP>
+      <RANK>2</RANK>
+      <TIME>0</TIME>
+      <TIME>1</TIME>
+      <SPELL_FLAGS>12</SPELL_FLAGS>
+      <WHERE>Master Fire Golem</WHERE>
+      <COOLDOWN>180</COOLDOWN>
+      <GRAFT>Sonic Blast</GRAFT>
+      <RESEARCH_COST>0</RESEARCH_COST>
+      <MANA>1000</MANA>
+      <DAMAGE>10yl6h20,44,100,100,7</DAMAGE>
+      <PREQ0>None</PREQ0>
+      <TIME>21</TIME>
+      <RADIUS>14 radius</RADIUS>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <GRID_X2>1</GRID_X2>
+      <GRID_Y2>0</GRID_Y2>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Mass Immolation" reference_style="copy">
+      <NAME>Enraged</NAME>
+      <TYPENAME>Enraged</TYPENAME>
+      <COUNTERED_BY>Cease Fire; Make Peace Town; Cease Spells</COUNTERED_BY>
+      <GRAPH>IMMOLATE</GRAPH>
+      <FROM>Mass Immolation</FROM>
+      <ICONGRAFT>Mass Immolation</ICONGRAFT>
+      <SPELL_FLAGS>6z</SPELL_FLAGS>
+      <TARGET_FLAGS>abdenqrh</TARGET_FLAGS>
+      <WHERE>none</WHERE>
+      <PREQ0>None</PREQ0>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>14</SPELL_RANGE>
+      <RADIUS>8</RADIUS>
+      <DATA0>200% attack increase</DATA0>
+      <DATA1>75 damage interval</DATA1>
+      <DATA2>8 radius</DATA2>
+      <DATA3>0</DATA3>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Desert Creatures</NAME>
+      <TYPENAME>Summon Desert Creatures</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Sand Horror</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>none</WHERE>
+      <CHAIN>Summon Desert Creatures Part 1</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>70</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Sand Horror</DATA0>
+      <DATA1>5</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Desert Creatures Part 1</NAME>
+      <TYPENAME>Summon Desert Creatures Part 1</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Sand Horror</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>none</WHERE>
+      <CHAIN>none</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>70</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Adult Salamander</DATA0>
+      <DATA1>5</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Unchained Spirit</NAME>
+      <TYPENAME>Summon Unchained Spirit</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Spirit</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Unchained Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Glass Golems</NAME>
+      <TYPENAME>Summon Glass Golems</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>75</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Temp Golem</NAME>
+      <TYPENAME>Summon Temp Golem</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <SPELL_FLAGS>fgn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>35</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon One Walker</NAME>
+      <TYPENAME>Summon One Walker</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <SPELL_FLAGS>fgn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Death and Destruction</NAME>
+      <TYPENAME>Death and Destruction</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS4</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>Death and Destruction 1</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>70</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>5</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Death and Destruction 1</NAME>
+      <TYPENAME>Death and Destruction 1</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS4</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Death and Destruction 2</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>3</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Death and Destruction 2</NAME>
+      <TYPENAME>Death and Destruction 2</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS4</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Marwan Summon Small Army</NAME>
+      <TYPENAME>Marwan Summon Small Army</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>Marwan Summon Small Army 2</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Marwan Summon Small Army (Part 2)</NAME>
+      <TYPENAME>Marwan Summon Small Army 2</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Marwan Summon Medium Army</NAME>
+      <TYPENAME>Marwan Summon Medium Army</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Unchained Marid</WHERE>
+      <CHAIN>Marwan Summon Medium Army 2</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>3</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Marwan Summon Medium Army (Part 2)</NAME>
+      <TYPENAME>Marwan Summon Medium Army 2</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>Marwan Summon Medium Army 3</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>80</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marid</DATA0>
+      <DATA1>2</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Marwan Summon Medium Army (Part 3)</NAME>
+      <TYPENAME>Marwan Summon Medium Army 3</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>15</TIME>
+      <DURATION>90</DURATION>
+      <COOLDOWN>1</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Dark Walker</NAME>
+      <TYPENAME>Summon Dark Walker</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Dark Walker</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Glass Heartseeker</NAME>
+      <TYPENAME>Summon Glass Heartseeker</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Heartseeker</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Marid</NAME>
+      <TYPENAME>Summon Marid CTW</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Summon Marids</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marid</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Glass Spider</NAME>
+      <TYPENAME>Summon Glass Spider</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Glass Spider</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Glass Golem</NAME>
+      <TYPENAME>Summon Glass Golem</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Glass Golem Start</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Golem Start</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Glass Scorpion</NAME>
+      <TYPENAME>Summon Glass Scorpion</TYPENAME>
+      <COUNTERED_BY>Cease Spells</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Glass Scorpion</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Scorpion</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Magus Summon</NAME>
+      <TYPENAME>Magus Summon</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Magus Grunt</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Marwan, the Dark Alim</WHERE>
+      <CHAIN>Magus Summon 2</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>70</DURATION>
+      <COOLDOWN>10</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Dark Walker</DATA0>
+      <DATA1>8</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Magus Summon (Part 2)</NAME>
+      <TYPENAME>Magus Summon 2</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Magus Grunt</ICONGRAFT>
+      <SPELL_FLAGS>fn6</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>Marwan, the Dark Alim</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>45</TIME>
+      <DURATION>70</DURATION>
+      <COOLDOWN>10</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Glass Spider</DATA0>
+      <DATA1>4</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Marwan</NAME>
+      <TYPENAME>Summon Marwan</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONMARIDS</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Marwan, the Dark Alim</ICONGRAFT>
+      <SPELL_FLAGS>fn6z</SPELL_FLAGS>
+      <SPELL_FLAGS2/>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Marwan, the Dark Alim</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <CRAFT class="craft" reference_name="Summon Army" reference_style="copy">
+      <NAME>Summon Fire Golem</NAME>
+      <TYPENAME>Summon Fire Golem</TYPENAME>
+      <COUNTERED_BY>None</COUNTERED_BY>
+      <GRAPH>SUMMONFIREARMY</GRAPH>
+      <FROM>None</FROM>
+      <ICONGRAFT>Master Fire Golem</ICONGRAFT>
+      <SPELL_FLAGS>fndz</SPELL_FLAGS>
+      <SPELL_FLAGS2>j</SPELL_FLAGS2>
+      <TARGET_FLAGS>d</TARGET_FLAGS>
+      <WHERE>None</WHERE>
+      <CHAIN>None</CHAIN>
+      <PREQ0>none</PREQ0>
+      <RANK>1</RANK>
+      <TIME>0</TIME>
+      <DURATION>-1</DURATION>
+      <COOLDOWN>0</COOLDOWN>
+      <MANA>0</MANA>
+      <SPELL_RANGE>99999</SPELL_RANGE>
+      <RADIUS>4</RADIUS>
+      <DATA0>Master Fire Golem</DATA0>
+      <DATA1>1</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>0</DATA3>
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </CRAFT>
+    <!--Dark Genie Spell Upgrades-->
+    <TECH class="other" reference_style="new">
+      <NAME>Dark Genie Mod Spells</NAME>
+      <TYPENAME>Dark Genie Mod Spells</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Dark Genie Tough Spells</NAME>
+      <TYPENAME>Dark Genie Tough Spells</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <!--Alim QB Upgrade Techs and Bonuses-->
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 3</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 6</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 9</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 12</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 15</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 18</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 21</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 24</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 27</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <TECH class="other" reference_style="new">
+      <NAME>Alim QB Leader Upgrade</NAME>
+      <TYPENAME>Alim QB Leader Upgrade 30</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>0</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>None</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 3</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 3</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>3%;4%;3%;3%;3%;3%;4%;3%;3%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 6</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 6</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>6%;8%;7%;7%;7%;6%;8%;6%;6%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 9</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 9</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>9%;12%;10%;10%;10%;12%;9%;9%;9%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 12</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 12</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>12%;16%;14%;14%;14%;16%;12%;12%;12%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 15</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 15</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>15%;20%;17%;17%;17%;20%;15%;15%;15%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 18</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 18</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>18%;24%;21%;21%;21%;24%;18%;18%;18%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 21</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 21</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>21%;28%;24%;24%;24%;28%;21%;21%;21%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 24</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 24</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>24%;32%;28%;28%;28%;32%;24%;24%;24%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 27</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 27</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>27%;36%;31%;31%;31%;36%;27%;27%;27%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Alim QB Bonus 30</TYPENAME>
+      <FLAGS>b</FLAGS>
+      <PREQ0>Alim QB Leader Upgrade 30</PREQ0>
+      <DATA0>HITS;GM;GA;AM;AA;BA;TRAMPLE;SPEED;SPIKY</DATA0>
+      <DATA1>30%;40%;35%;35%;35%;40%;30%;30%;30%;</DATA1>
+      <DATA2>0</DATA2>
+      <DATA3>Dark Spire;Glass Circle</DATA3>
+      <TRIBE_MASK>0001</TRIBE_MASK>
+      <HELP>NYI</HELP>
+    </BONUS>
+  </TYPES>
+</ROOT>

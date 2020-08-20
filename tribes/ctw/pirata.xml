@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<ROOT name="Pirata" loc_name="Pirata" diplo_icon_string="Lenora, Pirata Princess" xml:space="preserve">
+  <TRIBES base_tribe="Vinci">
+    <NEEDS_TRIBE>CTWVinci</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Lenora, Pirata Captain</LEADER>
+    <LEADER>Leopoldo, Pirata Prince</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>x</CITY>
+  </CITIES>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Burrowing Spider</WANT>
+      <WANT>Gun Flyer</WANT>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Clockwork Sniper</WANT>
+      <WANT>Destroyer Transport</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>MP Zeke 1</WANT>
+      <WANT>MP Zeke 2</WANT>
+      <WANT>MP Zeke 3</WANT>
+      <WANT>Terracota Clockwork Man</WANT>
+      <WANT>Clockwork Spider</WANT>
+      <WANT>Juggernaut</WANT>
+      <WANT>Air Cruiser</WANT>
+      <WANT>Land Leviathan</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Air Army">
+      <NEED percent="95">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED percent="5">Scout Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Nomad Army">
+      <NEED>Scout Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="100">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore" retreat_health="-1" retreat_units="-1">
+      <WANT>Spy Scout</WANT>
+      <WANT>Scout Flyer</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="5">
+      <NEED>Pirata Flyer</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="5">
+      <NEED>Pirata Flyer</NEED>
+    </ARMY>
+    <ARMY name="Easy Small City Attack" retreat_health="20">
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack" retreat_health="20">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Air Destroyer</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack" retreat_health="0">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Juggernauts" retreat_health="10">
+      <NEED>Air Destroyer</NEED>
+      <NEED>Air Destroyer</NEED>
+    </ARMY>
+    <ARMY name="Easy City Attack" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack" retreat_health="10">
+      <NEED percent="100">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack" retreat_health="0">
+      <NEED percent="80">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED percent="20">Air Destroyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Dirigible</WANT>
+      <WANT>Air Destroyer</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Scout Flyer</WANT>
+      <WANT>Scout Flyer</WANT>
+      <WANT>Scout Flyer</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack" retreat_health="10">
+      <NEED>Air Destroyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Hero</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army" retreat_health="10">
+      <NEED>Air Destroyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <NEED>Air Destroyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Dirigible</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Air Destroyer</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small" retreat_health="50">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Hero</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large" retreat_health="50">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Air Destroyer</WANT>
+      <WANT>Scout Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="copy">
+      <WHERE>Barracks</WHERE>
+      <TYPENAME>Pirata_Private</TYPENAME>
+      <NAME>Pirata Private</NAME>
+      <ICONGRAFT>Imperial Musketeer</ICONGRAFT>
+      <GRAFT>none</GRAFT>
+    </UNIT>
+    <UNIT class="units" reference_name="Volley Musketeer" reference_style="copy">
+      <TYPENAME>Volley_Pirata_Private</TYPENAME>
+      <NAME>Pirata Private</NAME>
+      <ICONGRAFT>Volley Musketeer</ICONGRAFT>
+      <GRAFT>Pirata_Private</GRAFT>
+    </UNIT>
+    <UNIT class="units" reference_name="Lenora Boosted" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Scout Flyer" reference_style="own"/>
+    <UNIT class="units" reference_name="Pirata Flyer" reference_style="own"/>
+    <UNIT class="units" reference_name="Air Destroyer" reference_style="own"/>
+    <UNIT class="units" reference_name="Improved Scout Flyer" reference_style="own"/>
+    <UNIT class="units" reference_name="Improved Pirata Flyer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Air Cruiser" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <BUILD class="builds" reference_name="Steam Fortress" reference_style="remove"/>
+  </TYPES>
+</ROOT>

@@ -1,0 +1,98 @@
+include "spells_basic.bhs"
+
+SpellType spell_type;
+int seconds;
+int old_seconds;
+
+labels {
+  REGEN_AMOUNT = 2,
+  REGEN_INTERVAL = 30,
+}
+
+//==============================================================================
+void game_callback on_game_started (int num_players) {
+  spell_type = "Desert Rust";  
+}
+
+//==============================================================================
+int game_callback spell_cast_location (Object the_caster, int x, int y)
+{
+  UnitGroup the_units;
+  Leader the_leader = get_object_leader(the_caster);
+  
+  SpellType upgraded_type = get_current_spell_type_upgrade(spell_type, the_leader);  
+  
+  int scan;
+  int group_size = 0;
+  int include_neutral = false;  
+  int radius   = get_spell_type_radius(upgraded_type, the_leader);
+  int duration = get_spell_type_duration(upgraded_type, the_leader); 
+
+  the_units = get_units (x, y, radius, include_neutral);
+  group_size = unit_group_length(the_units);
+  for (scan = 0; scan < group_size; scan++) {
+    Unit the_unit = unit_at_index(the_units, scan);
+    Object the_object = get_unit_object(the_unit);
+    give_object_buff(the_caster, the_object, upgraded_type, duration);
+  }
+  
+  return 1;
+}
+
+//==============================================================================
+int game_callback spell_cast_object (Object the_caster, Object the_target)
+{
+  int x = get_object_x(the_target);
+  int y = get_object_y(the_target);
+  
+  return spell_cast_location(the_caster, x, y);
+}
+
+//==============================================================================
+int game_callback spell_process_buff (Object the_target, Spell the_buff)
+{
+  if (!valid_unit(the_target)) {
+    return SPELL_ENDED;
+  }
+  
+  Unit the_unit = get_object_unit(the_target);
+  
+  /*if (is_building_under_attack(the_build)) {
+    return SPELL_ENDED;
+  }*/
+
+  int health_percent = object_health(the_target);
+  int dmg_percent = 100 - health_percent;
+
+  if (health_percent <= 0) {
+    kill_unit(the_unit);
+    return SPELL_ENDED;
+  }
+  
+  seconds = time_sec();
+  
+  if (seconds > 1 && !unit_can_cast("Desert Rust", the_unit)) {
+    //1 second delay required to identify changes to enabled types made during the first frame
+    return SPELL_ENDED; //if this spell has been disabled, end it immediately
+  }
+  
+  //int test_time = time_left / dmg_percent;
+  
+  int ellapsed_time = spell_ellapsed_time(the_buff);
+  if (ellapsed_time%REGEN_INTERVAL == 0) {
+//    old_seconds = seconds;
+    // figure out how many percent you want to increase it
+   /* int inc_health = dmg_percent / time_left;
+    if (inc_health <= 0) {
+      inc_health = 1;
+    }
+    set_object_health(the_target, health_percent + inc_health);
+  } else {
+    if ((time_left % test_time) == 0) {*/
+      // fix one percent
+      set_object_health(the_target, health_percent - 1);
+    //}
+  }
+
+  return SPELL_RUNNING;
+}

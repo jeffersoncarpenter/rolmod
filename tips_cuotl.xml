@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT xml:space="preserve">
+  <TIPS num="36">
+    <ENTRY name="T0">
+      <STRING>
+        <TEXTURE texture="Cuotl Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Sanctuary District" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Cuotl Merchant District" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Cuotl Palace District" category="BUILDINGS" tex_type="BUTTON" x="166" y="20"/>
+        <TEXTURE texture="research_button" category="UIMAIN" tex_type="UITEX" x="228" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Points}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>The Cuotl gain #ICON3 Research Points by adding any kind of District to their Cities.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Remember, to add a District just select one of your Cities and left-click the kind of District you want from the second row of the options grid.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T1">
+      <STRING>
+        <TEXTURE texture="Cuotl Palace District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="research_button" category="UIMAIN" tex_type="UITEX" x="62" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Points}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Most districts provide a single #ICON3 Research Point when completed, but a Palace District provides more as a bonus for upgrading your City (though note unlike many Palace District effects this bonus is not dependent on the number of districts you have in the City already).</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T2">
+      <STRING>
+        <TEXTURE texture="energy_ui" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4#ICON4 Energy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Unique Resource}: Unlike other nations, the Cuotl gather #ICON4 Energy instead of #ICON2 Wealth. Energy has several convenient advantages over Wealth, including the fact that it can be gathered directly with a Reactor District without the need for vulnerable Caravans. Also, Energy costs for units and buildings never ramp!</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T3">
+      <STRING>
+        <TEXTURE texture="Cuotl Merchant District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4#ICON4 Energy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{How to "Gather" Energy}: #ICON4 Energy is gathered by adding Reactor Districts to your Cities (just select your City and click the Reactor District button on the middle row of the options grid). Reactor Districts generate more power the more Palace Districts are present at a City; they also gain a slight bonus for every non-city Site you control on the map. One-time Energy bonuses are awarded whenever you research a Divine Power advance. Finally certain sites such as Sepulchers and Engravers provide an additional Energy income.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T4">
+      <STRING>
+        <TEXTURE texture="Xil" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Czin" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Shok" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4#ICON4 Energy}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Energy for Hero Powers}: In addition to buying units and buildings, #ICON4 Energy must be spent to activate Cuotl hero powers.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T5">
+      <STRING>
+        <TEXTURE texture="Cuotl Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl City Districts}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Military District}: Increases your Population Cap, increases the City's health, and allows the City to defend itself. The Population Cap effect is also increased for each Palace District. </TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Recruitment}: Unlike the Military Districts of of other nations, Cuotl Military Districts [only] provide one free Sentinel unit [per] Palace District, so there is no recruitment bonus in an unupgraded City.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Free Repair}: Cuotl Military Districts have the special bonus of automatically repairing their City, albeit slowly. You do not need to spend resources to take advantage of this free repair!</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T6">
+      <STRING>
+        <TEXTURE texture="Cuotl Merchant District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl City Districts}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Reactor District}: Increases your Resource Cap and provides you with a direct #ICON4 Energy income. Adding Reactor Districts is the main way to accumulate Energy. Both the Energy and Resource Cap effects are increased for each Palace District.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Sites}: Each Reactor District also produces a small amount of extra Energy for every site you control on the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T7">
+      <STRING>
+        <TEXTURE texture="Sanctuary District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl City Districts}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Holy District}: Unique to the Cuotl, each Holy District you add provides you with a free Holy Ark unit. Holy Districts also increase the strength of your National Borders throughout your nation as well as increasing them even more in the vicinity of the City. Enemy units near a City with Holy Districts incur attrition damage, one of the only ways a Cuotl player can inflict attrition damage on enemies.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T8">
+      <STRING>
+        <TEXTURE texture="Cuotl Palace District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl City Districts}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Palace District}: The first Palace District you add converts a City into a Large City; the second makes it a Great City. This makes your City stronger and increases the effects of all the City's other Districts. The very first Palace District you ever add also makes that City your Capital - and if you lose your Capital you will lose the game.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T9">
+      <STRING>
+        <TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="10" y="30"/>
+        <TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="45" y="30"/>
+        <TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="80" y="30"/>
+        <TEXTURE texture="attrition_debuff" category="UIMAIN" tex_type="UITEX" x="115" y="30"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Attrition}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT> When your troops move into enemy territory, they automatically take [attrition] damage and can die. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T10">
+      <STRING>
+        <TEXTURE texture="Holy Ark" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Attrition}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Protect your troops from attrition with a {Holy Ark}, which you can create at a City or receive free whenever you add a Holy District.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T11">
+      <STRING>
+        <TEXTURE texture="Holy Ark" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Attrition}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Keep your {Holy Ark} close to your units while moving in enemy territory: it will {heal} them as well as protecting them from attrition!</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T12">
+      <STRING>
+        <TEXTURE texture="Sanctuary District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Czin" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Attrition}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>To cause attrition damage to your enemies, you must add Holy Districts in your Cities or summon the Hero Czin.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T13">
+      <STRING>
+        <TEXTURE texture="Power 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Power 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Power 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Power 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Advances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Worship}: Increases the health of Holy Arks and improves both their Channel power and their ability to heal your troops. Also increases the transport capacity of Fanes.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T14">
+      <STRING>
+        <TEXTURE texture="Weapons 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Weapons 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Weapons 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Weapons 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Advances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Zeal}: Provides free Sentinels and speeds the creation of new Sentinels. Increases the attack strength of all units.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T15">
+      <STRING>
+        <TEXTURE texture="Shields 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Shields 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Shields 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Shields 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Advances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Judgement}: Provides you with a constant income of #ICON1 Timonium which from the second level forward is supplemented by an immediate one-time tribute of #ICON1 Timonium. Also, Subjugation of neutral sites costs less and does less damage to the building and units, allowing you to capture them in better shape. Finally, it activates and subsequently improves the shields on your buildings and increases the health of your heroes.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T16">
+      <STRING>
+        <TEXTURE texture="Reactor Power 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Reactor Power 2" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Reactor Power 3" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Reactor Power 4" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Research Advances}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Divine Power}: Activates and improves your national power, Star Bolt. It also provides you with a constant income of #ICON4 Energy which from the second level forward is supplemented by an immediate one-time tribute of #ICON4 Energy. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T17">
+      <STRING>
+        <TEXTURE texture="Xil" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Heroes}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Xil}: Self-proclaimed God of the Sun, his loyal followers (Sun Jaguar, Sun Idol, and Sun Cannon) gain benefits when he is in play. The most accomplished engineer of his brethren, Xil's mastery of thermal dispersal reduces the cooldown times of all of your units' and Heroes' powers. His own powers include Blinding Armor which protects friendly troops and blinds the enemy, Mirror Image to summon forth duplicates of himself and confuse the enemy, and Burning Beams which fall from the sky and incinerate everything they touch. His ultimate power, Sun Blast, intensifies his weapon to near epic strength.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T18">
+      <STRING>
+        <TEXTURE texture="Czin" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Heroes}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Czin}: The terrifying Cuotl God of Death will stop at nothing to reduce the planet to slavery under his despotic rule. His unscrupulous use of engineered bacteriophages causes attrition damage to enemies in your territory, and this effect increases as he levels up, gaining skill. His minions, Death Snakes and Death Spheres, gain stronger trample and melee attacks when he is present on the map. The Death God's powers include a spreading, creeping death known as the Plague, and Soul Burn which stuns an enemy and prevents him from using any powers. As the Cuotl infrastructure increases, he can use Death Grip, which damages all nearby enemies and transfers their health to Czin, and his ultimate power, Death Gate, which summons forth a naked singularity to suck in everything it touches.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T19">
+      <STRING>
+        <TEXTURE texture="Shok" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Heroes}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Shok}: Having chosen the sky as her personal domain among the Cuotl pantheon, the would be Goddess of Storm and Lightning costs slightly more to summon as do all flying heroines. Shok boosts the electromagnetic shielding on all of your buildings, and increases the effect of your units' Personal Shield power; she also increases the speed of your flying units. Her powers include the mighty Thunder Clap to damage enemies and disintegrate any beneficial powers they may have acting on them, Lightning Jump which allows her to take friendly units through some other dimension to any place in the world she may desire, and Lightning Blast which unleashes a raging electrical storm. Her ultimate power is the Hurricane, that can immobilize enemy flying units across an entire continent.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T20">
+      <STRING>
+        <TEXTURE texture="Xil" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Hero Powers and Levels}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Powers cost Energy}: Cuotl heroes must spend #ICON4 Energy to activate their powers. Each power has an energy cost which is deducted when you use it.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T21">
+      <STRING>
+        <TEXTURE texture="Czin, God of Death" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Czin, God of Death L2" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Czin, God of Death L3" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+        <TEXTURE texture="Czin, God of Death L4" category="UNITS" tex_type="BUTTON" x="166" y="20"/>
+        <TEXTURE texture="Czin, God of Death L5" category="UNITS" tex_type="BUTTON" x="218" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Hero Powers and Levels}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{How to Level Up}: Cuotl heroes level up by actually [using] their powers. The more often you use your hero powers the faster they will rise in level. Your heroes also gain experience the first time you upgrade to a Large City or Great City.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T22">
+      <STRING>
+        <TEXTURE texture="Shok, Goddess of storm L5" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Hero Powers and Levels}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Experience}: The higher the cost of the power you activate, the more experience your hero will gain toward his or her next level.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T23">
+      <STRING>
+        <TEXTURE texture="Shok, Goddess of storm L5" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Hero Powers and Levels}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Benefits of Levels}: Higher level heroes gain more health and combat power. Their characteristic military and economic benefits also increase in power as heroes level up.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T24">
+      <STRING>
+        <TEXTURE texture="Fane" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Temple" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Sanctuary" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Creating Cuotl Armies}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>In order to create Cuotl military units, you will need to build Fanes, Temples, and Sanctuaries. Click the Build button and then select the kind of building you want from the options grid.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T25">
+      <STRING>
+        <TEXTURE texture="Fane" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Sentinel" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="Sun Jaguar" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+        <TEXTURE texture="Death Snake" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Creating Cuotl Armies}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Fane}: Basic ground units come from the Fane, which can also be used to transport them by air. Your soldiers, Sentinels, have a powerful ranged attack which makes them stronger than other nation's soldiers, but they are also more expensive. The Sun Jaguar combines melee striking power with the ability to fire at range while on the move. Death Snakes are powerful one-on-one melee opponents supplemented by the ability to trample. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T26">
+      <STRING>
+        <TEXTURE texture="Temple" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Scout Eye" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="Quetzal" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+        <TEXTURE texture="Storm Disk" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+        <TEXTURE texture="Storm Eagle" category="UNITS" tex_type="BUTTON" x="228" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Creating Cuotl Armies}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Temple}: The Temple produces many varieties of air unit. Quetzals and Storm Eagles are like high tech fighters and bombers. Storm Disks have a powerful air-to-air attack. The Scout Eye is the fastest unit in the game, and gives the Cuotl a leg up in reconnoitering the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T27">
+      <STRING>
+        <TEXTURE texture="Sanctuary" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Sun Cannon" category="UNITS" tex_type="BUTTON" x="72" y="20"/>
+        <TEXTURE texture="Greater Idol" category="UNITS" tex_type="BUTTON" x="124" y="20"/>
+        <TEXTURE texture="Death Sphere" category="UNITS" tex_type="BUTTON" x="176" y="20"/>
+        <TEXTURE texture="Cuotl Master Unit" category="UNITS" tex_type="BUTTON" x="228" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Creating Cuotl Armies}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Sanctuary}: An imposing fortress in its own right, the Sanctuary also produces the most powerful Cuotl units. The Sun Cannon burns enemy buildings with the power of a star, while the Sun Idol is a lumbering but devastating all-around killing machine. The Death Sphere has one of the most powerful trample attacks in the game, sucking its opponents into a singularity. Finally, the City of Vengeance (Cuotl Master Unit) is an ultimate fortress-in-the-sky, able to transport and create armies as well as punish the most daunting enemies.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T28">
+      <STRING>
+        <TEXTURE texture="Farsight" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl National Power}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>The icon in the far upper right of the screen is used to activate your National Power, {Star Bolt}.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Reveal Map and Damage Units}: Star Bolt can be cast in any part of the map, even if you can't see it yet. It reveals that section of the map to you, and proceeds to damage nearby units with a blinding flare of energy. You can also select the base of the Star Bolt beam and move it around to chase enemy units or reveal other sections of the map.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T29">
+      <STRING>
+        <TEXTURE texture="Farsight" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Reactor Power 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl National Power}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Activation}: In order to gain access to your National Power, you must research at least one {Divine Power} advance - that is, from the [bottom] row of advances on your research bar. Researching further Divine Power advances on the bottom row will upgrade the effect of Star Bolt.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Cooldown Period}: Whenever you activate your national power it must cool down for several minutes before you can make use of it again. </TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T30">
+      <STRING>
+        <TEXTURE texture="Fane" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Takeoff" category="SPELLS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="Land" category="SPELLS" tex_type="BUTTON" x="114" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Transporting Cuotl Armies By Air}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>To transport Cuotl units by air, you will need to use your Fane building, which as it turns out can fly! </TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Taking Off and Landing a Fane}: To make your Fane building fly, select it and click the Take Off button. Note that while a Fane is flying it cannot create new units - to resume doing that you must use the Land button to park the Fane.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T31">
+      <STRING>
+        <TEXTURE texture="Fane" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Power 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Transporting Cuotl Armies By Air}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Transport Capacity}: Fanes can initially carry only a single small ground unit. To increase transport capacity, you will need to research Worship advances (click the Research button to see available advances). To carry heavier siege units, you will need to research several of these advances.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T32">
+      <STRING>
+        <TEXTURE texture="OPTION_EMBARK" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="OPTION_DISEMBARK" category="OPTIONS" tex_type="BUTTON" x="62" y="20"/>
+        <TEXTURE texture="OPTION_EJECT_ALL" category="OPTIONS" tex_type="BUTTON" x="114" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Transporting Cuotl Armies By Air}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{How to Get On}: To load ground units onto a Fane, left-click the ground units to select them and then right-click the Fane.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Where to Get Off}: To disembark units from a Fane, left-click the Fane and use the Disembark or Eject All buttons in the options grid.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T33">
+      <STRING>
+        <TEXTURE texture="Personal Shield" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+        <TEXTURE texture="Invisibility" category="SPELLS" tex_type="BUTTON" x="62" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Cuotl Unit Powers}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Most Cuotl units have two special powers which are available once you've researched sufficient advances.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Personal Shield}: Provides a temporary shield to absorb damage. The amount of damage absorbed increases the more Judgement advances you research.</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Personal Cloak}: Allows your units to become temporarily invisible. If they attack enemies, they lose their cloaking benefit. Research the Zeal 2 advance to enable this power.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T34">
+      <STRING>
+        <TEXTURE texture="Obelisk" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Obelisks}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>Obelisks are the primary Cuotl defensive building. They can shoot at both enemy ground and air units.</TEXT>
+      </STRING>
+    </ENTRY>
+    <ENTRY name="T35">
+      <STRING>
+        <TEXTURE texture="Obelisk" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{ }</TEXT>
+        <CENTER/>
+        <TEXT>{*4Obelisks}</TEXT>
+        <LINE/>
+        <TEXT>{ }</TEXT>
+        <BULLET_INDENT/>
+        <TEXT>{Mutual Support}: Obelisks grouped together can support each other - even if an Obelisk is out of range of a target, if it is close enough to another (in range) Obelisk it can add to the attack!</TEXT>
+      </STRING>
+    </ENTRY>
+  </TIPS>
+</ROOT>

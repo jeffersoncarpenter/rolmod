@@ -1,0 +1,751 @@
+<?xml version="1.0"?>
+<ROOT name="Venuccians" loc_name="Venuccians" diplo_icon_string="The Doge, Alessadri of Venucci">
+  <TRIBES base_tribe="Vinci">
+    <NEEDS_TRIBE>CTWVinci</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>The Doge</LEADER>
+    <LEADER>The Doge</LEADER>
+    <LEADER>The Doge</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>x</CITY>
+  </CITIES>
+  <STARTS>
+    <START name="default">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="large city">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="4" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci military district"/>
+      <BUILDING num="1" type="vinci merchant district"/>
+      <BUILDING num="1" type="industrial district"/>
+      <BUILDING num="1" type="vinci palace district"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="2" type="prototypes"/>
+    </START>
+    <START name="defender">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="3" type="Doge Walker MP"/>
+      <UNIT num="4" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci military district"/>
+      <BUILDING num="1" type="vinci merchant district"/>
+      <BUILDING num="1" type="industrial district"/>
+      <BUILDING num="1" type="vinci palace district"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="2" type="prototypes"/>
+    </START>
+    <START name="deathmatch">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="10000" type="timonium"/>
+      <RESOURCE num="5000" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="guild district">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="industrial district"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="2" type="prototypes"/>
+    </START>
+    <START name="merchant district">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="vinci merchant district"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="military district">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="3" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="vinci military district"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="nomad">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="1" type="Doge Walker MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="rax start">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="barracks"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="tower start">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="defense tower"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="x2 all">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="3" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="wealth"/>
+      <RESOURCE num="2" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x3 all">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="4" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x5 all">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="6" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="5" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x2 resources">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="200" type="timonium"/>
+      <RESOURCE num="100" type="wealth"/>
+      <RESOURCE num="2" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x3 resources">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="300" type="timonium"/>
+      <RESOURCE num="150" type="wealth"/>
+      <RESOURCE num="3" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x5 resources">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+      <RESOURCE num="500" type="timonium"/>
+      <RESOURCE num="250" type="wealth"/>
+      <RESOURCE num="5" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="x2 troops">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="3" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="x3 troops">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="4" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="x5 troops">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="6" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="city"/>
+      <BUILDING num="1" type="vinci mine"/>
+      <BUILDING num="1" type="Trade Mission"/>
+    </START>
+    <START name="low_strength_easy">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="2" type="barracks"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="medium_strength_easy">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="3" type="barracks"/>
+      <BUILDING num="2" type="aerodrome"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="high_strength_easy">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="1" type="Vinci Merchant District"/>
+      <BUILDING num="3" type="barracks"/>
+      <BUILDING num="2" type="aerodrome"/>
+      <BUILDING num="1" type="Defense Tower"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="low_strength_moderate">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="medium_strength_moderate">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="high_strength_moderate">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="1" type="Defense Tower"/>
+      <BUILDING num="1" type="Vinci Merchant District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="low_strength_tough">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="medium_strength_tough">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="1" type="Defense Tower"/>
+      <BUILDING num="1" type="Vinci Merchant District"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="1" type="prototypes"/>
+    </START>
+    <START name="high_strength_tough">
+      <UNIT num="1" type="Scout Flyer"/>
+      <UNIT num="2" type="Doge Guard MP"/>
+      <UNIT num="5" type="Citizen"/>
+      <BUILDING num="1" type="City"/>
+      <BUILDING num="1" type="Vinci Mine"/>
+      <BUILDING num="1" type="Vinci Military District"/>
+      <BUILDING num="1" type="Vinci Merchant District"/>
+      <BUILDING num="1" type="industrial District"/>
+      <BUILDING num="1" type="Defense Tower"/>
+      <BUILDING num="1" type="steam fortress"/>
+      <RESOURCE num="100" type="timonium"/>
+      <RESOURCE num="50" type="wealth"/>
+      <RESOURCE num="1" type="research points"/>
+      <RESOURCE num="2" type="prototypes"/>
+    </START>
+  </STARTS>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Burrowing Spider</WANT>
+      <WANT>Gun Flyer</WANT>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Clockwork Sniper</WANT>
+      <WANT>Destroyer Transport</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>MP Zeke 1</WANT>
+      <WANT>MP Zeke 2</WANT>
+      <WANT>MP Zeke 3</WANT>
+      <WANT>Terracota Clockwork Man</WANT>
+      <WANT>Clockwork Spider</WANT>
+      <WANT>Juggernaut</WANT>
+      <WANT>Air destroyer</WANT>
+      <WANT>Land Leviathan</WANT>
+      <WANT>Dirigible</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Air Army">
+      <NEED percent="95">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED percent="5">Scout Flyer</NEED>
+    </ARMY>
+    <ARMY name="Nomad Army">
+      <NEED>Hero</NEED>
+      <NEED>Scout Flyer</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Doge Walker MP</NEED>
+      <NEED>Doge Walker MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Land Leviathan</WANT>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Vendoge Spider</NEED>
+      <NEED percent="20">Vendoge Spider</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED percent="20">Doge Guard MP</NEED>
+      <NEED percent="20">Vendoge Spider</NEED>
+      <NEED percent="20">Doge Guard MP</NEED>
+      <WANT>Doge Walker MP</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore" retreat_health="-1" retreat_units="-1">
+      <WANT>Spy Scout</WANT>
+      <WANT>Scout Flyer</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="5">
+      <NEED>Doge Guard MP</NEED>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="5">
+      <NEED>Doge Guard MP</NEED>
+    </ARMY>
+    <ARMY name="Easy Small City Attack" retreat_health="20">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack" retreat_health="20">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Vendoge Spider</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack" retreat_health="0">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="10">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Juggernauts" retreat_health="10">
+      <NEED>Juggernaut</NEED>
+      <NEED>Juggernaut</NEED>
+      <WANT>Juggernaut</WANT>
+    </ARMY>
+    <ARMY name="Easy City Attack" retreat_health="10">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack" retreat_health="10">
+      <NEED percent="75">Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED percent="25">Vendoge Spider</NEED>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack" retreat_health="0">
+      <NEED percent="50">Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED percent="25">Vendoge Spider</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED percent="25">Doge Walker MP</NEED>
+      <NEED>Doge Walker MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army" retreat_health="10">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack" retreat_health="10">
+      <NEED>Doge Cannon</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <WANT>Doge Cannon</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Vendoge Spider</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army" retreat_health="10">
+      <NEED>Doge Walker MP</NEED>
+      <NEED>Doge Walker MP</NEED>
+      <NEED>Doge Walker MP</NEED>
+      <NEED>Juggernaut</NEED>
+      <NEED>Juggernaut</NEED>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Walker MP</WANT>
+      <WANT>Doge Walker MP</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army" retreat_health="10">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small" retreat_health="50">
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large" retreat_health="50">
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Vendoge Spider</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <NEED>Doge Guard MP</NEED>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Vendoge Spider</WANT>
+      <WANT>Doge Guard MP</WANT>
+    </ARMY>
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="Doge Walker MP" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <FLAGS>tuy3k</FLAGS>
+      <WHERE>Steam Fortress</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Doge Guard MP" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <WHERE>Barracks</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Doge Guard Volley" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <WHERE>Doge Guard MP</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Doge Guard Skirmish" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <WHERE>Doge Guard MP</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Doge Guard Assault" reference_style="replace">
+      <PREQ0>none</PREQ0>
+      <WHERE>Doge Guard MP</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Vendoge Spider" reference_style="replace">
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <FLAGS>xy3tuk</FLAGS>
+      <WHERE>Barracks</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Doge Cannon" reference_style="own">
+      <FROM>none</FROM>
+      <PREQ0>none</PREQ0>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <WHERE>Steam Fortress</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Doge Cannon" reference_style="own">
+      <FROM>Doge Cannon</FROM>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <WHERE>Steam Fortress</WHERE>
+    </UNIT>
+    <UNIT class="units" reference_name="Juggernaut" reference_style="own"/>
+    <UNIT class="units" reference_name="Rocket Launcher" reference_style="remove">
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Steam Cannon" reference_style="remove">
+      <PREQ0>none</PREQ0>
+    </UNIT>
+    <UNIT class="units" reference_name="Super Scout Flyer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Improved Scout Flyer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Doge Guard" reference_style="remove"/>
+    <UNIT class="units" reference_name="Vendoge" reference_style="remove"/>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Vendoge Guard" reference_style="remove"/>
+    <UNIT class="units" reference_name="Clockwork Man" reference_style="remove"/>
+    <UNIT class="units" reference_name="Clockwork Spider" reference_style="remove"/>
+    <UNIT class="units" reference_name="Imperial Musketeer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Volley Musketeer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Imperial Grenadier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Volley Grenadier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Imperial Fusilier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Volley Fusilier" reference_style="remove"/>
+    <UNIT class="units" reference_name="Imperial Grenadier Plugged" reference_style="remove"/>
+    <UNIT class="units" reference_name="Supply Truck" reference_style="remove"/>
+    <UNIT class="units" reference_name="Feligno Scout" reference_style="remove"/>
+    <UNIT class="units" reference_name="Feligno Flyer" reference_style="remove"/>
+    <UNIT class="units" reference_name="Feligno Dirigible" reference_style="remove"/>
+    <UNIT class="units" reference_name="Feligno Zeppelin" reference_style="remove"/>
+    <UNIT class="units" reference_name="Land Leviathan" reference_style="remove"/>
+    <UNIT class="units" reference_name="King Leviathan" reference_style="remove"/>
+    <UNIT class="units" reference_name="Doge's Leviathan" reference_style="remove"/>
+    <UNIT class="units" reference_name="Marco, Captain of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="Sclario, Don of Feligno" reference_style="remove"/>
+    <UNIT class="units" reference_name="Rocco, Lord of the Wasteland" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora Boosted 4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L2" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L3" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L4" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana L5" reference_style="remove"/>
+    <UNIT class="units" reference_name="Dante, Viscount of Tarona" reference_style="remove"/>
+    <UNIT class="units" reference_name="Mauricio, the Prison Warden" reference_style="remove"/>
+    <UNIT class="units" reference_name="Petruzzo, Lord of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Timonium Smelter 2" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Doom Hammer" reference_style="own"/>
+    <BUILDING class="builds" reference_name="Cannonbuilding" reference_style="remove"/>
+    <Craft class="craft" reference_name="Web Warden" reference_style="remove"/>
+    <Craft class="craft" reference_name="Piracy Warden" reference_style="remove"/>
+    <Craft class="craft" reference_name="Lightning Strike Warden" reference_style="remove"/>
+    <Craft class="craft" reference_name="Recruit Warden" reference_style="remove"/>
+    <Craft class="craft" reference_name="Gas Marco" reference_style="remove"/>
+    <Craft class="craft" reference_name="Shrapnel Proto" reference_style="own"/>
+    <Craft class="craft" reference_name="Demolition Proto" reference_style="own"/>
+    <Craft class="craft" reference_name="Poison Gas Proto" reference_style="own"/>
+    <Craft class="craft" reference_name="Doom Shell" reference_style="own"/>
+    <Craft class="craft" reference_name="Spit" reference_style="own"/>
+    <Craft class="craft" reference_name="Augmentation Lord" reference_style="own"/>
+    <Craft class="craft" reference_name="Sonic Blast Lord" reference_style="own"/>
+    <Craft class="craft" reference_name="Bribe Lord" reference_style="own"/>
+    <Craft class="craft" reference_name="Snipe Lord" reference_style="own"/>
+    <Craft class="craft" reference_name="Gas" reference_style="remove"/>
+    <Craft class="craft" reference_name="Gas 2" reference_style="remove"/>
+    <Craft class="craft" reference_name="Gas 3" reference_style="remove"/>
+    <Craft class="craft" reference_name="Gas 4" reference_style="remove"/>
+    <Craft class="craft" reference_name="Laser Sniper" reference_style="remove"/>
+    <Craft class="craft" reference_name="Laser Sniper 3" reference_style="remove"/>
+    <Craft class="craft" reference_name="Laser Sniper 4" reference_style="remove"/>
+    <Craft class="craft" reference_name="Besiege" reference_style="remove"/>
+    <Craft class="craft" reference_name="Besiege 4" reference_style="remove"/>
+    <Craft class="craft" reference_name="Besiege 5" reference_style="remove"/>
+    <Craft class="craft" reference_name="Doomcannon" reference_style="remove"/>
+    <Craft class="craft" reference_name="Doomcannon 2" reference_style="remove"/>
+  </TYPES>
+  <AI_DATA>
+    <STRING id="mine_type">
+      <VAL>Vinci Mine</VAL>
+    </STRING>
+    <STRING id="barracks_type">
+      <VAL>Barracks</VAL>
+    </STRING>
+    <STRING id="airport_type">
+      <VAL>Aerodrome</VAL>
+    </STRING>
+    <STRING id="siege_workshop_type">
+      <VAL>Steam Fortress</VAL>
+    </STRING>
+    <STRING id="tower_type">
+      <VAL>Defense Tower</VAL>
+    </STRING>
+    <STRING id="gatherer_type">
+      <VAL>worker</VAL>
+    </STRING>
+    <STRING id="caravan">
+      <VAL>Vinci Caravan</VAL>
+    </STRING>
+    <STRING id="bonus_gatherer_type">
+      <VAL>Clockwork Miner</VAL>
+    </STRING>
+    <STRING id="nation_specific_district">
+      <VAL>Industrial District</VAL>
+    </STRING>
+    <STRING id="vinci_military_district">
+      <VAL>Vinci Military District</VAL>
+    </STRING>
+    <STRING id="vinci_merchant_district">
+      <VAL>Vinci Merchant District</VAL>
+    </STRING>
+    <STRING id="vinci_palace_district">
+      <VAL>Vinci Palace District</VAL>
+    </STRING>
+  </AI_DATA>
+</ROOT>

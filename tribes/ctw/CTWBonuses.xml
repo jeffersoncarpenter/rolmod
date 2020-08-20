@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<ROOT xml:space="preserve" name="CTWBonuses" loc_name="CTWBonuses">
+  <TRIBES base_tribe="none"/>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <UNIT class="units" reference_name="Dark Walker" reference_style="replace">
+      <WHERE>Glass Spire</WHERE>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </UNIT>
+    <UNIT class="units" reference_name="Marid" reference_style="replace">
+      <GRID_X>2</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </UNIT>
+    <UNIT class="units" reference_name="Glass Heartseeker" reference_style="replace">
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+    </UNIT>
+    <BUILDING class="builds" reference_style="copy" reference_name="Barracks">
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <OPTION_FROM>Glass Spire</OPTION_FROM>
+      <COST>125m</COST>
+      <RAMP_COST>125m ramp</RAMP_COST>
+      <PUSH>-40,2</PUSH>
+      <GRID_X>0</GRID_X>
+      <GRID_Y>1</GRID_Y>
+      <ICONGRAFT>Glass Spire</ICONGRAFT>
+      <NAME>Glass Spire</NAME>
+      <TYPENAME>Adromolek Spire</TYPENAME>
+      <GRAPH>Alim Glass Spire</GRAPH>
+      <HELP/>
+    </BUILDING>
+    <BUILDING class="builds" reference_style="copy" reference_name="Barracks">
+      <TRIBE_MASK>0000</TRIBE_MASK>
+      <OPTION_FROM>Heretic Hideaway</OPTION_FROM>
+      <COST>100m/25e</COST>
+      <RAMP_COST>100m ramp</RAMP_COST>
+      <PUSH>-25,2</PUSH>
+      <GRID_X>3</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <ICONGRAFT>Heretic Hideaway</ICONGRAFT>
+      <NAME>Fallen Refuge</NAME>
+      <TYPENAME>Kakoolha Hideaway</TYPENAME>
+      <GRAPH>Heretic_Hideaway</GRAPH>
+      <HELP>HERETICHIDEAWAY</HELP>
+    </BUILDING>
+    <TECH class="other" reference_style="new">
+      <NAME>CTW Hero Buff</NAME>
+      <TYPENAME>CTW Hero Buff</TYPENAME>
+      <FLAGS/>
+      <AGE>0</AGE>
+      <XP>0</XP>
+      <COST>0</COST>
+      <EXCLUSIVE>none</EXCLUSIVE>
+      <PREQ0>none</PREQ0>
+      <PREQ1>none</PREQ1>
+      <PREQ2>none</PREQ2>
+      <TIME>1</TIME>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <GRAFT>none</GRAFT>
+      <SHOW0>none</SHOW0>
+      <SHOW1>none</SHOW1>
+      <WHERE>none</WHERE>
+      <GRID_X>1</GRID_X>
+      <GRID_Y>0</GRID_Y>
+      <HELP>NYI</HELP>
+    </TECH>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>All Heroes Buff</TYPENAME>
+      <FLAGS>c</FLAGS>
+      <PREQ0>CTW Hero Buff</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3>Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>none</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Giacomo's Gift Upgrades">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Giacomo's Gift Spells">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Xil Upgrade 1">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Xil Upgrade 2">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Xil Upgrade 3">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Xil Upgrade 4">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Tell Hero Hit Points 1">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Tell Hero Hit Points 2">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Tell Hero Hit Points 3">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Tell Hero Hit Points 4">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Shok Upgrade 1">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Shok Upgrade 2">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Shok Upgrade 3">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Shok Upgrade 4">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Czin Upgrade 1">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Czin Upgrade 2">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Czin Upgrade 3">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Czin Upgrade 4">
+      <PREQ0>disable</PREQ0>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Lenora Air Buff 1">
+      <DATA3>Pirata Flyer; Air Destroyer; Afreet; Rukh; Sand Dragon; Fireswarm; Quetzal; Storm Eagle; Storm Disk</DATA3>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Lenora Air Buff 2">
+      <DATA3>Pirata Flyer; Air Destroyer; Afreet; Rukh; Sand Dragon; Fireswarm; Quetzal; Storm Eagle; Storm Disk</DATA3>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Lenora Air Buff 3">
+      <DATA3>Pirata Flyer; Air Destroyer; Afreet; Rukh; Sand Dragon; Fireswarm; Quetzal; Storm Eagle; Storm Disk</DATA3>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Lenora Air Buff 4">
+      <DATA3>Pirata Flyer; Air Destroyer; Afreet; Rukh; Sand Dragon; Fireswarm; Quetzal; Storm Eagle; Storm Disk</DATA3>
+    </BONUS>
+    <BONUS class="other" reference_style="replace" reference_name="Lenora Air Buff 5">
+      <DATA3>Pirata Flyer; Air Destroyer; Afreet; Rukh; Sand Dragon; Fireswarm; Quetzal; Storm Eagle; Storm Disk</DATA3>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Spiky Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>SPIKY</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Spiky Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>SPIKY</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Spiky Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>SPIKY</DATA0>
+      <DATA1>30%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Spiky Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>SPIKY</DATA0>
+      <DATA1>40%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Spiky Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>SPIKY</DATA0>
+      <DATA1>50%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Poison Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA</DATA0>
+      <DATA1>10%; 10%; 10%; 10%</DATA1>
+      <DATA2/>
+      <DATA3>Glass Cannon Poison; Glass Spider Built Poison; Glass Golem Poison; Glass Dragon Start; Elder Glass Dragon; Glass Spider; Giant Glass Spider; Giant Glass Spider Summoned; Giant Glass Golem; Mega Glass Golem; Death Snake; Elite Death Snake; Death Sphere; Cuotl Master Unit; Pulitore, the Chicken Rider; Pulitore, the Chicken Rider L2; Pulitore, the Chicken Rider L3; Pulitore, the Chicken Rider L4; Pulitore, the Chicken Rider L5</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Poison Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA</DATA0>
+      <DATA1>20%; 20%; 20%; 20%</DATA1>
+      <DATA2/>
+      <DATA3>Glass Cannon Poison; Glass Spider Built Poison; Glass Golem Poison; Glass Dragon Start; Elder Glass Dragon; Glass Spider; Giant Glass Spider; Giant Glass Spider Summoned; Giant Glass Golem; Mega Glass Golem; Death Snake; Elite Death Snake; Death Sphere; Cuotl Master Unit; Pulitore, the Chicken Rider; Pulitore, the Chicken Rider L2; Pulitore, the Chicken Rider L3; Pulitore, the Chicken Rider L4; Pulitore, the Chicken Rider L5</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Poison Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA</DATA0>
+      <DATA1>30%; 30%; 30%; 30%</DATA1>
+      <DATA2/>
+      <DATA3>Glass Cannon Poison; Glass Spider Built Poison; Glass Golem Poison; Glass Dragon Start; Elder Glass Dragon; Glass Spider; Giant Glass Spider; Giant Glass Spider Summoned; Giant Glass Golem; Mega Glass Golem; Death Snake; Elite Death Snake; Death Sphere; Cuotl Master Unit; Pulitore, the Chicken Rider; Pulitore, the Chicken Rider L2; Pulitore, the Chicken Rider L3; Pulitore, the Chicken Rider L4; Pulitore, the Chicken Rider L5</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Poison Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA</DATA0>
+      <DATA1>40%; 40%; 40%; 40%</DATA1>
+      <DATA2/>
+      <DATA3>Glass Cannon Poison; Glass Spider Built Poison; Glass Golem Poison; Glass Dragon Start; Elder Glass Dragon; Glass Spider; Giant Glass Spider; Giant Glass Spider Summoned; Giant Glass Golem; Mega Glass Golem; Death Snake; Elite Death Snake; Death Sphere; Cuotl Master Unit; Pulitore, the Chicken Rider; Pulitore, the Chicken Rider L2; Pulitore, the Chicken Rider L3; Pulitore, the Chicken Rider L4; Pulitore, the Chicken Rider L5</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Pulitore Poison Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA</DATA0>
+      <DATA1>50%; 50%; 50%; 50%</DATA1>
+      <DATA2/>
+      <DATA3>Glass Cannon Poison; Glass Spider Built Poison; Glass Golem Poison; Glass Dragon Start; Elder Glass Dragon; Glass Spider; Giant Glass Spider; Giant Glass Spider Summoned; Giant Glass Golem; Mega Glass Golem; Death Snake; Elite Death Snake; Death Sphere; Cuotl Master Unit; Pulitore, the Chicken Rider; Pulitore, the Chicken Rider L2; Pulitore, the Chicken Rider L3; Pulitore, the Chicken Rider L4; Pulitore, the Chicken Rider L5</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Pulitore, the Chicken Rider L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>100%; 100%; 100%; 100%; 100%; 100%; 10%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>200%; 200%; 200%; 200%; 200%; 200%; 20%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>300%; 300%; 300%; 300%; 300%; 300%; 30%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>400%; 400%; 400%; 400%; 400%; 400%; 40%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Belisari Civilian Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM; GA; AM; AA; BA; HITS</DATA0>
+      <DATA1>500%; 500%; 500%; 500%; 500%; 500%; 50%</DATA1>
+      <DATA2/>
+      <DATA3>Spirit; Priest; Worker; Miner; Alim Caravan; Vinci Caravan; Cuotl Caravan; Hardy Miner; Clockwork Miner; Clockwork Foreman; Armed Vinci Caravan; Holy Ark; Dirigible; Improved Dirigible; Magic Bottle</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Belisari, Queen of the Desert L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>5%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>15%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Grunt Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>25%</DATA1>
+      <DATA2/>
+      <DATA3>Imperial Musketeer; Condottieri Soldier; Desert Walker; Dark Walker; Sentinel;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>5%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>15%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Carlini Hero Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>HITS</DATA0>
+      <DATA1>25%</DATA1>
+      <DATA2/>
+      <DATA3>Horse Giacomo; Adromolek, the Dark Prince; Arri, the Glass Hunter; Battaglion, the Siege General; Belisari, Queen of the Desert; Carlini, Sergeant of Miana; Distruzio, the Wayward Prodigy; Giacomo, Desert Warrior; Giacomo, the Moon God; Kakoolha, King of the Cuotl; Pulitore, the Chicken Rider; Venza, Lieutenant of Miana; Yontash, the Spiritchief; Giacomo, Inventor of Miana; Lenora, Pirata Princess; Dakhla, the Sand Warden; Damanhur, the Desert Flame; Sawu, the Dark Alim;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Carlini, Sergeant of Miana L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>3%;3%;3%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>6%;6%;6%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>9%;9%;9%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>12%;12%;12%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Battaglion Siege Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GA;AA;BA</DATA0>
+      <DATA1>15%;15%;15%</DATA1>
+      <DATA2/>
+      <DATA3>Rocket Launcher; Glass Cannon; Sun Cannon; Siege Elephant;</DATA3>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Battaglion, the Siege General L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 1</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>10%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 2</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>20%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L2</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 3</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>30%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L3</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 4</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>40%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L4</HERO>
+      <HELP> </HELP>
+    </BONUS>
+    <BONUS class="other" reference_style="new">
+      <TYPENAME>Arri Melee Buff 5</TYPENAME>
+      <FLAGS>ef</FLAGS>
+      <PREQ0>none</PREQ0>
+      <DATA0>GM</DATA0>
+      <DATA1>50%</DATA1>
+      <DATA2/>
+      <DATA3/>
+      <TRIBE_MASK>1111</TRIBE_MASK>
+      <HERO>Arri, the Glass Hunter L5</HERO>
+      <HELP> </HELP>
+    </BONUS>
+  </TYPES>
+</ROOT>

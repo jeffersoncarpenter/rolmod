@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+	<TIPS num="35">
+		<ENTRY name="T0">
+			<STRING>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Learning to Play}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Campaigns}: If you are new to real-time strategy games or simply wish to use a learn-as-you-play system, we recommend that you play the campaigns first.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Tips}: These tips also include useful information on how to play. You can access these tips at any time from the ESC Menu (repeatedly press the ESC key during the game). </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T1">
+			<STRING>
+				<TEXTURE texture="select_single" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Basic Game Controls}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Select Unit}: Left-click the unit.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Move Unit}: With unit selected, right-click the place you want that unit to go.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T2">
+			<STRING>
+				<TEXTURE texture="select_multiple" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Basic Game Controls}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Select Multiple Units}: Use the left mouse button to drag a box around the units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Attack}: Select unit(s) (left-click) then right-click a unit or building you want to attack.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T3">
+			<STRING>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Basic Camera Controls}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Pan the Map View}: Move the mouse pointer to the edge of the screen to pan the map in that direction.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Zoom In and Out}: Roll the mouse wheel to zoom in and out.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T4">
+			<STRING>
+				<TEXTURE texture="build" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<TEXTURE texture="Vinci Military District" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Buildings vs. Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>In Rise of Legends, there are two main types of structures: buildings and Districts.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Remember, to be successful in Rise of Legends you will need to build both types of structures.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T5">
+			<STRING>
+				<TEXTURE texture="build" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Buildings vs. Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Buildings}: Buildings such as Mines, Barracks, and Aerodromes are [built] using the Build button. You don't need a special civilian or builder unit to construct a building in [Rise of Legends], you just place the building where you want it and it constructs itself!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T6">
+			<STRING>
+				<TEXTURE texture="Vinci Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Industrial District" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Vinci Merchant District" category="BUILDINGS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Vinci Palace District" category="BUILDINGS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Buildings vs. Districts}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Districts}: Districts such as Military Districts and Palace Districts are [added to your City] by first selecting your City then choosing the appropriate District from the main options grid. Then just use the mouse to place the District on the map next to your City and click: the District will construct itself.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T7">
+			<STRING>
+				<TEXTURE texture="resource_ui" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resources}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>There are two main types of resources: Timonium and Wealth. You will need to gather these resources and use them to purchase new buildings and units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The number next to the #ICON1 Timonium symbol in the upper left of the screen shows you how much Timonium you currently have. The #ICON2 Wealth number next to it shows how much Wealth you have available right now.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T8">
+			<STRING>
+				<TEXTURE texture="Vinci Mine" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Worker" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resources}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>#ICON1 {Timonium}: Timonium is gathered by selecting a Mine and creating Miners. These Miners can be assigned to any Mine or Timonium deposit. You can also build new Mines near Timonium patches in order to enhance resource gathering there.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Mines}: You don't need to have a Mine at every Timonium deposit to which you send miners, but the presence of a Mine will increase your collection rate.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T9">
+			<STRING>
+				<TEXTURE texture="Vinci Caravan" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Vinci Merchant District" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resources}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>#ICON2 {Wealth}: Wealth is gathered by Caravans, which are created by first selecting your City and then clicking the Create Caravan button. You may need to add additional Merchant Districts at your City in order to create more Caravans. Caravans gather Wealth by forming trade routes between Cities and sites; a side-benefit is that neutral sites become more friendly the more you trade with them, and may even join you as allies.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Note}: Cuotl players gather #ICON4 {Energy} instead of Wealth. Energy is described in the Cuotl tips.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T10">
+			<STRING>
+				<TEXTURE texture="Giacomo" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="The Doge" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Lenora" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Heroes are some of your most powerful units. Available heroes are shown along the left side of the screen. </TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Summoning a new Hero}: Left-click the Hero icon in the upper left of the screen and right-click the area of the map where you want that Hero.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T11">
+			<STRING>
+				<TEXTURE texture="Giacomo" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="The Doge" category="UNITS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Lenora" category="UNITS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Selecting or Locating a Hero}: Left-clicking the Hero icon is a convenient shortcut to your Hero. Double-clicking the icon will center the view on your Hero.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T12">
+			<STRING>
+				<TEXTURE texture="Base Augmentation" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Sonic Blast" category="SPELLS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Demolition" category="SPELLS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Invincible Armor" category="SPELLS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Hero Powers}: Once a Hero is selected, his or her powers are shown in the main options grid to the right of the Mini Map.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Upgrading Powers and Levels}: Vinci and Alin Heroes can upgrade their powers directly - just select an upgrade option from the middle row of the grid. Your Hero will gain experience and levels as you purchase power upgrades. Cuotl Heroes gain levels by activating their powers.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T13">
+			<STRING>
+				<TEXTURE texture="reinforce_hero" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Heroes}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Reinforcing a Hero}: If you have other units selected, you can send them to reinforce your Hero by right-clicking the Hero's icon. Your units will attempt to join your Hero on the map (and will also join any control group of which your Hero is already a member). Rally points from buildings can also be set on Hero icons.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T14">
+			<STRING>
+				<TEXTURE texture="pop_cap" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Population Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The #ICON19 Population Cap shows your current unit population and the maximum you can support.  </TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Civilian units cost only 1 point of population to support; small military units cost 2 and larger units can cost much more.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T15">
+			<STRING>
+				<TEXTURE texture="Vinci Military District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Population Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>When the #ICON19 Population Cap number turns red, you have reached your cap and cannot create any more units.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Add [Military Districts] to your City to raise this cap. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T16">
+			<STRING>
+				<TEXTURE texture="Inn" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Oasis" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Population Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>On some maps you can also capture sites such as Inns and Oases to increase your #ICON19 Population Cap.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T17">
+			<STRING>
+				<TEXTURE texture="commerce_cap" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resource Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The #ICON20 Resource Cap displays the maximum rate per minute that you can gather resources (e.g., Timonium, Wealth).</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T18">
+			<STRING>
+				<TEXTURE texture="Vinci Merchant District" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resource Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>When the #ICON20 Resource Cap number turns red, you are trying to gather more resources than you can currently handle and resources are being wasted.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Add [Merchant Districts] to your City to increase this cap. (* Cuotl players add Reactor Districts)</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T19">
+			<STRING>
+				<TEXTURE texture="Vault" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Engraver" category="BUILDINGS" tex_type="BUTTON" x="62" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Resource Cap}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>On some maps you can capture sites such as Vaults and Engravers to increase your #ICON20 Resource Cap.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T20">
+			<STRING>
+				<TEXTURE texture="Scout Flyer" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Scouting the Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Scouting}: Use your scout unit to discover important sites, cities, relics, and other locations on the map.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T21">
+			<STRING>
+				<TEXTURE texture="Scout Flyer" category="UNITS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Scouting the Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Locating your Scout}: You can press the apostrophe (') key to locate and select your scout. If you have more than one scout, you can press the key several times to cycle through your scouts.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T22">
+			<STRING>
+				<TEXTURE texture="OPTION_AUTO_EXPLORE" category="OPTIONS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Scouting the Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Auto Explore}: You can select your scout unit and click the Auto Explore button to have it explore automatically. </TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Waypoints}: Even better, use a series of SHIFT + right-clicks on the Mini Map to give your scout a series of waypoints. Your scout will automatically explore any Relics it notices along the way.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T23">
+			<STRING>
+				<TEXTURE texture="Relic" category="ITEMS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Relics}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>Relics are hidden about the map. Whenever your scout finds a Relic, you receive an instant Timonium bonus! Try to collect them before your opponents get them.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T24">
+			<STRING>
+				<TEXTURE texture="SmallCity" category="BUILDINGS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Sites and Cities}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>As you explore the map you will find many important Sites and Cities. {Sites} include special buildings such as Inns, Oases, Camps, and Shrines. {Cities} are sites which can be upgraded into full-sized cities to which you can add new districts.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T25">
+			<STRING>
+				<TEXTURE texture="Declare War Town" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Make Peace Town" category="SPELLS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Purchase" category="SPELLS" tex_type="BUTTON" x="114" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Sites and Cities}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Attacking}, {Trading}, and {Purchasing}: Neutral sites and cities are usually guarded by defenders. You can choose to [attack] and conquer them, or send your Caravans to [trade] with them hoping to gain them as allies. You can also spend your Wealth to [purchase] their friendship; the price to purchase a City or Site goes down whenever one of your Caravans visits to trade.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T26">
+			<STRING>
+				<TEXTURE texture="Purchase" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Sites and Cities}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Benefits}: Capturing sites allows you to use their special powers and create special units. Capturing Cities allows you to add new Districts much more cheaply. Capturing either type of building increases your territory on the map and helps you expand your control.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T27">
+			<STRING>
+				<TEXTURE texture="Storm" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Storming}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Capture Cities and Sites}: Storming is the process through which cities and sites can be captured. When you storm a City or site, you gain control of it! </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T28">
+			<STRING>
+				<TEXTURE texture="Storm" category="SPELLS" tex_type="BUTTON" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Storming}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{How to Storm}: In order to storm a City or site, you must first attack it and reduce its health to zero. Then you must have {Military Superiority} in the immediate area - that is, you need to have more/larger combat units and buildings nearby than any other player.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T29">
+			<STRING>
+				<TEXTURE texture="storm_button" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Storming}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Storm Button}: If you have any soldier units in the area (e.g., Imperial Musketeers, Desert Walkers, Sentinels, etc.), then you can choose to click the numbered {Storm} button to speed up storming. This will immediately reduce the health of the target building to zero, causing the Storm Timer to start. The number superimposed on the Storm button is the number of soldier units which will be temporarily removed from the map during the Storm Timer; these units will also take damage.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T30">
+			<STRING>
+				<TEXTURE texture="storm_timer" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Storming}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Storm Timer}: Once a City or site is being stormed, the Storm Timer will appear, showing the color of the player storming the building. Once the Storm Timer is complete, the new owner takes control of the building.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Breaking a Siege}: Note that if the defending player re-establishes military superiority before the storm timer is complete, the timer will run backwards and the siege may be broken!</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T31">
+			<STRING>
+				<TEXTURE texture="research_button" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Research}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Research Points}: The number superimposed over the Research Button shows your current #ICON3 Research Points. Each nation gains Research Points in a different way.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T32">
+			<STRING>
+				<TEXTURE texture="research_button" category="UIMAIN" tex_type="UITEX" x="10" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Research}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Research Button}: Click the Research Button (or press the L key) to see your nation's research options. </TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T33">
+			<STRING>
+				<TEXTURE texture="Territory 1" category="TECHS" tex_type="BUTTON" x="10" y="20"/>
+				<TEXTURE texture="Prosperity 1" category="TECHS" tex_type="BUTTON" x="62" y="20"/>
+				<TEXTURE texture="Scavenge 1" category="TECHS" tex_type="BUTTON" x="114" y="20"/>
+				<TEXTURE texture="Mining 1" category="TECHS" tex_type="BUTTON" x="166" y="20"/>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Research}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Unique Advances}: Each nation has its own set of unique advances to be researched. You can choose to specialize in one or two lines of advance, or spread your research out evenly over all of the lines. The choices you make in researching advances will allow you pursue different strategies.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T34">
+			<STRING>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Mini Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>The smaller round map in the lower left of the screen is called the {Mini Map}. This map allows you to take in the strategic situation in a glance. It shows all of the units, buildings, Cities, sites, and Relics which you have seen. It also shows the National Borders of every player you have encountered.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T35">
+			<STRING>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Mini Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Jumping to a Map Location}: Left-click anywhere in the Mini Map to center your Main Map view on that location. You can also left-click and drag in the Mini Map to pan the view rapidly.</TEXT>
+			</STRING>
+		</ENTRY>
+		<ENTRY name="T36">
+			<STRING>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{ }</TEXT>
+				<CENTER/>
+				<TEXT>{*4Mini Map}</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<BULLET_INDENT/>
+				<TEXT>{Giving Orders on the Mini Map}: With a unit selected, you can right-click in the Mini Map to send it that location in the world. With a building selected you can right-click in the Mini Map to set the building's rally point.</TEXT>
+			</STRING>
+		</ENTRY>
+	</TIPS>
+</ROOT>

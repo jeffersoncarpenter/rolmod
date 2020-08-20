@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ROOT name="CTWRules" loc_name="CTWRules">
+  <TRIBES base_tribe="none">
+    <NEEDS_TRIBE>CTWAlimRules</NEEDS_TRIBE>
+    <NEEDS_TRIBE>CTWVinciRules</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>None</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>none</CITY>
+  </CITIES>
+  <ARMIES/>
+  <TYPES>
+    <!--Abilities with free levels need their ranks adjusted down for correct experience reward (ex: Augmentation's rank values)-->
+  </TYPES>
+</ROOT>

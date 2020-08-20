@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by BLococo (Big Huge Games) -->
+<ROOT name="Scavengers" loc_name="Scavengers" diplo_icon_string="Clockwork Man">
+  <TRIBES base_tribe="Vinci">
+    <NEEDS_TRIBE>CTWVinci</NEEDS_TRIBE>
+  </TRIBES>
+  <LEADERS>
+    <LEADER>Clockwork Captain</LEADER>
+    <LEADER>Distruzio</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>x</CITY>
+  </CITIES>
+  <ARMIES>
+    <ARMY name="Neutrals" retreat_health="-1" retreat_units="-1">
+      <WANT>Hero</WANT>
+      <WANT>Heretic</WANT>
+      <WANT>Condottieri Soldier</WANT>
+      <WANT>Magus Grunt</WANT>
+      <WANT>Magus Burn</WANT>
+      <WANT>Magus Stun</WANT>
+      <WANT>Dark Walker</WANT>
+      <WANT>Barbarian</WANT>
+      <WANT>Berserker</WANT>
+      <WANT>Berserker Rider</WANT>
+      <WANT>Kuk</WANT>
+      <WANT>Moon God MP</WANT>
+      <WANT>Moon Gorilla</WANT>
+      <WANT>Cave Drake</WANT>
+      <WANT>Spiritchief</WANT>
+      <WANT>Spiritchief2</WANT>
+      <WANT>Dune Walker</WANT>
+      <WANT>Dune Manta</WANT>
+      <WANT>Dune Scorpion</WANT>
+      <WANT>Fire Elemental</WANT>
+      <WANT>Wild Juvenile Salamander</WANT>
+      <WANT>Wild Adult Salamander</WANT>
+      <WANT>Wild Elder Salamander</WANT>
+      <WANT>Lava Spider</WANT>
+      <WANT>Fallen Sentinel</WANT>
+      <WANT>Fallen Jaguar</WANT>
+      <WANT>Fallen Snake</WANT>
+      <WANT>Fallen Idol</WANT>
+      <WANT>Scavenger Miner</WANT>
+      <WANT>Renegade Musketeer</WANT>
+      <WANT>Scavenger Grunt</WANT>
+      <WANT>Scavenger Spider</WANT>
+      <WANT>Scavenger Flyer</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Fireswarm</WANT>
+      <WANT>Sentinel</WANT>
+      <WANT>Sun Jaguar</WANT>
+      <WANT>Condottieri Dragoon</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Condottieri Knight</WANT>
+      <WANT>Desert Walker</WANT>
+      <WANT>Glass Spider</WANT>
+      <WANT>Burrowing Spider</WANT>
+      <WANT>Gun Flyer</WANT>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Clockwork Sniper</WANT>
+      <WANT>Destroyer Transport</WANT>
+      <WANT>Unholy Ark</WANT>
+      <WANT>Fallen Priest</WANT>
+      <WANT>Siege Elephant</WANT>
+      <WANT>Glass Heartseeker</WANT>
+      <WANT>Marid</WANT>
+      <WANT>Mega Glass Golem</WANT>
+      <WANT>MP Zeke 1</WANT>
+      <WANT>MP Zeke 2</WANT>
+      <WANT>MP Zeke 3</WANT>
+      <WANT>Terracota Clockwork Man</WANT>
+      <WANT>Clockwork Spider</WANT>
+      <WANT>Juggernaut</WANT>
+      <WANT>air destroyer</WANT>
+      <WANT>Land Leviathan</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Taunt Army" retreat_health="-1" retreat_units="-1"/>
+    <ARMY name="Air Army">
+      <NEED percent="95">Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED percent="5">Scout Flyer</NEED>
+      <WANT>air destroyer</WANT>
+    </ARMY>
+    <ARMY name="Nomad Army">
+      <NEED>Scout Flyer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Clockwork Man</NEED>
+      <NEED>Clockwork Spider</NEED>
+    </ARMY>
+    <ARMY name="Ground Army">
+      <NEED percent="20">Clockwork Spider</NEED>
+      <NEED percent="20">Clockwork Spider</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED percent="20">Clockwork Man</NEED>
+      <NEED percent="20">Clockwork Man</NEED>
+      <NEED percent="20">Imperial Musketeer</NEED>
+      <WANT>Juggernaut</WANT>
+    </ARMY>
+    <ARMY name="Scout Explore" retreat_health="-1" retreat_units="-1">
+      <WANT>Spy Scout</WANT>
+      <WANT>Scout Flyer</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore0" retreat_health="5">
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+    </ARMY>
+    <ARMY name="Grunt Explore1" retreat_health="5">
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Hero</WANT>
+    </ARMY>
+    <ARMY name="Easy Small City Attack">
+      <NEED>Clockwork Man</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Clockwork Man</WANT>
+    </ARMY>
+    <ARMY name="Medium Small City Attack">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Clockwork Man</WANT>
+    </ARMY>
+    <ARMY name="Hard Small City Attack">
+      <NEED>Imperial Musketeer </NEED>
+      <NEED>Imperial Musketeer </NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Clockwork Man</NEED>
+      <WANT>Hero</WANT>
+      <WANT>Clockwork Spider</WANT>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Medium Raiding Party" retreat_health="30">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+    </ARMY>
+    <ARMY name="Hard Raiding Party" retreat_health="30">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Pirata Flyer</WANT>
+    </ARMY>
+    <ARMY name="Juggernauts">
+      <NEED>Juggernaut</NEED>
+      <NEED>Juggernaut</NEED>
+    </ARMY>
+    <ARMY name="Easy City Attack" retreat_health="20">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Clockwork Man</NEED>
+      <WANT>Imperial Musketeer</WANT>
+    </ARMY>
+    <ARMY name="Medium City Attack">
+      <NEED>Hero</NEED>
+      <NEED percent="40">Imperial Musketeer</NEED>
+      <NEED percent="20">Clockwork Spider</NEED>
+      <NEED percent="40">Clockwork Man</NEED>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Dirigible</WANT>
+    </ARMY>
+    <ARMY name="Hard City Attack">
+      <NEED>Hero</NEED>
+      <NEED percent="50">Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED percent="30">Clockwork Spider</NEED>
+      <NEED>Clockwork Man</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED percent="10">Clockwork Man</NEED>
+      <NEED percent="">Dirigible</NEED>
+      <NEED percent="10">Pirata Flyer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Clockwork Spider</WANT>
+    </ARMY>
+    <ARMY name="Gold Only Army">
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <NEED>Pirata Flyer</NEED>
+      <WANT>Scout Flyer</WANT>
+    </ARMY>
+    <ARMY name="Siege Attack">
+      <NEED percent="40">Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED percent="20">Rocket Launcher</NEED>
+      <NEED percent="10">Juggernaut</NEED>
+      <NEED>Clockwork Spider</NEED>
+      <NEED percent="10">Clockwork Spider</NEED>
+      <NEED percent="10">Clockwork Man</NEED>
+      <WANT>Juggernaut</WANT>
+      <WANT>air destroyer</WANT>
+      <WANT>Land Leviathan</WANT>
+    </ARMY>
+    <ARMY name="Ultimate Army">
+      <NEED>Clockwork Man</NEED>
+      <NEED>Juggernaut</NEED>
+      <NEED>Juggernaut</NEED>
+      <NEED>Air Cruiser</NEED>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Clockwork Spider</WANT>
+      <WANT>Dirigible</WANT>
+      <WANT>Juggernaut</WANT>
+      <WANT>Juggernaut</WANT>
+      <WANT>Air Cruiser</WANT>
+    </ARMY>
+    <ARMY name="Grunt Army">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Small" retreat_health="">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+      <WANT>Hero</WANT>
+    </ARMY>
+    <ARMY name="Raid Defense Large" retreat_health="">
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <NEED>Imperial Musketeer</NEED>
+      <WANT>Clockwork Man</WANT>
+      <WANT>Pirata Flyer</WANT>
+      <WANT>Imperial Musketeer</WANT>
+    </ARMY>
+  </ARMIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+  <BASE_AGE_NAME/>
+  <TYPES>
+    <UNIT class="units" reference_name="CTW Scavenger Spider" reference_style="own"/>
+    <UNIT class="units" reference_name="Heavy Scavenger Spider" reference_style="own"/>
+    <UNIT class="units" reference_name="Clockwork Scavenger" reference_style="own"/>
+    <UNIT class="units" reference_name="Heavy Clockwork Scavenger" reference_style="own"/>
+    <UNIT class="units" reference_name="Scavenger Boss" reference_style="own"/>
+    <UNIT class="units" reference_name="Distruzio, the Wayward Prodigy" reference_style="own"/>
+    <UNIT class="units" reference_name="Clockwork Man" reference_style="remove"/>
+    <UNIT class="units" reference_name="Giacomo, Inventor of Miana" reference_style="remove"/>
+    <UNIT class="units" reference_name="The Doge, Alessadri of Venucci" reference_style="remove"/>
+    <UNIT class="units" reference_name="Lenora, Pirata Princess" reference_style="remove"/>
+    <UNIT class="units" reference_name="Heretic" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Barracks" reference_style="remove"/>
+    <BUILDING class="builds" reference_name="Clockwork Scrap Yard" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Damage Grenade" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Heal Grenade" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Clockwork Summon Distruzio" reference_style="own"/>
+    <CRAFT class="craft" reference_name="Random Improvement" reference_style="own"/>
+  </TYPES>
+</ROOT>

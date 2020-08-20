@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+	<HOWTOPLAY>
+		<ENTRY name="T0">
+			<STRING>
+				<LINE/>
+				<TEXT>{The Campaign}: Within the campaign there is a learn-as-you-play dynamic help system which gives you hints while you're playing. Players who have never played a real-time strategy game should definitely go there first.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<LINE/>
+				<TEXT>{Quick Battle}: Be sure to hover your mouse over everything - buildings, units, and interface elements. There should be plenty of help text to get you going.</TEXT>
+				<LINE/>
+				<TEXT>{ }</TEXT>
+				<LINE/>
+				<TEXT>You can also access these Game Tips from the in-Game menu (the one which appears if you repeatedly hit the ESC key while playing). If you'd like to preview these tips now, simply click the Game Tips button at the bottom of this screen.</TEXT>
+			</STRING>
+		</ENTRY>
+	</HOWTOPLAY>
+</ROOT>
